@@ -1,0 +1,475 @@
+La hauteur de la vitre n'est pas en position de travail!
+Êtes-vous sûr de re-étalonner ADC?
+Ajustement du cycle des ventilateurs
+Capteur (VDC): Appuyez et tapez la valeur de Volt Metre
+Constante du capteur
+Cycle de service des ventilateurs
+Ajustement du cycle de service des ventilateurs ...
+Veuillez attendre %1, le temps restant
+Alarme de défaillance de l'afflux
+Ajustement du cycle de service des fans ...
+Reglage afflux 
+Reglage flux descendant
+Stabilisation de la valeur ADC du capteur de flux d'air %1
+Veuillez attendre %1, temps restant
+Vitesse de flux descendante nominale
+Velocité de flux descendant nominale
+Veuillez attendre %1
+Choisir
+Étalonnage Température
+Veuillez attendre %1
+Veuillez attendre %1, le temps restant
+Fermer
+Veuillez éteindre le ventilateur et attendre que ADC soit stable!
+Activer ou désactiver l'alarme du flux descendant
+Alarme à l'éclat élevé
+Desactivé
+Afflux nominal (%1)
+Afflux minimum (%1)
+Alarme Afflux (%1)
+Flux descendant nominal (%1)
+Duty Cycle ventilateurs nominal  (%)
+Duty Cycle ventilateurs minimum (%)
+Duty Cycle ventilateurs en veille (%)
+RPM minimum des ventilateurs
+RPM En Veille des ventilateurs
+Moniteur des flux d'air
+Activation
+Desactivation
+Température du flux d'air
+Activation
+Desactivation
+Oups!
+Il y a 1 semaine
+Il y a 1 mois
+Utilisateur: supprimer les journaux d'alarme à partir de %1
+Utilisateur: générer des journaux d'alarme (fichier d'exportation) %1.
+Veuillez Patienter
+Ce processus est irréversible. Effacer définitivement ?
+Veuillez Patienter
+Génération
+Veuillez Patienter
+La nouvelle configuration sera appliquée après le redémarrage du système
+Veuillez Patienter
+SEAS intégré
+Vitre motorisée
+Veuillez Patienter
+Desactivé
+Collerette d'extraction
+Vitre motorisée
+Prise Electrique
+Comptage particulaire
+Code article
+Num. Serie Moteur 
+Num. Serie Ventilateur
+Veuillez Patienter
+Archive des composants remplaçables - Ajouter
+Le code article n'est pas valide!
+Veuillez Patienter
+Transfert de fichier via Bluetooth
+Jumelage
+L'appareil est jumelé avec succès
+Le jumelage a échoué
+Problème de connexion. Dommage, essaie encore
+Le fichier de transfert a échoué :\
+Calendrier - Ajouter
+Titre évènement
+Utilisateur: Ajouter au calendrier  '%1' à '%2'
+Utilisateur: Définir le calendrier notif. Activer à% 1
+Vous n'avez pas la permission d'effectuer cette action.
+Le port USB peut être trouvé sur le dessus du PSM, près de l'alimentation.
+Utilisateur: Générer le calendrier (exportation) %1
+Supprimer le journal à partir de
+Il y a 1 semaine
+Il y a 1 mois
+Ce processus est irréversible.
+Utilisateur: supprimer les calendriers à partir de %1
+Veuillez Patienter
+Génération
+Reserver maintenant
+Le stockage du calendrier est plein. Veuillez supprimer son historique.
+Le stockage du calendrier est plein. Veuillez supprimer son historique.
+Desactivé
+Nom de la hotte
+Actuel
+Nom de la hotte (max. 10 caractères)
+Utilisateur: Réglez le nom de la hotte sur %1
+Suivant
+Modèle de la hotte
+Êtes-vous sûr de continuer la mise à jour?
+Chargement de la mise à jour ...
+Utilisateur: Définissez le modèle de la hotte (%1)
+AUCUN
+Mai
+Date du jour
+Code article
+Veuillez Patienter
+Enregistrement des composants remplacés - Ajouter
+Veuillez Patienter
+Appuyez ici pour régler
+Ne jamais montrer la notification de rappel.
+Suivant
+Flux descendant
+Afflux (DIM)
+Afflux (Secondaire)
+Résumé de la certification sur site - Basique
+Suivant
+Suivant
+Veuillez Patienter
+Suivant
+Flux descendant
+Duplication …
+Utilisateur: Importer un fichier via USB (%1 to %2)
+Il est recommandé d'essuyer la surface avec un chiffon de microfibre sans peluche
+N'appliquez jamais directement une solution de nettoyage sur l'écran
+Commencez au centre et essuyez doucement l'écran avec un mouvement circulaire
+Après le démarrage, desactivation de l'écran puis retour à la normale après 15 secondes
+Code article
+Veuillez Patienter
+Veuillez Patienter
+Nous contacter
+N'hésitez pas à nous contacter !
+Veuillez Patienter
+Veuillez Patienter
+Flux descendant
+Zut!
+Le journal complet est 
+Utilisateur: Définissez le journal des données Activer à %1
+Utilisateur: définissez la période de journal des données sur %1
+Seulement si l'état du ventilateur fonctionne
+Supprimer le journal depuis
+Il y a 1 semaine
+Il y a 1 mois
+Veuillez Patienter
+Mai
+Suivant
+État de la vitre
+Hauteur sécurisé
+Hauteur non sécurisé
+Complètement fermée
+Hauteur Standby
+État des Ventilateurs
+Compteur d'utilisation du ventilateur
+Durée de vie du filtre
+Durée de vie du tube UV
+Compteur de cycles de la vitre
+Étalonnage de la Température
+Échec
+Ventilateur en veille
+Ventilateur IF1
+Ventilateur IFS
+Module - Compteur de particules
+Compteur de particules (μg/m3)
+État du compteur de particules
+Flux Descendant
+Flux Descendant
+Desactivé
+Activation
+Desactivation
+Il y a 1 semaine
+Il y a 1 mois
+Veuillez Patienter
+Veuillez Patienter
+Veuillez Patienter
+Zut!
+On dirait qu'il n'y a rien dans ce journal.
+Êtes-vous sûr de vouloir continuer ?
+Le port USB peut être trouvé sur le dessus de la hotte, près de l'alimentation.
+Police d'écriture non disponible!
+Police d'écriture installé
+Le port USB peut être trouvé sur le dessus de la hotte, près de l'alimentation.
+Police d'écriture non disponible!
+Police d'écriture installé
+Le port USB peut être trouvé sur le dessus de la hotte, près de l'alimentation.
+Police d'écriture non disponible!
+Police d'écriture installé
+Code PIN du Ventilateur
+Entrer code PIN
+Utilisateur: a entré plusieurs fois un code PIN incorrect.
+Vous avez entré plusieurs fois un code PIN incorrect!
+Code PIN incorrect
+Utilisateur:  ventilateur ON
+Utilisateur: ventilateur OFF
+Code PIN ventilateur
+Entrer un nouvequ code PIN
+Utilisateur: le code PIN du ventilateur a été créé.
+Utilisateur: le code PIN du ventilateur a été modifié.
+Utilisateur: le code PIN du ventilateur a été défini.
+Code PIN créé!
+Code PIN changé!
+Code PIN  défini!
+Utilisateur: Code PIN du ventilateur a été réinitialisé.
+Code PIN réinitialisé!
+Code PIN ne correspond pas
+Entrez Code PIN de confirmation
+Une fois
+Tous les jours
+Planificateur du ventilateur
+Hebdomadaire - Mardi
+Hebdomadaire - Mercredi
+Hebdomadaire - Jeudi
+Hebdomadaire - Vendredi
+Hebdomadaire - Samedi
+Hebdomadaire - Dimanche
+Configuration du cycle de service nominal: %1%
+Êtes-vous sûr de vouloir revenir?
+Veuillez Patienter
+Sélectionner le fichier de destination
+Savegarder ici
+Utilisateur: Export file via USB (%1 to %2)
+Pour enlever votre lecteur USB en toute sécurité:
+Double cliquer sur l'icône du lecteur USB à l'écran d'accueil:
+Enlever le lecteur USB
+Fichier copié avec succès.
+Eentrée invalide
+Verification
+Veuillez Patienter
+Veuillez Patienter
+Affichage de la durée de vie du filtre
+Réglages de la durée de vie du filtre
+Durée de vie du filtre calculée par
+Utilisation du ventilateur
+RPM des ventilateurs
+heures restantes
+Utilisateur: Définissez 'RPM' lorsque la durée de vie du filtre est à 0% (%1)
+Utilisateur: Définissez 'Heures restantes' lorsque la durée de vie du filtre est à 0% (%1)
+Sortir de l'étalonnage du capteur?
+Patientez, s'il vous plait
+Étalonnage des capteurs de champ
+Vitesse de flux descendant nominale
+Cycle de service des ventillateurs
+Veuillez patienter jusqu'à ce que la valeur se stabilise
+Étalonnage du capteur de champ
+Veuillez positionner la vitre à la hauteur de mise en veille!
+Veuillez attendre pour %1
+Ventillateur en veille
+Ajustement du cycle de service des ventilateurs ...
+Les écrans suivants sont utilisés pour modifier le fonctionnement de la hotte.
+Ils ne doivent être utilisés que par un certificateur qualifié et dans un cadre du processus de certification.
+Ce menu ne doit être accessible seuleument lorsque le ventilateur est éteint,&lt;br&gt;sinon, le ventilateur sera automatiquement désactivé par le système.
+Suivant
+Veuillez patientez
+Nettoyage LCD
+PIN du ventilateur
+Résumé des certifications
+Réinitialiser le compteur d'utilisation du ventilateur
+Réinitialiser le ccompteur de la vitre
+Mise à jour du logiciel
+Modèle
+Vitre
+ALARME : MOTEUR DE LA VITRE VERROUILLE
+ALARME: VITRE COINCEE
+ALARME: VITRE NON SECURISEE
+Ventilateur: ON
+La hotte est en sécurité
+Durée de vie restante UV
+Durée de vie moyenne: jusqu'à 2000 heures ou 120000 minutes
+Rappel de maintenance préventive de la hotte!
+Rappel quotidien de maintenance préventive de la hotte !
+Rappel hebdomadaire de maintenance préventive de la hotte !
+Rappel mensuel de maintenance préventive de la hotte  !
+Rappel trimestrielle de maintenance préventive de la hotte!
+Rappel annuelle de maintenance préventive de la hotte!
+Rappel biennale de maintenance préventive de la hotte !
+Rappel Quinquennnial de maintenance préventive de la hotte !
+Rappel sur la durée de vie des filtres
+Utilisateur: Rappel de durée de vie du filtre - mode SNOOZE
+Snooze 
+Rappel sur la durée de vie de l'UV
+La durée de vie restante des UV est inférieure à 10%.
+Utilisateur: Rappel de durée de vie de l' UV - mode SNOOZE
+Alarme: moteur de la vitre est verrouillé
+Arrêtez d'utiliser le moteur de la vitre, svp
+Remplacer le moteur de la vitre
+Alarme: Erreur de la vitre
+Alarme: demarrage ventilateur
+Complètement ouverte
+Durée de vie du Filtre
+Préchauffage
+Desactivé
+Durée de vie UV
+Durée UV
+Veuillez vous connecter avec le compte Service pour reconnaître ce rappel!
+Après avoir utilisé cette hotte, éteignez-la avant de débrancher l'alimentation électrique !
+Utilisateur: éteindre le ventilateur
+Utilisateur: Désactiver la vanne
+Utilisateur: Désactiver la lampe UV
+Le système a détecté un problème de communication entre la carte principale et la carte du module.
+Veuillez appeler le service technique agréé
+Alarme sonore
+Cette alarme sonore ne peut pas être mise en sourdine !
+Il n'y a pas d'alarme sonore.
+Utilisateur: Définir la fin de la notification du calendrier
+Utilisateur: Eteindre ventilateur
+Utilisateur: Allumer ventilateur
+Utilisateur : allumer la lumière LED
+Utilisateur : éteindre la lumière LED
+Utilisateur : Mettre la prise sur ON
+Utilisateur : Définir la prise sur OFF
+Utilisateur: Ouvrir vanne gaz
+Utilisateur: Fermer vanne gaz
+Utilisateur : activer la lumière UV
+Utilisateur : désactiver la lumière UV
+Aucune alarme sonore.
+Veuillez patienter
+Juste
+Une panne de courant a été détectée alors que le ventilateur était en marche !
+Contamination potentielle dans la pièce.
+Récupérer à
+Une panne de courant a été détectée alors qu'une décontamination UV était en cours !
+Hauteur mode veille
+Moyenne
+Vitesse
+N.A
+Moyenne
+Vitesse
+N.A
+Moyenne
+Vitesse
+N.A
+Moyenne
+Vitesse
+N.A
+Merci d'avoir choisi ESCO !
+Prenons soin de notre Terre.
+Langue actuelle
+Bonjour
+Suivant
+Cette action n'est nécessaire que si vous souhaitez désactiver la hotte.
+Cela permet de s'assurer que toutes les tâches sont arrêtées correctement et qu'elles ne provoqueront pas d'erreur de sauvegarde.
+Le système éteindra automatiquement toutes les fonctions (LED, lampe UV, soufflerie, etc.), puis affichera un écran noir.
+Après l'affichage de l'écran noir pendant 5 secondes, éteignez l'appareil et débranchez le cordon d'alimentation.
+Si vous avez l'intention de rallumer l'appareil, branchez le cordon et mettez l'appareil sous tension.
+Oui, je suis prêt à éteindre l'appareil.
+Cette action n'est nécessaire que si vous souhaitez couper l'électricité de l'appareil.
+Cela permet de s'assurer que toutes les tâches seront arrêtées correctement et ne provoqueront pas d'erreur de disque.
+Le système éteindra automatiquement tous les outputs, puis passera en écran noir.
+Si vous avez l'intention de rallumer l'appareil, veuillez le débrancher et le rebrancher.
+Oui, je suis prêt à éteindre l'appareil.
+Veuillez patienter
+Après l'affichage de l'écran noir pendant 5 secondes, le cordon d'alimentation peut être débranché.
+Eteindre
+Utilisateur: réglage de l'intensité lumineuse à
+Exemple: Jean Raniel
+Votre nom complet
+Connexion réussie! username: 
+Échec de la Connexion : la communication avec la base de données à échouée.
+Vous êtes connecté avec succès.
+Utilisateur: Supprimer la dernière connexion de l'utilisateur (%1)
+On dirait qu'aucun utilisateur s'est connecté.
+On dirait qu'aucun utilisateur s'est inscrit.
+Vous serez automatiquement déconnecté s'il n'y a pas d'activité
+Réglages
+Le réglage minimum est de 1 minute. Régler sur 0 pour désactiver le temps de déconnexion.
+Veuillez patienter
+Veuillez patienter
+Décontaminer la surface de travail
+Vérification d'alarme de mise sous tension du PSM
+Procéder à une décontamination complète du bac de retention
+Verifier la grille anti-chiffon/grille pré-filtres
+Nettoyer la lampe UV (si présente) de toute poussière et saleté
+Nettoyer la lampe UV (si présente) de toute poussière et saleté
+Nettoyez la surface extérieure du PSM
+Nettoyez la vitre
+Vérifiez tous les robinets (si présents)
+Inspectez le PSM de toute anomalie physique ou dysfonctionnement
+Nettoyer les taches tenaces sur l'acier inoxydable avec du MEK (Methyl Ethyl Cetone)
+Vérifiez la fonctionnalité de la hotte
+Changer la lampe UV (si présente)
+Fonctionnalité de lampe LED ; inspection annuelle
+Vérifiez la motorisation de la vitre (pièces, écrous, vis, ceinture, mouvement lisse)
+Remplacer le moteur de la vitre (pour vitre motorisée)
+Alarmes visuelles et sonores activées lorsque le rabat est fermé ou que l'extraction est faible
+Veuillez patienter
+L'écart est en dehors de la plage.
+Vous devez refaire l'équilibrage des flux entrants si vous changez le cycle de travail.
+Charger les données précédentes
+Charger les données précédentes?
+Réglages
+Mesure du flux entrant
+Mesure du flux entrant
+Ne réglez pas l'ouverture du damper!
+Fait
+Ajustement du cycle de service des ventilateurs ...
+Vitesse
+Charger les données précédentes
+Charger les données précédentes?
+ avec hotte
+Réglages
+Méthode secondaire du flux entrqnt
+Ajustez la vitre à une ouverture de 76 mm (3 ”)!
+Ajustement du cycle de service des ventilqteurs ...
+Chargement à partir du brouillon
+Réglage
+Le changement d'unité de mesure sans réétalonnage peut entraîner une imprécision de la valeur du débit d'air.
+Utilisateur: Définissez l'unité de mesure sur systeme métrique
+Utilisateur: Définissez l'unité de mesure sur systeme métrique
+RPM des ventilateurs
+Vitesse de flux descendant
+Vitesses flux entrant
+Grille bloquée
+valeur
+Ne peut pas être édité ...
+Timer actuel
+Oubli
+Veuillez redémarrer le système pour activer la configuration.
+Désactivé
+Connexion filaire
+Réglage
+Vous devrez redémarrer le système pour appliquer ces modifications.
+Redémarrer plus tard
+Suivant
+Utilisateur : Définir le mode de fonctionnement pour Démarrage rapide
+Utilisateur: Définissez le mode de fonctionnement pour Maintenance
+Rappelle-moi la date d'échéance 
+Eentrée invalide
+Veuillez patienter
+Veuillez patienter
+Les personnes exceptionnellement sensibles peuvent présenter des symptômes respiratoires.
+Les personnes particulièrement sensibles doivent envisager de réduire les efforts importants ou prolongés.
+Mauvais pour les groupes sensibles 101 à 150
+Probabilité accrue de symptômes respiratoires chez les personnes sensibles, aggravation des maladies cardiaques ou pulmonaires et mortalité prématurée chez les personnes souffrant de maladies cardio-pulmonaires et les personnes âgées.
+Les personnes souffrant de maladies respiratoires ou cardiaques, les personnes âgées et les enfants doivent limiter les efforts prolongés.
+Mauvais pour la santé 151 à 200
+Aggravation des maladies cardiaques ou pulmonaires et mortalité prématurée chez les personnes souffrant de maladies cardio-pulmonaires et les personnes âgées ; augmentation des effets respiratoires dans la population générale.
+Les personnes souffrant de maladies respiratoires ou cardiaques, les personnes âgées et les enfants doivent éviter les efforts prolongés ; toutes les autres personnes doivent limiter les efforts prolongés.
+Très mauvais pour la santé 201 à 3000
+Aggravation significative des maladies cardiaques ou pulmonaires et mortalité prématurée chez les personnes souffrant de maladies cardio-pulmonaires et les personnes âgées ; augmentation significative des effets respiratoires dans la population générale.
+Les personnes souffrant de maladies respiratoires ou cardiaques, les personnes âgées et les enfants doivent éviter toute activité en plein air ; toutes les autres personnes doivent éviter les efforts prolongés.
+Dangereux 500
+Aggravation grave des maladies cardiaques ou pulmonaires et mortalité prématurée chez les personnes souffrant de maladies cardio-pulmonaires et les personnes âgées ; risque grave d'effets respiratoires dans la population générale.
+Tout le monde doit éviter tout effort à l'extérieur ; les personnes souffrant de maladies respiratoires ou cardiaques, les personnes âgées et les enfants doivent rester à l'intérieur.
+Mesures de précaution
+Tableau des niveaux de PM2,5 sur 24 heures (μg / m3)
+Désactivé
+Utilisateur: définir le temps de purge de poste sur %1
+Réglage de la minuterie de purge du poste...
+Une fois que l'utilisateur a éteint le ventilateur interne, la période de post-purge suit. Cette période permet de s'assurer que tous les contaminants ont été éliminés de la zone de travail.
+Date de vérification
+Maintenance préventive quotidienne du PSM
+Maintenance préventive hebdomadaire du PSM
+Maintenance préventive mesuelle du PSM
+Maintenance préventive trimestrielle du PSM
+Maintenance préventive annuelle du PSM
+Maintenance préventive biennale du PSM
+Maintenance préventive 5 ans du PSM
+Maintenance préventive mesuelle de la canopé (canopy)
+Sélectionnez &quot;Maintenance Préventive&quot; pour afficher les listes de contrôle, envoyer un accusé de réception ou annuler les rappels.
+Puissance nominale
+Bon de travail
+Procédure de certification sur site
+Concentration PAO
+Veuillez patienter
+Veuillez patienter
+Veuillez patienter
+La nouvelle mise à jour du logiciel est disponible sur le serveur SVN.
+Pour mettre à jour, veuillez vous connecter en tant qu&apos;usine, puis allez dans Mise à jour du logiciel
+Pour mettre à jour le logiciel, veuillez consulter la page Mise à jour du logiciel
+La minuterie de l&apos;expérience est terminée !
+Pour effectuer la mise à jour, veuillez vous connecter en tant que &quot;factory&quot;, puis allez dans le menu &quot;Mise à jour du logiciel&quot;
+Pour mettre à jour, veuillez aller dans le menu Mise à jour du logiciel
+Connectez-vous et appuyez sur cette notification pour en accuser réception.
+Appuyez sur cette notification pour en accuser réception.
+Déconnexion ! username: 
+La clé USB &quot;%1&quot; a été détectée
+&quot;%1&quot; peut maintenant être retiré de la hotte en toute sécurité.

@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>i18n/translations-qml_de.qm</file>
+        <file>i18n/translations-qml_ja.qm</file>
+        <file>i18n/translations-qml_ko.qm</file>
+        <file>i18n/translations-qml_zh.qm</file>
+        <file>i18n/translations-qml_es.qm</file>
+        <file>i18n/translations-qml_fi.qm</file>
+        <file>i18n/translations-qml_fr.qm</file>
+        <file>i18n/translations-qml_it.qm</file>
+        <file>i18n/translations-qml_pl.qm</file>
+        <file>i18n/translations-qml_ru.qm</file>
+        <file>i18n/translations_ja.qm</file>
+        <file>i18n/translations_de.qm</file>
+        <file>i18n/translations_es.qm</file>
+        <file>i18n/translations_fi.qm</file>
+        <file>i18n/translations_fr.qm</file>
+        <file>i18n/translations_it.qm</file>
+        <file>i18n/translations_ko.qm</file>
+        <file>i18n/translations_zh.qm</file>
+        <file>i18n/translations_pl.qm</file>
+        <file>i18n/translations_ru.qm</file>
+        <file>i18n/translations_nl.qm</file>
+        <file>i18n/translations-qml_nl.qm</file>
+    </qresource>
+</RCC>

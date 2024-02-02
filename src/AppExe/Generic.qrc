@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Generic/layout-rp.css</file>
+        <file>Generic/rp-temp.html</file>
+        <file>Generic/rp-temp.csv</file>
+        <file>Generic/alarmlog-temp.csv</file>
+        <file>Generic/datalog-temp.csv</file>
+        <file>Generic/eventlog-temp.csv</file>
+        <file>Generic/resmon-temp.csv</file>
+        <file>Generic/sw-latest-version</file>
+        <file>Generic/TestReportTemplate/font/arial/arial.ttf</file>
+        <file>Generic/TestReportTemplate/font/arial/arialbd.ttf</file>
+        <file>Generic/TestReportTemplate/font/arial/arialbi.ttf</file>
+        <file>Generic/TestReportTemplate/font/arial/ariali.ttf</file>
+        <file>Generic/TestReportTemplate/font/arial/ARIALN.TTF</file>
+        <file>Generic/TestReportTemplate/font/arial/ARIALNB.TTF</file>
+        <file>Generic/TestReportTemplate/font/arial/ARIALNBI.TTF</file>
+        <file>Generic/TestReportTemplate/font/arial/ARIALNI.TTF</file>
+        <file>Generic/TestReportTemplate/font/arial/ariblk.ttf</file>
+        <file>Generic/TestReportTemplate/font/garamond/GARA.TTF</file>
+        <file>Generic/TestReportTemplate/font/garamond/GARABD.TTF</file>
+        <file>Generic/TestReportTemplate/font/garamond/GARAIT.TTF</file>
+        <file>Generic/TestReportTemplate/img/34ft.png</file>
+        <file>Generic/TestReportTemplate/img/5ft.png</file>
+        <file>Generic/TestReportTemplate/img/6ft.png</file>
+        <file>Generic/TestReportTemplate/img/esco_life_black.png</file>
+        <file>Generic/TestReportTemplate/img/line.png</file>
+        <file>Generic/TestReportTemplate/img/ttd_spv.png</file>
+        <file>Generic/TestReportTemplate/fm-tst-crt-ac2-eti.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-crt-ac2-world.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-crt-la2-eti.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-crt-la2-world.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-crt-va2-eti.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-crt-va2-world.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-tr-a2-world.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-tr-a2-world-field-a.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-tr-a2-world-field-b.html</file>
+        <file>Generic/TestReportTemplate/fm-tst-tr-1of10.html</file>
+        <file>Generic/TestReportTemplate/img/ancare_black.png</file>
+        <file>Generic/TestReportTemplate/img/streamline_black.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,1138 @@
+Stan fanowy
+Nietrwały
+Nominalne ADC wykonane
+Wykonano minimum ADC
+Minimalna prędkość napływu
+Niepowodzenie napływu
+Nominalna prędkość napływu
+Nominalna prędkość w dół
+Minimalny ADC
+Nominalny ADC
+Przegrany
+Wartość nominalna ADC jest niestabilna
+Cykl pracy wentylatora lub RPM są nieprawidłowe!
+Użytkownik: Kalibracja czujnika pola
+Przerobić
+Z powrotem
+Czy na pewno ponownie dokonasz kalibracji ADC?
+Istnieje nieprawidłowa wartość!
+ADC Nominal Pole (IFN)
+Nominalny ADC — pole (IFN)
+Minimum ADC Pole (IFF)
+Minimum ADC — pole (IFF)
+Czujnik Stały
+Kalibrowanie Temperatura
+Kalibrowanie Temperatura ADC
+Temperatura kalibracji ADC
+ADC rzeczywiste (JEŚLI)
+ADC min Pole (IFF)
+ADC Minimum - pole (IFF)
+ADC Nominal Pole (IFN)
+ADC Nominal - Field (IFN)
+ADC min Fabryka (IF1)
+ADC Minimum - Fabryka (IF1)
+ADC nom Fabryka (IF2)
+ADC Nominal - Fabryka (IF2)
+Czujnik Stały
+Kalibrowanie Temperatura
+Kalibrowanie Temperatura ADC
+Temperatura kalibracji ADC
+Minimum ADC
+Kalibracja temperatury
+Czujnik przepływu powietrza ADC
+Poczekaj, aż wartość się ustabilizuje
+Rzeczywisty ADC
+Niepowodzenie napływu
+Minimalna prędkość napływu
+Przegrany
+Zamknąć
+Z powrotem
+Ustawić
+Nominalny ADC
+Kalibracja temperatury
+Czujnik przepływu powietrza ADC
+Poczekaj, aż wartość się ustabilizuje
+Ustaw napływ
+Ustaw w dół
+Stabilizowanie wartości ADC czujnika przepływu powietrza%1
+Rzeczywisty ADC
+Nominalna prędkość napływu
+Nominalna prędkość w dół
+Minimalny ADC
+Przegrany
+Cykl pracy wentylatora jest nieprawidłowy!
+RPM wentylatora jest nieprawidłowy!
+Wysokość okna nie jest w pozycji wysokości pracy!
+Ratować
+Z powrotem
+Anuluj ten proces?
+Ustawić
+Minimalna prędkość napływu
+Wewnętrzny wentylator powinien zostać wyłączony!
+Czujnik przepływu powietrza ADC
+Poczekaj, aż wartość się ustabilizuje
+Stuknij tutaj, aby wyłączyć
+Rzeczywisty ADC
+Przegrany
+Zamknąć
+Z powrotem
+Anuluj ten proces?
+Ustawić
+Włącz lub wyłącz alarm awarii przepływu w dół
+Niski alarm w dół
+Wysoki alarm w dół
+Wyłączyć
+Włączać
+Włączony
+Wyłączony
+Z powrotem
+Napływ nominalny (%1)
+Napływ minimum (%1)
+Alarm napływu (%1)
+Nominalny przepływ w dół (%1)
+Nominalny cykl pracy (%)
+Cykl służby w trybie gotowości fanów (%)
+Nominalny fan RPM
+Fan Standby RPM
+Monitor przepływu powietrza
+Wyłączyć
+Włączać
+Wyłączając monitor przepływu powietrza, alarm awarii przepływu powietrza nie będzie monitorowany.
+Włączając monitor przepływu powietrza, alarm awarii przepływu powietrza będzie monitorowany.
+Użytkownik: Monitor przepływu powietrza jest włączony
+Użytkownik: Monitor przepływu powietrza jest wyłączony
+Z powrotem
+Przepływ powietrza z temperatury
+Wyłączyć
+Włączać
+Wyłączając przepływ powietrza od temperatury, monitorowanie przepływu powietrza zostanie wyłączone, gdy rzeczywistą temperaturę otoczenia będzie poza zasięgiem.
+Umożliwiając przepływ powietrza z temperatury, monitorowanie przepływu powietrza zostanie włączone, jeśli faktyczna temperatura otoczenia jest poza zasięgiem.
+Użytkownik: przepływ powietrza z temperatury jest włączony
+Użytkownik: przepływ powietrza z temperatury jest wyłączony
+Z powrotem
+Dziennik alarmowy
+NIE.
+Czas (24h)
+Wygląda na to, że w tym dzienniku nic nie ma.
+Z powrotem
+ z 
+Rzeczy
+Ładowanie...
+Opcje dziennika alarmowego
+Port USB można znaleźć na szczycie szafki, pobliski wlot zasilania.
+Usuń dzienniki zaczynające się od
+Dzisiaj (culex All)
+Usuń dziennik?
+Użytkownik: Usuń dzienniki alarmowe, zaczynając od %1
+Składowanie
+Z powrotem
+Dziennik został usunięty!
+Użytkownik: Generuj dzienniki alarmowe (plik eksportowy) %1.
+System uruchomi się ponownie po dotknięciu przycisku „%1”.
+Z powrotem
+Stosować
+Zmotoryzowane okno
+Lampa ultrafioletowa
+Z powrotem
+NIE.
+Kod produktu
+Częściowe imię
+Silnik SN
+Dmuchawa SN
+Sprawdzać
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Transfer plików Bluetooth
+Łów...
+Bluetooth wyłączył
+Nie można znaleźć żadnego urządzenia.
+Z powrotem
+Łączenie w pary...
+Urządzenie pomyślnie sparowało.
+Para nie powiodła się!
+Transfer pliku jest zakończony.
+Z powrotem
+Tytuł rezerwacji
+Nazwa
+Z powrotem
+Ratować
+Eksport
+Port USB można znaleźć na szczycie szafki, pobliski wlot zasilania.
+Usuń dzienniki zaczynające się od
+Dzisiaj (culex All)
+Usuń dziennik?
+Użytkownik: Usuń dzienniki harmonogramu rezerwacji od %1
+Składowanie
+Z powrotem
+Proszę czekać...
+Dziennik został usunięty!
+Anulować
+Z powrotem
+Magazynowanie rezerwacji jest pełne. Usuń historię rezerwacji.
+Ładowanie...
+Wyłączyć
+Włączać
+Włączony
+Wyłączony
+Z powrotem
+Nazwa gabinetu
+Stuknij, aby zmienić
+Nazwa szaf (Max. 10 znaków)
+Użytkownik: Ustaw nazwę szafki na %1
+Z powrotem
+Model gabinetu
+Aktualny model
+Zmień model na
+Kontroler prędkości wentylatora
+Użytkownik: Ustaw płytkę kontrolera prędkości wentylatora (%1)
+System uruchomi się ponownie po dotknięciu przycisku „%1”.
+Z powrotem
+Swupdate
+Czy na pewno chcesz nadal aktualizować?
+Ładowanie aktualizacji…
+Stosować
+Użytkownik: Ustaw model szafy (%1)
+Marsz
+Móc
+Z powrotem
+Randka dziś
+NIE.
+Kod produktu
+Częściowe imię
+Sprawdzać
+Proszę czekać...
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Przypomnienie certyfikacyjne
+Stuknij tutaj, aby ustawić
+Z powrotem
+Wyłączyć
+Czy na pewno chcesz wyłączyć przypomnienie o terminie certyfikatu?
+Nigdy nie pokazuj powiadomienia o przypomnieniu.
+Podsumowanie certyfikacji terenowej - Zaawansowane
+Z powrotem
+Niektóre formularze wejściowe, w tym tożsamość testera, zostaną wyczyszczone!
+Napływ (wtórny)
+ADC
+Próbnik
+Podsumowanie certyfikacji terenowej
+Podsumowanie certyfikacji terenowej - podstawowe
+Z powrotem
+Niektóre formularze wejściowe, w tym tożsamość testera, zostaną wyczyszczone!
+Próbnik
+Podsumowanie certyfikacji terenowej
+Z powrotem
+Niektóre formularze wejściowe, w tym tożsamość testera, zostaną wyczyszczone!
+Próbnik
+Wydrukować
+Podsumowanie certyfikacji terenowej
+Raport certyfikacyjny
+Podsumowanie certyfikacji terenowej
+Z powrotem
+Podsumowanie certyfikacji terenowej
+Z powrotem
+Z powrotem
+Biurowy...
+Stuknij tutaj, aby zacząć.
+Zalecane do wytarcia powierzchni za pomocą szmatki z mikrofibry bez nadwozie
+Nigdy nie stosuj bezpośrednio rozwiązania czyszczenia na ekranie
+Nie używaj wilgotnej sekcji tkaniny do czyszczenia zakątków ekranu
+Zacznij od środka i delikatnie wytrzyj ekran okrągłym ruchem.
+Po rozpoczęciu ekranu będzie puste, a następnie z powrotem do normy po 15 sekundach.
+Z powrotem
+Wyłączanie...
+NIE.
+Kod produktu
+Częściowe imię
+Sprawdzać
+Proszę czekać...
+Kod pozycji jest nieprawidłowy!
+Chcielibyśmy usłyszeć od ciebie!
+Lub wsparcie techniczne, prosimy o kontakt z nami.
+Z powrotem
+NIE.
+Kod produktu
+Częściowe imię
+Sprawdzać
+Proszę czekać...
+Kod pozycji jest nieprawidłowy!
+NIE.
+Czas (24h)
+Prędkość wiatraka:
+Z powrotem
+Rzeczy
+Ładowanie...
+Włączać
+Nagrywać każdy
+1 minuta
+1 godzina
+Tylko jeśli stan fanów jest włączony
+Port USB można znaleźć na szczycie szafki, pobliski wlot zasilania.
+Usuń dzienniki zaczynające się od
+Dzisiaj (culex All)
+Usuń dziennik?
+Składowanie
+Z powrotem
+Upewnij się, że zdejmowałeś plastik (izolator) baterii modułu RTC!
+Marsz
+Móc
+Stuknij, aby zmienić
+Ten system ma funkcję protokołu czasu sieciowego, wskazując na Time.google.com.
+Będzie priorytetowo synchronizację czasu z serwerem na podstawie lokalnej strefy czasowej.
+Ustalony rok
+Użytkownik: Ustaw datę na
+Z powrotem
+Stan okienny
+Bezpieczna wysokość
+Niebezpieczny wzrost
+W pełni zamknięte
+W pełni otwarty
+Wysokość trybu gotowości
+Stan fanowy
+Filtruj życie
+Życie UV
+Miernik cyklu okiennego
+Temperatura ADC
+Kalibracja temperatury
+Kalibracja temperatury ADC
+ADC IFN (poprawiono)
+ADC IFF (poprawiono)
+Nominalny fan
+Tryb gotowości wentylatora
+Kontakt z przekaźnikiem bez spalania
+Bezpłatny kontakt z przekaźnikiem
+Ponieść porażkę
+Moduł - hybrydowe cyfrowe/wejściowe
+Moduł - hybrydowy cyfrowy/wyjściowy
+Moduł - hybrydowy analog/wejście
+Moduł - hybrydowy analog/wyjście
+Moduł - Expander I/O
+Zakres temperatur środowiskowych
+Działanie
+Czas na szafkę
+Z powrotem
+Anulować
+Anulować
+Przeciętny
+Max odchylenie
+Przeciętny
+Max odchylenie
+Wyłączyć
+Włączać
+Włączony
+Wyłączony
+Z powrotem
+Port USB można znaleźć na szczycie szafki, pobliski wlot zasilania.
+Usuń dzienniki zaczynające się od
+Dzisiaj (culex All)
+Usuń dziennik?
+Użytkownik: Usuń dzienniki zdarzeń, zaczynając od %1
+Składowanie
+Z powrotem
+NIE.
+Czas (24h)
+Z powrotem
+Całkowity dziennik to
+rzeczy
+Timer StopWatch jest nadal aktywny, Timer Stopwatch zatrzyma się, jeśli będzie kontynuowany.
+Z powrotem
+Timer eksperymentu jest w górę
+Zaczął się licznik eksperymentu
+Timer eksperymentu jest zatrzymany
+Timer eksperymentu jest zatrzymany
+Włączać
+Wyłączyć
+Z powrotem
+Czy wstawiłeś napęd USB?
+Port USB można znaleźć na szczycie szafki, w pobliżu Power Inlet.
+Nieudane podczas generowania dokumentu.
+Zainstaluj czcionkę, aby kontynuować eksportowanie pdf, system uruchomi się po naciśnięciu instalacji
+Czy wstawiłeś napęd USB?
+Port USB można znaleźć na szczycie szafki, w pobliżu Power Inlet.
+Zainstaluj czcionkę, aby kontynuować eksportowanie pdf, system uruchomi się po naciśnięciu instalacji
+Czy wstawiłeś napęd USB?
+Port USB można znaleźć na szczycie szafki, w pobliżu Power Inlet.
+Zainstaluj czcionkę, aby kontynuować eksportowanie pdf, system uruchomi się po naciśnięciu instalacji
+Pin wentylatorowy
+Użytkownik: kilka razy wprowadził nieprawidłowy szpilkę.
+Kilka razy wprowadziłeś nieprawidłowy szpilkę!
+Z powrotem
+Użytkownik: Ustaw wentylator
+Użytkownik: Ustaw włączenie wentylatora
+Użytkownik: Ustaw włączenie wentylatora
+Włączanie wentylatora
+Wyłączenie wentylatora
+Użytkownik: Fan Pin został utworzony.
+Użytkownik: Pin fan został zmieniony.
+Użytkownik: Pin został ustawiony.
+PIN został stworzony!
+Użytkownik: Pin fan został zresetowany.
+Pin nie pasuje
+Anulować
+Z powrotem
+Harmonogram fanów
+Harmonogram dalej
+Czas
+Powtarzać
+Weekly - niedziela
+Z powrotem
+Ratować
+Użytkownik: Wymagany wentylator na Scheduler (%1)
+Użytkownik: wentylator na harmonogram
+Użytkownik: Wymagany harmonogram Fan Off (%1)
+Użytkownik: Fan Off Scheduler wyłączony
+Prędkość wiatraka
+Nominalna konfiguracja cyklu pracy: %1 %
+Aby uzyskać napływ nominalny (%1) i nominalny spadek (%2)
+RPM: 
+Ta funkcja służy do ustawiania cyklu pracy wewnętrznego wentylatora do celów testowania/certyfikacji,
+Jeśli zdecydujesz się zmienić i ustawić nominalny cykl pracy z tego menu, dotknij przycisku &lt;b&gt;'%1'&lt;/b&gt;,
+Zaleca się ponowne przetworzenie procesu kalibracji ADC, jeśli odczyt przepływu powietrza jest poza wymaganym zakresem.
+Z powrotem
+Obecna prędkość wentylatora nie zostanie zapisana jako nominalna konfiguracja cyklu pracy.
+Czy na pewno chcesz wrócić?
+Ustawione jako nominalne Cykl pracy
+Czy na pewno chcesz ustawić % 1 % jako nominalna konfiguracja prędkości wentylatora?
+Nominalny cykl pracy musi być większy niż minimalny cykl pracy. Jeśli chcesz nadal ustawić tę wartość jako nominalną, przejdź do pełnej kalibracji czujnika.
+Wyjdź z kalibracji czujnika?
+Wyjdź z kalibracji czujnika?
+Kalibracja czujnika pola
+Podstawowa kalibracja czujnika
+Zaawansowana kalibracja czujnika
+Z powrotem
+Z powrotem
+Wybierz ważne miejsce docelowe!
+Dwukrotnie dotknij ikonę napędu USB na ekranie głównym:
+Usuń napęd USB
+NIE.
+Kod produktu
+Częściowe imię
+Sprawdzać
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Filtruj wyświetlacz życia
+Wyłączyć
+Włączać
+Wyłączając wyświetlacz filtra, monitorowanie filtra zostanie wyłączone.
+Włączając wyświetlacz filtra, monitorowanie filtra zostanie włączone.
+Użytkownik: Filtr Life Display jest włączony
+Użytkownik: Filtruj wyświetlacz życia jest wyłączony
+Z powrotem
+Filtruj ustawienia życia
+Fan RPM
+Wartość, gdy filtrujesz w 100%
+Użytkownik: Ustaw „RPM”, gdy filtruje żywotność 100% (%1)
+Użytkownik: Ustaw „Godziny”, gdy filtruje żywotność 100% (%1)
+RPM
+pozostały godziny
+Wartość, gdy filtruje żywotność 0%
+Użytkownik: Ustaw „RPM”, gdy filtruje żywotność 0% (%1)
+Użytkownik: Ustaw „Godziny”, gdy filtruje żywotność 0% (%1)
+Wyświetl żywotność filtru na ekranie głównym
+Użytkownik: Wyświetl żywotność filtru na ekranie głównym
+Włączać
+Wyłączyć
+Z powrotem
+Ręczne kalibracja wejściowa
+Z powrotem
+Wyjdź z kalibracji czujnika?
+Kalibracja czujnika pełnego pola
+Nominalna prędkość napływu
+Kalibracja czujnika szybkiego pola
+Nominalna prędkość w dół
+Nominalny fan
+Czujnik przepływu powietrza ADC
+Poczekaj, aż wartość się ustabilizuje
+Minimalna prędkość napływu
+Kalibracja czujnika pełnego pola
+Alarm prędkości napływu
+Umieść okno na wysokości rezerwacji!
+Stuknij przycisk „%1”, aby kontynuować.
+Kalibracja nominalna ADC jest wykonywana.
+Kalibracja nominalna ADC jest wykonywana. Nominalna prędkość jest nieprawidłowa!
+Wartość nominalna ADC jest nieprawidłowa!
+Nominalny cykl pracy lub RPM jest nieprawidłowy!
+ADC Nominal
+Minimalna kalibracja ADC jest wykonywana.
+Minimalny cykl pracy lub obroty wentylatora są nieprawidłowe!
+Minimum ADC
+Rzeczywisty ADC
+Fan Standby
+Z powrotem
+Użytkownik: Kalibracja czujnika pola
+Ręczne kalibracja wejściowa
+Do modyfikacji obsługi szafki używane są następujące ekrany.
+Dostęp do niego powinien uzyskać jedynie kwalifikowany certyfikator w ramach procesu certyfikacji.
+Z powrotem
+Dziennik alarmowy
+Harmonogram fanów
+UV Scheduler
+Zamknięcie
+Nazwa gabinetu
+Czas
+Pin wentylatorowy
+Tryb działania
+Przepływ powietrza z temperatury
+Timer rozgrzewki
+Timer poczyszczania
+Prędkość wiatraka
+Jednostka miary
+Kalibracja czujnika pola
+Przypomnienie certyfikacyjne
+Podsumowanie certyfikacji terenowej
+Ręczne kalibracja wejściowa
+Stała korekcja czujnika
+Resetuj licznik żywotności filtra
+Resetuj miernik użytkowania wentylatora
+Resetuj miernik życia UV
+Resetuj miernik cyklu okien
+Zresetuj kalibrację pola
+Rekord komponentów wymiennych
+Konserwacja zapobiegawcza
+Limit temperatury środowiska
+Model gabinetu
+Dom
+WENTYLATOR WYŁ
+PRZESTAŃ UŻYWAĆ ZMOTORYZOWANEGO OKNA!
+ALARM: ZAMKNIĘTE OKNO
+ALARM: BŁĄD OKNA
+ALARM: OKNO NIEBEZPIECZNE
+ALARM: WENTYLATOR GOTOWOŚCI
+ALARM: AWARIA PRZEPŁYWU POWIETRZA
+ALARM: MAŁY DOPŁYW
+ALARM: NISKI PRZEPŁYW W DÓŁ
+ALARM: WYSOKI PRZEPŁYW W DÓŁ
+ALARM: AWARIA WYDECHU
+ALARM: KOŁNIERZ WYDECHOWY
+ROZGRZEWKA
+PO CZYSZCZENIU
+UV WYŁ
+CAŁKOWICIE ZAMKNIĘTE
+UV WŁ
+SZAFKA JEST BEZPIECZNA
+Za wysoko
+Okno
+Niebezpieczny wzrost
+W pełni otwarty
+Bezpieczna wysokość
+W pełni zamknięte
+Wysokość trybu gotowości
+Filtruj życie
+Monitor A/F
+Niezlibrowane
+Rozgrzewa się
+Za nisko
+Życie UV
+Życie UV zostało
+Obecne życie UV zostało
+Typowe życie do 2000 godzin lub 120 000 minut
+System wykrył problem komunikacyjny między płytą główną a tabelą modułu.
+Zadzwoń do autoryzowanego technika serwisowego!
+Zlecenione!
+Codzienne przypomnienie o konserwacji profilaktycznej BSC!
+Cotygodniowe przypomnienie o konserwacji profilaktycznej BSC!
+Comiesięczne przypomnienie o konserwacji profilaktycznej BSC!
+Kwartalne przypomnienie o konserwacji profilaktycznej BSC!
+Coroczne przypomnienie o konserwacji profilaktycznej BSC!
+Biennialne przypomnienie o konserwacji zapobiegawczej BSC!
+Przypomnienie konserwacji zapobiegawczej Quinquennial BSC!
+Comiesięczne przypomnienie konserwacji zapobiegawczej!
+Przypomnienie konserwacji zapobiegawczej
+Zmień filtr!
+Filtruj przypomnienie o życiu
+Żywotność filtra jest mniejsza niż 10%.
+Zmień filtr, aby uzyskać lepszą wydajność!
+Zmień lampę UV!
+Przypomnienie życia UV
+Życie UV jest mniejsze niż 10%.
+Zmień lampę UV!
+Dziennik alarmowy jest pełny!
+Przypomnienie dziennika alarmowego
+Wymienne komp. Rekord jest pełny!
+Wymienne komp. Przypomnienie rekordów
+Cykl silnika okienny przekroczył maksymalny limit operacyjny! Silnik okienny został zablokowany. Skontaktuj się z inżynierem serwisowym w celu utrzymania konserwacji.
+Zastosowanie silnika okiennego jest prawie maksymalne! Przestań używać silnika okiennego! Skontaktuj się z inżynierem serwisowym w celu utrzymania konserwacji.
+Zastosowanie silnika okiennego jest prawie maksymalne! Wymień silnik okien! Skontaktuj się z inżynierem serwisowym w celu utrzymania konserwacji.
+Wysokość okna jest w niebezpiecznej pozycji. Powrót do normalnej wysokości pracy!
+Wartość napływu jest zbyt niska! Potencjalnie zmniejszając możliwości ochronne szafki. Upewnij się, że czujniki, grilla powietrza i ścieżki wentylacyjne nie są zasłonięte.
+Wartość w dół jest zbyt niska! Potencjalnie zmniejszając możliwości ochronne szafki. Upewnij się, że czujniki, grilla powietrza i ścieżki wentylacyjne nie są zasłonięte.
+Wartość w dół jest zbyt wysoka! Potencjalnie zmniejszając możliwości ochronne szafki. Upewnij się, że czujniki, grilla powietrza i ścieżki wentylacyjne nie są zasłonięte.
+Presja jest zbyt wysoka! Potencjalnie zmniejszając możliwości ochronne szafki. Upewnij się, że wentylator ma nominalną prędkość, a tłumik jest otwarty.
+Temperatura środowiska jest poza zasięgiem! Potencjalnie zmniejszając dokładność odczytu czujnika przepływu powietrza. Idealna temperatura środowiskowa jest pomiędzy
+Wentylator powinien działać z prędkością gotowości, gdy okno jest na wysokości rezerwowej! Włącz wentylator, stukając przycisk wentylatora.
+Wyrzuć napęd USB
+(Za nisko)
+(Za wysoko)
+Po obsłudze tej szafki wyłącz jednostkę bezpiecznie przed odłączeniem zasilania!
+Licznik czasu po czyszczeniu jest uruchomiony!
+Użytkownik: włącz gniazdo
+Użytkownik: Wyłącz gniazdo
+Słyszalny alarm
+Brak alarmu słyszalnego.
+Tego słyszalnego alarmu nie można wyciszić!
+Bardzo źle
+Sprawiedliwy
+Świetnie
+Awaria zasilania została wykryta, gdy poprzedni stan wentylatora jest włączony!
+Potencjalne uwalnianie zanieczyszczeń do pokoju.
+Wyzdrowiał w
+Awaria zasilania została wykryta, gdy w trakcie poprzedniego odkażania UV jest w toku!
+Bądź ostrożny!
+Napływ nominalny
+Cykl pracy
+Przeciętny
+Napływ minimum
+Napływ nominalny
+Cykl pracy
+Przeciętny
+Napływ minimum
+Bezpądem
+Napływ nominalny
+Cykl pracy
+Przeciętny
+Napływ minimum
+Dzięki za wybranie nas!
+Iść
+Dzięki za wybranie nas!
+Organizować coś
+Z powrotem
+Wyłączyć
+Użytkownik: Ustaw LCD na przyciemnienie autmatycznie jest wyłączony.
+do przyciemnienia automatycznie
+Ekran zostanie zablokowany po aktywowaniu Auto-Dim.
+Z powrotem
+Zamknięcie
+Ta akcja jest potrzebna tylko wtedy, gdy chcesz wyłączyć urządzenie.
+Ma to na celu zapewnienie prawidłowego zatrzymania wszystkich zadań i nie spowoduje błędu dysku.
+System automatycznie wyłączy wszystkie funkcje (LED, lampa UV, dmuchawa itp.), A następnie wyświetla czarny ekran.
+Po wyświetleniu czarnego ekranu przez 5 sekund wyłącz zasilanie i wyjmij przewód.
+Z powrotem
+Z powrotem
+Z powrotem
+Wygląda na to, że nie jest imię osoby!
+Z powrotem
+Zaloguj się w toku ...
+Login sukcesu! nazwa użytkownika:
+Logowanie nie powiodło się: nieudana komunikacja bazy danych.
+Udało ci się zalogować!
+Wygląda na to, że nie ma jeszcze użytkownika.
+Z powrotem
+Wyłączyć
+Stuknij, aby zmienić
+Zostaniesz automatycznie zalogowany, jeśli na ekranie nie ma aktywności na czas wylogowania
+Z powrotem
+Ustawić
+Minimalne ustawienie to 1 minuta lub ustawiona na 0, aby wyłączyć czas wylogowania.
+Kod produktu
+Częściowe imię
+Sprawdzać
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Powierzchnia odkażnij strefę pracy
+Czyszczenie i odkażanie LCD
+BSC Weryfikacja alarmu
+Wyczyść okno
+Wykonaj dokładne odkażanie powierzchni na misce spustowej
+Sprawdź zaczep papieru pod kątem zatrzymanych materiałów
+Wyczyść lampę UV (jeśli jest obecna) jakiegokolwiek pyłu i brudu
+Wyczyść powierzchnię zewnętrzną BSC
+Sprawdź wszystkie urządzenia serwisowe (jeśli są obecne), aby uzyskać prawidłowe działanie
+Sprawdź BSC pod kątem wszelkich nieprawidłowości fizycznych lub awarii
+Czyste uparte plamy na powierzchniach ze stali nierdzewnej z MEK
+Sprawdź funkcjonalność gabinetu
+Zmień lampę UV (jeśli jest obecna)
+Coroczna inspekcja funkcjonalności LAMP (S)
+Sprawdź okno (części, nakrętki, śruby, lina/pasek, gładki ruch)
+Wymień silnik okienny (dla zmotoryzowanego okna okna)
+Czujnik bliskości może wykryć obiekt o odległości 2-5 mm
+LED i brzęczyk działają poprawnie
+Alarmy wizualne i słyszalne są włączone, gdy klapa jest zamknięta lub wydech jest niski
+Ręczne kalibracja wejściowa
+Stały
+Alarm napływu
+Napływ mininum
+Napływ nominalny
+Nominalny przepływ
+Nominalny fan
+Nominalny cykl pełnomocniczy
+Minimum wentylatora
+Minimum cyklu pracy wentylatora
+Minimum RPM wentylatora
+Tryb gotowości wentylatora
+Cykl pełnometrażowy wentylacyjny
+Tryb gotowości wentylatora
+Z powrotem
+Ratować
+Wartość prędkości jest nieprawidłowa!
+Wartość cyklu służby wentylatora jest nieprawidłowa!
+Użytkownik: Wejście ręczne
+Wyjście z ręcznych danych wejściowych?
+Pomiar w dół
+Wymagana prędkość jest
+Mediator
+RPM:
+Czy na pewno chcesz zmienić cykl pracy?
+Musisz przerobić równoważenie napływu, jeśli zmieniają cykl pracy.
+Z powrotem
+Załaduj poprzednie dane?
+Bieżące wartości i opracowane wartości zostaną utracone.
+Ustawić
+Odchylenie jest poza zasięgiem.
+Prędkość jest poza zasięgiem.
+z anemometrem Thermo
+Pomiar napływu
+Około.
+Nie dostosuj otwierania tłumika!
+Mediator
+RPM:
+Średnia wolumetryczna
+Z powrotem
+Załaduj poprzednie dane?
+Bieżące wartości i opracowane wartości zostaną utracone.
+Wynik prędkości jest poza zasięgiem
+ z przepływem
+Metoda wtórna napływu
+Wymagana (przekonwertowana) prędkość jest
+Około.
+Dostosuj okno do otworu 76 mm (3 ”)!
+Najniższy
+Najwyższy
+Mediator
+RPM:
+Przekonwertowana prędkość
+Z powrotem
+Załaduj poprzednie dane?
+Bieżące wartości i opracowane wartości zostaną utracone.
+Ustawić
+Prędkość jest poza zasięgiem.
+z gorącym drutem
+Jednostka miary
+Z powrotem
+Cesarski
+Zmień jednostkę pomiarową na
+Zmiana jednostki pomiarowej bez ponownej kalibracji może powodować niedokładność wartości przepływu powietrza.
+Użytkownik: Ustaw jednostkę pomiarową na imperialne
+Użytkownik: Ustaw jednostkę pomiarową na metrykę
+Praca
+Fabryka
+Prędkość w dół
+Prędkość napływu
+Schwytać
+Finał
+Stuknij, aby zmienić
+To ustawienie czasu wyciszenia dotyczy tylko czasu wyciszenia tylko wtedy, gdy okno znajduje się w pełni otwartej pozycji.
+Z powrotem
+Ustawić
+Użytkownik: Ustaw czas wyciszenia na całość na %1
+zapominać
+Łów...
+Włączony
+Wyłączony
+Z powrotem
+Ustawić
+Włączać
+Wyłączyć
+Zresetuj później
+Zapomnij o połączeniu?
+Tryb działania
+Użytkownik: Ustaw tryb pracy na normę
+Normalna
+Z powrotem
+Uznawać...
+Uznawać
+dzień lub mniej
+Godzina lub mniej
+Data zresetowania
+Czy na pewno chcesz zresetować datę potwierdzenia i termin terminu?
+Użytkownik: Resetuj %1 data
+Z powrotem
+Użytkownik: Snooze %1 Przypomnienie
+NIE.
+Częściowe imię
+Sprawdzać
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Najnowsze czytanie
+Nic.
+Niezwykle wrażliwi ludzie powinni rozważyć zmniejszenie długotrwałego lub ciężkiego wysiłku.
+Zwiększone prawdopodobieństwo objawów oddechowych u wrażliwych osób, pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo -oddechową i starszymi.
+Osoby z chorobami oddechowymi lub serca, osoby starsze i dzieci powinny ograniczać przedłużone wysiłek.
+Zwiększone pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo -oddechową i osobami starszymi; Zwiększone skutki oddechowe w populacji ogólnej.
+Znaczące pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo -oddechową i osobami starszymi; Znaczny wzrost działań oddechowych w populacji ogólnej.
+Poważne pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo -oddechową i osobami starszymi; Poważne ryzyko działań oddechowych w populacji ogólnej.
+Z powrotem
+Timer poczyszczania
+Użytkownik: Ustaw czas czyszczenia postu na %1
+Po tym, jak użytkownik wyłączy wewnętrzny wentylator, następuje okres po zbiorze. Ma to na celu upewnienie się, że wszystkie zanieczyszczenia są oczyszczone ze strefy pracy.
+Z powrotem
+Potwierdzić datę
+Codzienna konserwacja zapobiegawcza BSC
+Cotygodniowe konserwacja profilaktyczna BSC
+Comiesięczna konserwacja zapobiegawcza BSC
+Kwartalne konserwacja profilaktyczna BSC
+Roczna konserwacja profilaktyczna BSC
+Biennalena konserwacja zapobiegawcza BSC
+Konserwacja zapobiegawcza Quinquennial BSC
+Comiesięczne konserwacja zapobiegawcza baldachimu
+Z powrotem
+Model gabinetu
+Procedura certyfikacji fabryki
+Procedura certyfikacji terenowej
+Żadnych dysz Laskin
+Penetracja cząstek D/F
+Penetracja cząstek I/F
+Model jednostkowy
+Dane
+Rekord RP - Dodaj
+Użytkownik: Zresetuj formularz RP, aby domyślnie.
+Kalibracja czujnika szybkiego pola
+Nominalna prędkość napływu
+Kalibracja czujnika szybkiego pola
+Nominalna prędkość w dół
+Nominalny fan
+ADC z czujnikiem przepływu powietrza
+Poczekaj, aż wartość się ustabilizuje
+Stabilizowanie wartości ADC czujnika przepływu powietrza%1
+Nominalna prędkość napływu
+Przegrany
+RPM wentylatora jest nieprawidłowy!
+Wysokość okna nie jest w pozycji wysokości pracy!
+Z powrotem
+Użytkownik: Kalibracja czujnika pola
+Szybka wycieczka
+Dom
+Pouczające i intuicyjne centrum kontroli
+Bezkompromisowe bezpieczeństwo poprzez wyświetlanie wskaźników i alarmów roboczych zabezpieczonych szafki. Szybka kontrola wszystkich głównych funkcji, takich jak wentylator, jasność, gniazda, urządzenia do serwisu/gazu, funkcja UV i wycisza.
+Inteligentny dotyk
+Umożliwia użytkownikom przenoszenie stron za pomocą określonych gestów w najszybszy sposób. Przesuń w górę, w dół, w prawo i w lewo, aby poznać funkcje.
+Zarządzaj dostępem do szafki
+Ustaw ograniczony dostęp do szafki, tworząc nazwę użytkownika i hasło. Następnym razem zapisz nazwę użytkownika i hasło, aby ułatwić logowanie.
+Podłącz swoją szafkę do sieci grupy roboczej
+Link do innych urządzeń
+Harmonogram fanów
+Zaoszczędź energię do 70%
+Przepływ powietrza awaria
+Słyszalne i wizualne alarmy w każdej awarii przepływu powietrza
+Okno niebezpieczne
+Słyszalne i wizualne alarmy w niebezpiecznej pozycji okna
+Z powrotem
+Pominąć
+Użytkownik: Ustaw zdalny identyfikator Slave Modbus na %1
+IPv4 zdalnego urządzenia głównego
+Umożliwić
+Zakazać
+Domyślnie system będzie tylko Zaakceptuj operacje odczytu
+Z powrotem
+Wymienne komponenty rekord - Dodaj
+Z powrotem
+Wydrukować
+Rekord RP - Dodaj
+Stuknij przycisk &lt;b&gt;%1&lt;/b&gt;, aby zapisać formularz wymiennych komponentów.
+Dodać
+Użytkownik: Dodaj rekord formularza RP.
+Strona do eksportu (np. 1 lub 1-10, maks. 10 stron na eksport)
+Port USB można znaleźć na szczycie szafki, pobliski wlot zasilania.
+Usuń starszy rekord od początku
+Dzisiaj (culex All)
+Usuń dziennik?
+Składowanie
+Z powrotem
+NIE.
+Czas (24h)
+Model jednostkowy
+Edytować
+Usuwać
+Edytuj i dodaj rekord z tych danych?
+Czy na pewno chcesz usunąć ten rekord danych?
+Użytkownik: Usuń rekord formularza RP w wierszu %1 (zarejestrowano na %2 %3)
+Anulować
+Wygląda na to, że w tej płycie nie ma nic.
+Z powrotem
+Dodaj nowy rekord
+Z powrotem
+Resetuj miernik użytkowania wentylatora
+Obecne użycie licznika
+Liczy się na minutę
+Stuknij tutaj, aby ustawić
+Resetuj miernik użytkowania wentylatora (minuty)
+Użytkownik: Resetuj licznik użytkowania wentylatora do „%1”
+Z powrotem
+Zresetuj kalibrację pola
+Zresetując kalibrację pola, wszystkie dane kalibracji pola zostaną utracone, a zamiast tego szafka wykorzysta pełne dane kalibracyjne.
+Dotknij przycisku „%1”, aby zresetować.
+Z powrotem
+Zresetujesz dane kalibracji pola i zamiast tego użyjesz pełnych danych kalibracji.
+Użytkownik: Zresetuj dane kalibracji pola
+Kalibracja czujnika pola jest resetowana!
+Resetuj żywotność filtra
+Obecne życie zostało
+Typowe życie do 10 000 godzin lub 600 000 minut
+Liczy się na minutę
+Żywotność filtra 0 - 100 %odpowiada nominalnego wentylatora RPM %1 - %2
+Stuknij tutaj, aby ustawić
+Resetuj żywotność filtra (0 - 100%)
+Resetuj żywotność filtru do %1%
+Z powrotem
+Resetuj miernik życia UV
+Zresetuj kalibrację pola
+Z powrotem
+Usuń wszystkie elementy dziennika alarmów
+Resetuj miernik życia UV
+Zresetuj kalibrację pola
+Wyłącz harmonogram fanów
+Wyłącz harmonogram UV
+Z powrotem
+Zresetuj cykl okien
+Obecny cykl
+Liczba cyklu wzrasta o 0,5 Za każdym razem, gdy okno uderza w bezpieczną wysokość.
+Stuknij tutaj, aby ustawić
+Resetuj cykl okien (przyrost o 0,5)
+Wejście jest nieprawidłowe!
+Liczba cyklu okiennego (przyrost o 0,5)
+Z powrotem
+Resetuj miernik życia UV
+Obecne życie zostało
+Typowe życie do 2000 godzin lub 120 000 minut
+Stuknij tutaj, aby ustawić
+Zresetuj życie UV (minuty)
+Użytkownik: Resetuj żywotność UV lewy miernik do %1
+Z powrotem
+NIE.
+Czas (24h)
+Życie karty SD
+Z powrotem
+ z 
+Rzeczy
+Włączać
+Nagrywać każdy
+Port USB można znaleźć na szczycie szafki, pobliski wlot zasilania.
+Usuń dzienniki zaczynające się od
+Dzisiaj (culex All)
+Usuń dziennik?
+Składowanie
+Z powrotem
+Z powrotem
+Częściowe imię
+Kod produktu
+Sprawdzać
+Przesunięcie w górę
+Bieg w dół
+Anulować
+Z powrotem
+Test Watchdog
+NIE.
+Kod produktu
+Częściowe imię
+Sprawdzać
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Z powrotem
+Zestaw alarmu ciśnienia
+Z powrotem
+Ustawić
+Wyjdź z ustalonego alarmu ciśnienia?
+Z powrotem
+Łączyć
+Wysłać
+Przegrany! Ponieważ
+Zamknąć
+Nie udało się komunikować z serwerem!
+Łączyć
+Złączony...
+Weryfikacja silnika nie jest przekazana!
+Wysłać
+Przegrany! Ponieważ
+Zamknąć
+Nie udało się komunikować z serwerem!
+Stała korekcja czujnika
+Domyślna wartość prądowej stałej czujnika to &lt;b&gt;%1&lt;/b&gt;,
+Stała czujnika przepływu powietrza może się różnić dla różnych dla różnych temperatur otoczenia.
+Dostosuj stałą czujnika &lt;i&gt;%1&lt;/i&gt; Jeśli temperatura otoczenia jest większa niż temperatura kalibracji.
+Wyłączyć
+Włączać
+Z powrotem
+Ustawić
+Z powrotem
+Ustawić
+Kod produktu
+Częściowe imię
+Stały
+Sprawdzać
+Wymienne komponenty rekord - Dodaj
+Kod pozycji jest nieprawidłowy!
+Stuknij, aby zmienić
+Użytkownik: Ustaw numer seryjny szafy (%1)
+Z powrotem
+Konfiguracja wysyłki
+Tryb wysyłki wpłynie:
+Wyczyść cały dziennik danych, dziennik alarmowy i dziennik zdarzeń
+Zresetuj użycie wentylatora, użycie filtru, użycie UV i cykl okienny
+Ustaw tryb wysyłki
+Po włączeniu trybu wysyłki szafka zamknie się i może ponownie uruchomić tylko po ponownym połączeniu z elektrycznością.
+Użytkownik: Ustaw tryb wysyłki
+Z powrotem
+Diagnostyczny
+Szybka wycieczka
+Z powrotem
+Udało ci się zalogować!
+Oprogramowanie zainstalowane w nieznanym urządzeniu!
+Z powrotem
+Z powrotem
+Stuknij, aby wyświetlić historię wersji
+Zaktualizowana wersja oprogramowania jest obecnie dostępna na serwerze SVN
+Stuknij &lt;b&gt; svn aktualizacja &lt;/b&gt;, aby aktualizować!
+Z powrotem
+Czy na pewno chcesz nadal aktualizować?
+Software Update Plik ścieżka nie istnieje!
+Zegar stopu
+Timer eksperymentu jest nadal aktywny, licznik eksperymentu zatrzyma się, jeśli będzie kontynuowany.
+Z powrotem
+Timer Stopwatch zaczął się
+Timer Stopwatch jest zatrzymany
+Timer stopu jest zatrzymany
+Włączać
+Sprawdź, czy zaktualizować każdą
+1 minuta
+1 godzina
+Z powrotem
+Z powrotem
+Skonfiguruj obecny system jako zarejestrowany system?
+Limit temperatury środowiska
+Stuknij tutaj, aby ustawić
+Z powrotem
+Użytkownik: Ustaw limit temperatury środowiska (niski: %1 %3, wysoki: %2 %3)
+Ratować
+Zmiana
+Ratować
+Jasne
+Zmiana
+Ratować
+Jasne
+Z powrotem
+Ustawić
+Czas
+Upewnij się, że zdejmowałeś plastik (izolator) baterii modułu RTC!
+Obecny czas
+Stuknij, aby zmienić
+Ten system ma funkcję protokołu czasu sieciowego, wskazując na Time.google.com.
+Będzie priorytetowo synchronizację czasu z serwerem na podstawie lokalnej strefy czasowej.
+Z powrotem
+Ustawić
+Z powrotem
+Użytkownik: Ustaw stref czasu (%1)
+Kod produktu
+Częściowe imię
+Sprawdzać
+Kod pozycji jest nieprawidłowy!
+Czas
+Powtarzać
+Tygodniowy - poniedziałek
+Tygodniowy - wtorek
+Tygodniowy - środa
+Tygodniowy - czwartek
+Tygodniowy - piątek
+Tygodniowy - sobota
+Tygodniowy - niedziela
+Z powrotem
+Ratować
+Użytkownik: Włączony harmonogram UV Active (%1)
+Użytkownik: UV Active Scheduler wyłączony
+Użytkownik: UV nieaktywny harmonogram (%1)
+Użytkownik: UV nieaktywny harmonogram wyłączony
+Stuknij, aby zmienić
+Timer UV ograniczy czas trwania lampy UV po włączeniu.
+Lampa UV wyłączy się automatycznie po upływie czasu.
+Z powrotem
+Ustawić
+Startowy...
+Nie wyłącz urządzenia
+Z powrotem
+Przegrany
+Aktualizacja ...
+Pełne imię i nazwisko
+Nieważny!
+min/mak długość: %1/ %2!
+Min. Długość jest
+Potwierdzam, że wszystkie dostarczam dane w formularzu.
+Z powrotem
+Istnieje nieprawidłowa wartość!
+pełne imię i nazwisko
+Nieudana komunikacja bazy danych.
+Wygląda na to, że nie ma jeszcze zarejestrowanego użytkownika.
+Z powrotem
+Odświeżać
+Wszystkie automaty zostały zajęte!
+Maksymalnie zarejestrowani użytkownicy jest dozwolone
+Użytkownik: Usuń konto użytkownika za pomocą nazwy użytkownika = '%1'
+Usuwać
+Pełne imię i nazwisko
+Nieważny!
+Min./maks. długość: %1/ %2!
+Potwierdzam, że wszystkie dostarczam dane w formularzu.
+Z powrotem
+Składać
+Istnieje nieprawidłowa wartość!
+Nieudana komunikacja bazy danych.
+drugi
+Anulować
+Awar dźwiękowy nie może zostać wyciszony, gdy alarm okna jest obecnie aktywny.
+„Vivarium Mute” umożliwia ograniczenie alarmu audio i milczenie po przeniesieniu okna na niebezpieczną wysokość.
+Z powrotem
+Timer rozgrzewki
+Użytkownik: Ustaw czas rozgrzewki na %1
+Gdy użytkownik włącza wewnętrzny wentylator, następuje okres rozgrzewki. Ma to na celu upewnienie się, że czujniki, dmuchawa i układ sterowania są ustabilizowane.
+Z powrotem
+Wyłączyć
+Kalibracja czujnika pola
+Zamknąć
+Zamknąć
+Do modyfikacji obsługi szafki używane są następujące ekrany.
+Dostęp do niego powinien uzyskać jedynie kwalifikowany certyfikator w ramach procesu certyfikacji.
+Z powrotem
+Kalibracja czujnika pola
+&lt;h2&gt;Uwaga!&lt;/h2&gt; &lt;br&gt;Poniższe ekrany służą do modyfikacji obsługi szafki. &lt;br&gt;Dostęp do niego powinien uzyskać jedynie wykwalifikowany certyfikator w ramach procesu certyfikacji.
+Z powrotem
+Pominąć
+Nie pozwól, aby kalibracja czujnika pola!
+Wymagane najpierw do wykonywania pełnej kalibracji czujnika
+&lt;h2&gt;Uwaga!&lt;/h2&gt; &lt;br&gt;Poniższe ekrany służą do modyfikacji obsługi szafki. &lt;br&gt;Dostęp do niego powinien uzyskać jedynie wykwalifikowany certyfikator w ramach procesu certyfikacji.
+Z powrotem
+Kalibracja czujnika pola
+Z powrotem
+Jest nieprawidłowa wartość!
+Jest nieprawidłowy cykl pracy!
+Jest nieprawidłowa prędkość!
+Minimalny napływ
+Nominalny napływ
+Nominalny przepływ spadkowy
+Dostosuj wysokość okna do pozycji wysokości roboczej!
+Pomiar napływu
+Nominalny pomiar napływu
+Minimalny pomiar napływu
+Metoda wtórna
+Pomiar w dół
+Kalibracja czujnika szybkiego pola
+Z powrotem
+Istnieje etap kalibracji, który wydaje się, że nie został ukończony.
+Użytkownik: Rozpocznij kalibrację ADC pełnej kalibracji czujnika.
+Dostosuj wysokość okna do pozycji wysokości roboczej!
+Jest nieprawidłowa wartość!
+Jest nieprawidłowy cykl pracy!
+Jest nieprawidłowa prędkość!
+Minimalny napływ
+Nominalny napływ
+Nominalny przepływ spadkowy
+Nominalny pomiar napływu
+Minimalny pomiar napływu
+Pomiar napływu gotowości
+Pomiar w dół
+Użytkownik: nominalny pomiar napływu (%1)
+Użytkownik: minimalny pomiar napływu (%1)
+Użytkownik: pomiar napływu w trybie gotowości (%1)
+Użytkownik: nominalny pomiar spadku (%1)
+Z powrotem
+Przesuń się, aby odblokować!
+Aby zaktualizować, zaloguj się jako „Fabryka”, a następnie przejdź do menu aktualizacji oprogramowania!
+Zaloguj się i dotknij tego powiadomienia, aby potwierdzić.
+Stuknij to powiadomienie, aby potwierdzić.
+„%1” można teraz bezpiecznie usunąć z szafki

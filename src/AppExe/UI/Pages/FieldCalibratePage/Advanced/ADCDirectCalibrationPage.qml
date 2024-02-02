@@ -1,0 +1,1034 @@
+﻿import QtQuick 2.12
+import QtQuick.Layouts 1.0
+import QtQuick.Controls 2.0
+
+import UI.CusCom 1.1
+import "../../../CusCom/JS/IntentApp.js" as IntentApp
+
+import ModulesCpp.Machine 1.0
+
+ViewApp {
+    id: viewApp
+    title: "ADC Calibration"
+
+    background.sourceComponent: Item {}
+
+    content.asynchronous: true
+    content.sourceComponent: ContentItemApp {
+        id: contentView
+        height: viewApp.height
+        width: viewApp.width
+
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 5
+            spacing: 5
+
+            /// HEADER
+            Item {
+                id: headerItem
+                Layout.fillWidth: true
+                Layout.minimumHeight: 60
+
+                HeaderApp {
+                    anchors.fill: parent
+                    title: qsTr(viewApp.title)
+                }
+            }
+
+            /// BODY
+            Item {
+                id: bodyItem
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+
+                StackView {
+                    id: fragmentStackView
+                    anchors.fill: parent
+                    //initialItem: fragmentStabilizationComp/*calibStabilizationComp*//*fragmentResultComp*/
+                }//
+
+                // Stabilizing
+                Component {
+                    id: fragmentStabilizationComp
+
+                    Item {
+                        property string idname: "stabilized"
+
+                        Row{
+                            id: adcStatusRow
+                            Column{
+                                spacing: 5
+                                TextApp{
+                                    leftPadding: 10
+                                    topPadding: 10
+                                    width: 150
+                                    text: qsTr("ADC Actual")
+                                }
+                                TextApp{
+                                    leftPadding: 10
+                                    width: 150
+                                    text: qsTr("ADC Stable Limit")
+                                }
+                                TextApp{
+                                    leftPadding: 10
+                                    width: 150
+                                    text: qsTr("Fan State")
+                                }
+                            }
+                            Column{
+                                spacing: 5
+                                Row{
+                                    spacing: 5
+                                    TextApp{
+                                        leftPadding: 10
+                                        topPadding: 10
+                                        text: ": " + props.adcActual
+                                    }
+                                    TextApp{
+                                        leftPadding: 10
+                                        topPadding: 10
+                                        text: "(%1)".arg(props.adcHasStableCount >= 30 ? qsTr("Stable") : qsTr("Unstable"))
+                                        color: props.adcHasStableCount >= 30 ? "#27AE60" : "#e74c3c"
+                                    }
+                                }
+                                TextApp{
+                                    leftPadding: 10
+                                    text: ": %1 - %2".arg(props.adcMinLimit).arg(props.adcMaxLimit)
+                                }
+                                TextApp{
+                                    leftPadding: 10
+                                    text: ": " + props.fanDutyCycleActual + "% | " + props.fanRpmActual + " RPM"
+                                }
+                            }
+                        }//
+
+                        ColumnLayout{
+                            anchors.fill: parent
+                            spacing: 5
+                            Item{
+                                Layout.minimumHeight: adcStatusRow.height
+                                Layout.fillWidth: true
+                            }
+
+                            Item{
+                                Layout.fillWidth: true
+                                Layout.minimumHeight: 60
+                                TextApp{
+                                    anchors.fill: parent
+                                    verticalAlignment: Text.AlignVCenter
+                                    horizontalAlignment: Text.AlignHCenter
+                                    text: qsTr("Stabilizing the ADC value of Airflow Sensor%1").arg(MachineData.inflowSensorConstant === 0 ? (" " + qsTr("(ESCO High-End)")) : "") + "<br>" +
+                                          qsTr("Please wait until progress bar is completed")
+                                }
+                            }//
+                            Item{
+                                Layout.fillWidth: true
+                                Layout.minimumHeight: 25
+                                ProgressBar{
+                                    id: stablizingProgressBar
+                                    anchors.horizontalCenter: parent.horizontalCenter
+
+                                    background: Rectangle {
+                                        implicitWidth: 745
+                                        implicitHeight: 10
+                                        radius: 5
+                                        clip: true
+                                    }//
+
+                                    contentItem: Item {
+                                        implicitWidth: 250
+                                        implicitHeight: 10
+
+                                        Rectangle {
+                                            width: stablizingProgressBar.visualPosition * parent.width
+                                            height: parent.height
+                                            radius: 5
+                                            color: "#18AA00"
+                                        }//
+                                    }//
+
+                                    Behavior on value {
+                                        SequentialAnimation {
+                                            PropertyAnimation {
+                                                duration: 1000
+                                            }//
+                                            ScriptAction {
+                                                script: {
+                                                    /// Progress
+                                                    if(stablizingProgressBar.value === 1.0) {
+                                                        //viewApp.progressBarHasFull()
+                                                    }//
+                                                }//
+                                            }//
+                                        }//
+                                    }//
+                                }//
+                            }//
+                            Item{
+                                Layout.fillWidth: true
+                                Layout.minimumHeight: 100
+                                Item{
+                                    width: stablizingProgressBar.width
+                                    height: parent.height
+                                    anchors.centerIn: parent
+                                    Column{
+                                        anchors.left: parent.left
+                                        spacing: 5
+                                        Rectangle{
+                                            id: rectStart
+                                            width: 1
+                                            height: 50
+                                            color: "white"
+                                        }
+                                        TextApp{
+                                            height: 30
+                                            x: rectStart.x - (width/2)
+                                            //width: parent.width
+                                            text: qsTr("Start")
+                                            verticalAlignment: Text.AlignVCenter
+                                            //horizontalAlignment: Text.AlignHCenter
+                                        }
+                                    }
+                                    Column{
+                                        anchors.horizontalCenter: parent.horizontalCenter
+                                        anchors.horizontalCenterOffset: -((parent.width/2) - ((props.timerCountDownNominal/props.timerCountDown) * parent.width))
+                                        spacing: 5
+                                        Rectangle{
+                                            //id: rectNom
+                                            width: 1
+                                            height: 50
+                                            color: "white"
+                                            anchors.horizontalCenter: parent.horizontalCenter
+                                        }
+                                        TextApp{
+                                            height: 30
+                                            //x: rectNom.x - (width/2)
+                                            //width: parent.width
+                                            text: qsTr("ADC Nominal Done")
+                                            verticalAlignment: Text.AlignVCenter
+                                            //horizontalAlignment: Text.AlignHCenter
+                                        }
+                                    }
+                                    Column{
+                                        anchors.right: parent.right
+                                        spacing: 5
+                                        Rectangle{
+                                            id: rectMin
+                                            width: 1
+                                            height: 50
+                                            color: "white"
+                                            anchors.horizontalCenter: parent.horizontalCenter
+                                            anchors.horizontalCenterOffset: textMin.width/2
+                                        }
+                                        TextApp{
+                                            id: textMin
+                                            height: 30
+                                            x: rectMin.x - (width/2)
+                                            //width: parent.width
+                                            text: qsTr("ADC Minimum Done")
+                                            verticalAlignment: Text.AlignVCenter
+                                            //horizontalAlignment: Text.AlignHCenter
+                                        }
+                                    }
+                                }
+                            }//
+
+                            Item{
+                                Layout.minimumHeight: 100
+                                Layout.fillWidth: true
+                                Rectangle{
+                                    height: 85
+                                    width: 180
+                                    anchors.centerIn: parent
+                                    color: "#0F2952"
+                                    radius: 5
+                                    TextApp{
+                                        anchors.fill: parent
+                                        text: qsTr("Time Left:")
+                                        verticalAlignment: Text.AlignTop
+                                        horizontalAlignment: Text.AlignHCenter
+                                        topPadding: 5
+                                    }
+                                    TextApp{
+                                        id: waitTimeText
+                                        anchors.fill: parent
+                                        text: "00:00"
+                                        font.pixelSize: 35
+                                        verticalAlignment: Text.AlignBottom
+                                        horizontalAlignment: Text.AlignHCenter
+                                        bottomPadding: 5
+                                        Component.onCompleted: {
+                                            text = utilsApp.strfSecsToMMSS(countTimer.count)
+                                        }//
+                                    }
+                                }
+                            }//
+
+                            Item{
+                                Layout.fillHeight: true
+                                Layout.fillWidth: true
+                            }
+                        }//
+
+                        Timer {
+                            id: countTimer
+                            interval: 1000
+                            running: true; repeat: true
+                            onTriggered: {
+                                if(count > 0) {
+                                    count = count - 1
+                                    waitTimeText.text = utilsApp.strfSecsToMMSS(countTimer.count)
+                                    stablizingProgressBar.value = utilsApp.map(count, props.timerCountDown, 0, 0, 1)
+
+                                    //nominal done
+                                    if(count === (props.timerCountDown - props.timerCountDownNominal)){
+                                        //Check if adc has not stable after timer, cancel process and quit
+                                        props.saveAdcNominal = true;
+                                        if((props.adcHasStableCount >= 30) && (props.adcStableReference > 0)){
+                                            //props.saveAdcMinimum = true;
+                                            props.adcStableReference = 0;
+                                            props.adcHasStable = false;
+                                            props.adcHasStableCount = 0;
+                                            stableTimer.restart()
+                                            props.adjustDutyCycleTo(props.fanDutyCycleMinimum)
+                                        }
+                                        else{
+                                            props.temperatureCalib = props.temperatureActual
+                                            props.temperatureCalibAdc = props.temperatureAdcActual
+                                            props.temperatureCalibStrf = props.temperatureActualStr
+
+                                            props.calibrateDone = false
+                                            props.calibrationFailCode = 0x0002 //ADC Nominal Value Not Stable
+                                            fragmentStackView.replace(fragmentResultComp)
+                                        }
+                                    }
+
+                                    //Check adc stabiliziation after first 1m stabilization
+                                    if(stableTimer.running === false){
+                                        props.stableCountTolerance = props.adcStableReference*0.05
+                                        let minLimit = props.adcStableReference - props.stableCountTolerance;
+                                        let maxLimit = props.adcStableReference + props.stableCountTolerance;
+                                        props.adcMinLimit = minLimit
+                                        props.adcMaxLimit = maxLimit
+
+                                        //find the middle value of the adc actual due to fluctuation
+                                        if(props.adcStableReference>0){
+                                            if(props.adcActual > props.adcStableReference){
+                                                if(props.adcActual > props.adcStableReferenceHighest)
+                                                    props.adcStableReferenceHighest = props.adcActual
+                                            }
+                                            if(props.adcActual < props.adcStableReference){
+                                                if(props.adcActual < props.adcStableReferenceLowest)
+                                                    props.adcStableReferenceLowest = props.adcActual
+                                            }
+                                        }
+
+
+                                        if((props.adcActual > minLimit) && (props.adcActual < maxLimit)){
+                                            //console.debug("Has Stable")
+                                            props.adcHasStable = true;
+                                        }
+                                        else{
+                                            //console.debug("Not Stable")
+                                            if((props.adcStableReferenceLowest > 0) && (props.adcStableReferenceHighest > 0)){
+                                                props.adcStableReference = props.adcStableReferenceLowest + ((props.adcStableReferenceHighest - props.adcStableReferenceLowest)/2)
+                                            }
+                                            else
+                                                props.adcStableReference = props.adcActual
+                                            //console.debug("Stable Reference Now: " + props.adcStableReference)
+                                            props.adcHasStable = false;
+                                            props.adcHasStableCount = 0;
+                                        }
+
+                                        if(props.adcHasStable){
+                                            props.adcHasStableCount++;
+                                            //console.debug("Stable Count: " + props.adcHasStableCount)
+                                        }
+                                    }//
+
+                                    /// Monitor Sash Height Real Time
+                                    if(MachineData.sashWindowState !== MachineAPI.SASH_STATE_WORK_SSV){
+                                        props.calibrateDone = false
+                                        props.calibrationFailCode = 0x0004 //Sash position has been moved
+                                        fragmentStackView.replace(fragmentResultComp)
+                                    }
+                                }//
+                                else {
+                                    running = false
+                                    props.saveAdcMinimum = true
+                                    if(props.adcHasStableCount >= 30){ //Nominal Stable, Calibration done
+                                        props.calibrateDone = true
+                                        //props.saveAdcNominal = true
+                                    }
+                                    else{
+                                        props.calibrateDone = false
+                                        props.calibrationFailCode = 0x0001 //ADC Minimum not stable
+                                    }
+
+                                    //fan duty cycle verification
+                                    let fanValid = props.fanDutyCycleMinimum < props.fanDutyCycleNominal
+                                    //fan rpm verification
+                                    fanValid &= ((props.fanRpmMinimum < props.fanRpmNominal)
+                                                 || (MachineData.fanSpeedControllerBoard !== MachineAPI.FanSpeedController_RBM))
+                                    //adc value verification
+                                    let adcNominalValid = (props.adcNominalResult - props.adcMinimumResult) >= 80 ? true : false
+                                    if(!adcNominalValid || !fanValid){
+                                        props.calibrateDone = false
+                                        if(!adcNominalValid)
+                                            props.calibrationFailCode = 0x0003 //ADC Nominal Error
+                                        else
+                                            props.calibrationFailCode = 0x0005 //Fan Duty Cycle / RPM Error
+                                    }//
+
+                                    //recheck all value get here
+                                    props.temperatureCalib = props.temperatureActual
+                                    props.temperatureCalibAdc = props.temperatureAdcActual
+                                    props.temperatureCalibStrf = props.temperatureActualStr
+                                    fragmentStackView.replace(fragmentResultComp)
+                                }
+                            }//
+
+                            property int count: props.timerCountDown
+                        }//
+
+                        Timer{
+                            id: stableTimer
+                            interval: 1000
+                            running: true;
+                            repeat: true
+                            onTriggered: {
+                                props.adcSecondCount++
+                                if(props.adcSecondCount >= props.firstGetStableTime){
+                                    props.adcStableReference = props.adcActual
+                                    //console.debug("Stable Reference First: " + props.adcStableReference)
+                                    stableTimer.running = false
+                                    props.adcSecondCount = 0;
+                                }//
+                            }//
+                        }//
+
+                        UtilsApp{
+                            id: utilsApp
+                        }
+
+                        //                        Component.onCompleted: {
+                        //                            setButton.visible = false
+                        //                        }//
+                    }//
+                }//
+
+                // Result
+                Component {
+                    id: fragmentResultComp
+
+                    Item {
+                        property string idname: "result"
+
+                        RowLayout {
+                            anchors.fill: parent
+
+                            Item {
+                                Layout.fillHeight: true
+                                Layout.fillWidth: true
+
+                                Flickable {
+                                    id: resultDetailFlickable
+                                    anchors.centerIn: parent
+                                    height: Math.min(parent.height, resultDetailColumn.height)
+                                    width: Math.min(parent.width, resultDetailColumn.width)
+                                    clip: true
+
+                                    contentWidth: resultDetailColumn.width
+                                    contentHeight: resultDetailColumn.height
+
+                                    ScrollBar.vertical: verticalScrollBar.scrollBar
+
+                                    Column {
+                                        id: resultDetailColumn
+                                        spacing: 2
+
+                                        Row{
+                                            anchors.horizontalCenter: parent.horizontalCenter
+                                            Image {
+                                                id: featureImage
+                                                height: 100
+                                                fillMode: Image.PreserveAspectFit
+                                                source: "qrc:/UI/Pictures/done-green-white.png"
+                                            }//
+
+                                            TextApp{
+                                                id: resultStattusText
+                                                anchors.verticalCenter: parent.verticalCenter
+                                                font.bold: true
+                                                text: qsTr("Done")
+                                            }//
+                                        }
+
+                                        TextApp{
+                                            id: resultiInfoText
+                                            anchors.horizontalCenter: parent.horizontalCenter
+                                            width: 400
+                                            wrapMode: Text.WordWrap
+                                            visible: false
+                                            color: "#ff0000"
+                                            padding: 5
+
+                                            Rectangle {
+                                                z: -1
+                                                anchors.fill: parent
+                                                radius: 5
+                                                opacity: 0.5
+                                            }
+                                        }//
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row {
+                                            id: fanMinCalibRow
+
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Fan Minimum") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.fanDutyCycleMinimum + "% | " + props.fanRpmMinimum + " RPM"
+                                            }//
+                                        }//
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row {
+                                            id: fanNomCalibRow
+
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Fan Nominal") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.fanDutyCycleNominal + "% | " + props.fanRpmNominal + " RPM"
+                                            }//
+                                        }//
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row{
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Minimum Inflow Velocity ") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.velocityMinStrf + " " + props.measureUnitStr
+                                            }
+                                        }
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row{
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Inflow Fail Alarm") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.velocityAlarmStrf + " " + props.measureUnitStr
+                                            }
+                                        }
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row{
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Nominal Inflow Velocity ") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.velocityStrf + " " + props.measureUnitStr
+                                            }
+                                        }
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row{
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Nominal Downflow Velocity") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.velocityDfaNomStrf + " " + props.measureUnitStr
+                                            }
+                                        }
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row {
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("ADC Minimum") + " (IFF)" //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.adcMinimumResult
+                                            }
+                                        }
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row {
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("ADC Nominal") + " (IFN)" //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.adcNominalResult
+                                            }
+                                        }
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+
+                                        Row {
+                                            id: temperatureCalibRow
+
+                                            TextApp{
+                                                width: 300
+                                                text: qsTr("Temperature Calibration") //+ ":"
+                                            }//
+
+                                            TextApp {
+                                                text: ": " + props.temperatureCalibStrf + " | ADC: " + props.temperatureCalibAdc
+                                            }//
+                                        }//
+
+                                        Rectangle {height: 1; width: parent.width; color: "#cccccc"}
+                                    }//
+                                }//
+                            }//
+
+                            ScrollBarApp {
+                                id: verticalScrollBar
+                                Layout.fillHeight: true
+                                Layout.fillWidth: false
+                                Layout.minimumWidth: 20
+                                visible: resultDetailFlickable.contentHeight > resultDetailFlickable.height
+                            }//
+                        }//
+
+                        Component.onCompleted: {
+                            if (!props.calibrateDone){
+                                featureImage.source = "qrc:/UI/Pictures/fail-red-white.png"
+                                resultStattusText.text = qsTr("Failed")
+                                resultiInfoText.visible = true
+                                if(props.calibrationFailCode === 0x0001)
+                                    resultiInfoText.text = qsTr("The ADC minimum value is unstable")
+                                else if(props.calibrationFailCode === 0x0002)
+                                    resultiInfoText.text = qsTr("The ADC nominal value is unstable")
+                                else if(props.calibrationFailCode === 0x0003)
+                                    resultiInfoText.text = qsTr("The required ADC range (IFN - IFF) is %1").arg("80")
+                                else if(props.calibrationFailCode === 0x0004)
+                                    resultiInfoText.text = qsTr("The Sash height is not at working height position!")
+                                else if(props.calibrationFailCode === 0x0005)
+                                    resultiInfoText.text = qsTr("The Fan duty cycle or RPM is invalid!")
+                            }
+                            else {
+                                /// Save the Calibration data Immediately once done
+                                {
+                                    /// Temperature Calibration
+                                    MachineAPI.setInflowTemperatureCalib(props.temperatureCalib, props.temperatureCalibAdc)
+
+                                    /// Minimum
+                                    MachineAPI.setInflowAdcPointField(MachineAPI.POINT_MINIMUM, props.adcMinimumResult)
+
+                                    let velocityMin = props.velocityMin
+                                    if(props.measurementUnit) velocityMin = Math.round(velocityMin)
+                                    velocityMin = Math.round(velocityMin * 100)
+
+                                    MachineAPI.setInflowVelocityPointField(MachineAPI.POINT_MINIMUM, velocityMin)
+                                    MachineAPI.setDownflowVelocityPointField(MachineAPI.POINT_MINIMUM, 0)
+                                    MachineAPI.setInflowLowLimitVelocity(velocityMin)
+
+                                    MachineAPI.setFanPrimaryMinimumDutyCycleField(props.fanDutyCycleMinimum)
+                                    MachineAPI.setFanPrimaryMinimumRpmField(props.fanRpmMinimum)
+
+                                    /// Nominal
+                                    MachineAPI.setInflowAdcPointField(MachineAPI.POINT_NOMINAL, props.adcNominalResult)
+
+                                    let velocityNom = props.velocity
+                                    if(props.measurementUnit) velocityNom = Math.round(velocityNom)
+                                    velocityNom = Math.round(velocityNom * 100)
+
+                                    MachineAPI.setInflowVelocityPointField(MachineAPI.POINT_NOMINAL, velocityNom)
+
+                                    let velocityNomDfa = props.velocityDfaNom
+                                    if(props.measurementUnit) velocityNomDfa = Math.round(velocityNomDfa)
+                                    velocityNomDfa = Math.round(velocityNomDfa * 100)
+
+                                    MachineAPI.setDownflowVelocityPointField(MachineAPI.POINT_NOMINAL, velocityNomDfa)
+
+                                    MachineAPI.setFanPrimaryNominalDutyCycleField(props.fanDutyCycleNominal)
+                                    MachineAPI.setFanPrimaryNominalRpmField(props.fanRpmNominal)
+                                    MachineAPI.setFilterLifeMinimumBlowerRpmMode(props.fanRpmNominal)//filter life is 100% at this rpm
+
+                                    //Force Zero-Point to Zero
+                                    MachineAPI.setInflowAdcPointField(MachineAPI.POINT_ZERO, 0)
+                                    MachineAPI.setInflowVelocityPointField(MachineAPI.POINT_ZERO, 0)
+                                    MachineAPI.setDownflowVelocityPointField(MachineAPI.POINT_ZERO, 0)                                    
+
+                                    /// Set Standby Ducy and RPM
+                                    const stbFactoryDucy = MachineData.getFanPrimaryStandbyDutyCycleFactory()
+                                    const nomFactoryDucy = MachineData.getFanPrimaryNominalDutyCycleFactory()
+                                    let stbFieldDucy = stbFactoryDucy
+                                     if(!stbFactoryDucy && !nomFactoryDucy){
+                                         const percentNom = Math.round(Number(stbFactoryDucy/nomFactoryDucy)*100)
+                                         stbFieldDucy = Math.round((Number(percentNom/100)*props.fanDutyCycleNominal))// calculate stb fan from nominal field
+                                     }
+
+                                    MachineAPI.setFanPrimaryStandbyDutyCycleField(stbFieldDucy)
+                                    MachineAPI.setFanPrimaryStandbyRpmField(0)// set to 0, so the rpm will be calculated again when sash moved to standby height and fan on
+
+                                    MachineAPI.initAirflowCalibrationStatus(MachineAPI.AF_CALIB_FIELD);
+
+                                    ///EVENT LOG
+                                    const message = qsTr("User: Field sensor calibration")
+                                                  + "("
+                                                  + "ADC-IFF: " + props.adcMinimumResult + ", "
+                                                  + "ADC-IFN: " + props.adcNominalResult + ", "
+                                                  + "VEL-IFF: " + (velocityMin / 100).toFixed(2) + ", "
+                                                  + "VEL-IFN: " + (velocityNom / 100).toFixed(2) + ", "
+                                                  + "FAN-IFF: %1% | %2RPM".arg(props.fanDutyCycleMinimum).arg(props.fanRpmMinimum) + ", "
+                                                  + "FAN_IFN: %1% | %2RPM".arg(props.fanDutyCycleNominal).arg(props.fanRpmNominal) + ", "
+                                                  + "TEMP: %1 | %2".arg(props.temperatureCalibStrf).arg(props.temperatureCalibAdc)
+                                                  + ")"
+                                    MachineAPI.insertEventLog(message);
+                                }//
+
+                                viewApp.showBusyPage(qsTr("Setting up..."), function(cycle){
+                                    if (cycle >= MachineAPI.BUSY_CYCLE_1) {
+                                        MachineAPI.setFanState(MachineAPI.FAN_STATE_ON)
+                                        viewApp.dialogObject.close()
+                                    }
+                                })
+
+                                backButton.text = qsTr("Re-Do")
+                            }//
+                        }//
+                    }//
+                }//
+            }//
+
+            /// FOOTER
+            Item {
+                id: footerItem
+                Layout.fillWidth: true
+                Layout.minimumHeight: 70
+
+                Rectangle {
+                    anchors.fill: parent
+                    color: "#0F2952"
+                    //                    border.color: "#e3dac9"
+                    //                    border.width: 1
+                    radius: 5
+
+                    Item {
+                        anchors.fill: parent
+                        anchors.margins: 5
+
+                        ButtonBarApp {
+                            id: backButton
+                            width: 194
+                            anchors.verticalCenter: parent.verticalCenter
+
+                            imageSource: "qrc:/UI/Pictures/back-step.png"
+                            text: qsTr("Back")
+
+                            onClicked: {
+                                if (fragmentStackView.currentItem.idname === "stabilized"){
+                                    viewApp.showDialogAsk(qsTr("ADC Calibration"),
+                                                          qsTr("Cancel this process?"),
+                                                          viewApp.dialogAlert,
+                                                          function onAccepted(){
+                                                              ////console.debug("Y")
+                                                              showBusyPage(qsTr("Loading..."),
+                                                                           function onCycle(cycle){
+                                                                               if (cycle === 1){
+                                                                                   viewApp.closeDialog()
+                                                                                   var intent = IntentApp.create(uri, {})
+                                                                                   finishView(intent)
+                                                                               }
+                                                                           })
+                                                          })
+                                    return
+                                }
+
+                                if (fragmentStackView.currentItem.idname === "result" && props.calibrateDone){
+                                    viewApp.showDialogAsk(qsTr("ADC Calibration"),
+                                                          qsTr("Are you sure to re-do the ADC calibration?"),
+                                                          viewApp.dialogAlert,
+                                                          function onAccepted(){
+                                                              ////console.debug("Y")
+                                                              showBusyPage(qsTr("Loading..."),
+                                                                           function onCycle(cycle){
+                                                                               if (cycle === 1){
+                                                                                   viewApp.closeDialog()
+                                                                                   var intent = IntentApp.create(uri, {})
+                                                                                   finishView(intent)
+                                                                               }
+                                                                           })
+                                                          })
+                                    return
+                                }//
+
+                                var intent = IntentApp.create(uri, {})
+                                finishView(intent)
+                            }//
+                        }//
+
+                        ButtonBarApp {
+                            id: setButton
+                            width: 194
+                            anchors.verticalCenter: parent.verticalCenter
+                            anchors.right: parent.right
+                            visible: props.calibrateDone
+
+                            imageSource: "qrc:/UI/Pictures/checkicon.png"
+                            text: qsTr("Done")
+
+                            onClicked: {
+                                let intent = IntentApp.create(uri,
+                                                              {
+                                                                  "pid": props.pid,
+                                                                  "failCode": props.calibrationFailCode,
+                                                                  "sensorAdcMinimum": props.adcMinimumResult,
+                                                                  "sensorAdcNominal": props.adcNominalResult,
+                                                                  "sensorVelMinimum": props.velocityMin,
+                                                                  "sensorVelLowAlarm": props.velocityAlarm,
+                                                                  "sensorVelNominal": props.velocity,
+                                                                  "sensorVelNominalDfa": props.velocityDfaNom,
+                                                                  "fanDutyCycleNominal": props.fanDutyCycleNominal,
+                                                                  "fanRpmNominal": props.fanRpmNominal,
+                                                                  "fanDutyCycleMinimum": props.fanDutyCycleMinimum,
+                                                                  "fanRpmMinimum": props.fanRpmMinimum,
+                                                                  "temperatureCalib": props.temperatureCalib,
+                                                                  "temperatureCalibAdc": props.temperatureCalibAdc
+                                                              })
+                                finishView(intent);
+                            }//
+                        }//
+                    }//
+                }//
+            }
+        }//
+
+        QtObject {
+            id: props
+
+            property string pid: ""
+
+            property int fanDutyCycleActual: 0
+            property int fanRpmActual: 0
+
+            property int sensorConstant: 0
+            property int sensorAdcZero: 0
+            property int sensorAdcMinimum: 0
+
+            property int adcActual: 0
+            property int adcMinimumResult: 0
+            property int adcNominalResult: 0
+            property int adcResult: 0
+            property int temperatureActual: 0
+            property int temperatureAdcActual: 0
+            property string temperatureActualStr: "0°C"
+
+            //
+            property int adcStableReference: 0
+            property int adcStableReferenceHighest: 0
+            property int adcStableReferenceLowest: 0
+            property bool adcHasStable: false
+            property int adcSecondCount: 0
+            property int firstGetStableTime: ((MachineData.inflowSensorConstant === 0) ? 30 : 60)/timerDivider // must 1m (60)
+            property int adcHasStableCount: 0
+            property int adcMinLimit: 0
+            property int adcMaxLimit: 0
+
+            // There is a case in production (LA2-6 10" (Degree C)) that the calibration is always failed at tolerance = 10
+            // So increase the tolerance to be 15-20
+            property int stableCountTolerance: 20
+
+            property bool saveAdcMinimum: false
+            property bool saveAdcNominal: false
+
+            onSaveAdcMinimumChanged: {
+                if(saveAdcMinimum === true){
+                    adcMinimumResult = adcActual
+                    fanRpmMinimum = fanRpmActual
+                    //console.debug("Adc Minimum Result: " + adcMinimumResult)
+                    //Auto adjust to duty cycle nominal value
+                    //props.adjustDutyCycleTo(props.fanDutyCycleNominal)
+                }
+            }//
+
+            onSaveAdcNominalChanged: {
+                if(saveAdcNominal === true){
+                    adcNominalResult = adcActual
+                    fanRpmNominal = fanRpmActual
+                    //console.debug("Adc Nominal Result: " + adcNominalResult)
+                }
+            }
+
+            /// 0: metric, m/s
+            /// 1: imperial, fpm
+            property int measureUnit: 0
+            property string measureUnitStr: measureUnit ? "fpm" : "m/s"
+            /// Metric normally 2 digits after comma, ex: 0.30
+            /// Imperial normally Zero digit after comma, ex: 60
+            property int velocityDecimalPoint: measureUnit ? 0 : 2
+
+            // Nominal
+            property real velocity: 0
+            property string velocityStrf: "0"
+            //
+            property real velocityMin: 0
+            property string velocityMinStrf: "0"
+
+            property real velocityAlarm: 0
+            property string velocityAlarmStrf: "0"
+
+            property real acceptanceVel: measureUnit ? 5 : 0.025
+
+            onVelocityAlarmChanged: {
+                velocityAlarmStrf = velocityAlarm.toFixed(velocityDecimalPoint)
+            }
+
+            property real velocityDfaNom: 0
+            property string velocityDfaNomStrf: "0"
+
+            //property int fanDutyCycleInitial: 0
+            property int fanDutyCycleNominal: 0
+            property int fanDutyCycleMinimum: 0
+
+            property int fanRpmNominal: 0
+            property int fanRpmMinimum: 0
+
+            // property int fanDutyCycleResult: 0
+            // property int fanRpmResult: 0
+
+            property int temperatureCalib: 0
+            property int temperatureCalibAdc: 0
+            property string temperatureCalibStrf: ""
+
+            property bool calibrateDone: false
+            property int timerDivider: __osplatform__ ? 1 : 2
+            property int timerCountDownNominal: ((MachineData.inflowSensorConstant === 0) ? 120 : 180)/timerDivider
+            property int timerCountDownMinimum: ((MachineData.inflowSensorConstant === 0) ? 120 : 300)/timerDivider
+            property int timerCountDown: ((MachineData.inflowSensorConstant === 0) ? 240 : 480)/timerDivider //4 min for degree C and 8 min for esco airflow sensor
+
+            property int calibrationFailCode: 0
+
+            function adjustDutyCycleTo(duty){
+                if (fanDutyCycleActual !== duty) {
+                    MachineAPI.setFanPrimaryDutyCycle(duty);
+                    viewApp.showBusyPage(qsTr("Adjusting fan duty cycle..."),
+                                         function onTriggered(cycle){
+                                             if(cycle >= MachineAPI.BUSY_CYCLE_FAN){
+                                                 // close this pop up dialog
+                                                 viewApp.dialogObject.close()
+                                             }
+                                         })
+                    return true
+                }
+                return false
+            }
+        }
+
+        /// Called once but after onResume
+        Component.onCompleted: {
+            //if(!__osplatform__){
+            //    props.timerCountDown = 30
+            //}
+        }//
+
+        /// Execute This Every This Screen Active/Visible
+        executeOnPageVisible: QtObject {
+
+            /// onResume
+            Component.onCompleted: {
+                ////console.debug("StackView.Active");
+                let extradata = IntentApp.getExtraData(intent)
+                ////console.debug(JSON.stringify(extradata))
+                if (extradata['pid'] !== undefined) {
+                    //                        ////console.debug(extradata['pid'])
+                    props.pid = extradata['pid']
+
+                    props.measureUnit = extradata['measureUnit']
+
+                    props.sensorConstant = extradata['sensorConstant'] || 0
+
+                    props.fanDutyCycleMinimum = extradata['fanDutyCycleMinimum'] || 0
+                    props.fanDutyCycleNominal = extradata['fanDutyCycleNominal'] || 0
+
+                    //Ifa min
+                    let velocityIfaMinimum = extradata['sensorVelMinimum'] || 0
+                    props.velocityMin = velocityIfaMinimum
+                    props.velocityMinStrf = velocityIfaMinimum.toFixed(props.velocityDecimalPoint)
+
+                    let velocityIfaAlarm = extradata['sensorVelLowAlarm'] || 0
+                    props.velocityAlarm = velocityIfaAlarm
+                    props.velocityAlarmStrf = velocityIfaAlarm.toFixed(props.velocityDecimalPoint)
+
+                    //dfa nom
+                    let velocityDfaNominal = extradata['sensorVelNominalDfa'] || 0
+                    props.velocityDfaNom = velocityDfaNominal
+                    props.velocityDfaNomStrf = velocityDfaNominal.toFixed(props.velocityDecimalPoint)
+
+                    //ifa nom
+                    let velocity = extradata['sensorVelNominal'] || 0
+                    props.velocity = velocity
+                    props.velocityStrf = velocity.toFixed(props.velocityDecimalPoint)
+                }
+
+                props.fanDutyCycleActual = Qt.binding(function(){ return MachineData.fanPrimaryDutyCycle })
+                props.fanRpmActual = Qt.binding(function(){ return MachineData.fanPrimaryRpm })
+
+                props.adcActual = Qt.binding(function(){ return MachineData.ifaAdcConpensation })
+
+                props.temperatureActual = Qt.binding(function(){ return MachineData.temperature })
+                props.temperatureAdcActual = Qt.binding(function(){ return MachineData.temperatureAdc })
+                props.temperatureActualStr = Qt.binding(function(){ return MachineData.temperatureValueStr })
+
+                if((props.velocityAlarm < (props.velocity + props.acceptanceVel)) && (props.velocityAlarm >= (props.velocityMin - props.acceptanceVel)) &&
+                        (props.fanDutyCycleNominal > props.fanDutyCycleMinimum) && (props.velocity > props.velocityMin) &&
+                        (props.velocityDfaNom > 0)){
+                    //automatically adjust duty cycle to nominal value
+                    if(props.adjustDutyCycleTo(props.fanDutyCycleNominal)){
+                        props.timerCountDown = ((MachineData.inflowSensorConstant === 0) ? 240 : 600)/props.timerDivider //4 min for degree C and 10 min for esco airflow sensor
+                        props.timerCountDownNominal = ((MachineData.inflowSensorConstant === 0) ? 120 : 300)/props.timerDivider
+                        props.timerCountDownMinimum = ((MachineData.inflowSensorConstant === 0) ? 120 : 300)/props.timerDivider
+                    }
+                    fragmentStackView.replace(fragmentStabilizationComp)
+                }
+                else{
+                    viewApp.showDialogMessage(qsTr("ADC Calibration"),
+                                              qsTr("There is an invalid value!"),
+                                              viewApp.dialogAlert,
+                                              function(){}, false)
+                }
+            }//
+
+            /// onPause
+            Component.onDestruction: {
+                //////console.debug("StackView.DeActivating");
+            }//
+        }//
+    }//
+}//
+
+/*##^##
+Designer {
+    D{i:0;autoSize:true;formeditorColor:"#808080";formeditorZoom:1.25;height:480;width:800}
+}
+##^##*/

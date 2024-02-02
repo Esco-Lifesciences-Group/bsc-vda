@@ -1,0 +1,475 @@
+La hauteur de la fenêtre n'est pas en position de travail!
+Êtes-vous sûr de refaire l'étalonnage ADC?
+Ajustement du cycle de service des fans ...
+Capteur (VDC): Appuyez et tapez la valeur de Volt Metter!
+Sensor Constant
+Cycle de service des fans
+Ajustement du cycle de service des fans ...
+Veuillez attendre%1, le temps restant
+Alarme de défaillance de l'entrée
+Ajustement du cycle de service des ventilateurs
+Faire entrer les entrées
+Se mettre en panne
+Stabilisation de la valeur ADC du capteur de flux d'air% 1
+Veuillez attendre%1, le temps restant
+Vitesse nominale du flux descendant 
+Velocité de flux descendante nominale
+Veuillez attendre% 1
+Régler
+Étalonnage Temperature
+Veuillez attendre% 1
+Veuillez attendre%1, le temps restant
+proche
+Veuillez éteindre le ventilateur et attendre que ADC ait stable!
+Activer ou désactiver l'alarme de défaillance de l'éclairage
+Alarme flux descendant élevé
+Handicapé
+Entrée nominale (%1)
+Entrée minimum (%1)
+Alarme d'entrée (%1)
+Début de panne (%1)
+Cycle de service nominal des ventilateurs (%)
+Fan Cycle de service minimum (%)
+Cycle de service de veille des fans (%)
+RPM nominal des ventilateurs
+RPM de veille des fans
+Moniteur de flux d'air
+Habilitant
+Invalidie
+Température de l'écoulement de l'air
+Habilitant
+Invalidie
+Oops!
+Il ya 1 semaine
+Il ya 1 mois
+Utilisateur: supprimer les journaux d'alarme à partir de% 1
+Utilisateur: générer des journaux d'alarme (fichier d'exportation)% 1.
+S'il vous plaît, attendez...
+Ce processus ne peut pas être annulé et non récupérable.
+S'il vous plaît, attendez..
+Générateur
+S'il vous plaît, attendez
+Une nouvelle configuration sera appliquée après le redémarrage du système
+S'il vous plaît, attendez
+Mers intégrées
+Motorze Sash
+S'il vous plaît, attendez...
+Handicapé
+Panneau d'échappement
+Fenêtre motorisée
+Douille électrique
+Contre-capteur de particules
+Code de l'article
+Moteur SN
+Soufflerie SN
+S'il vous plaît, attendez...
+Enregistrement des composants remplaçables - Ajouter
+Le code d'article n'est pas valide!
+S'il vous plaît, attendez
+Transfert de fichier Blutooth
+Association ...
+Devicets a jumelé avec succès
+L'association a échoué
+Problème de connexion, veuillez réessayer plus tard!
+Le fichier de transfert a échoué
+Horaire de réservation - Ajouter
+Titre de réservation
+Utilisateur: Ajouter le calendrier de réservation '%1' à '%2'
+Utilisateur: Définir le calendrier réservé notif. Activer à% 1
+Vous n'avez pas la permission d'effectuer cette action!
+Le port USB peut être trouvé sur le dessus de l'armoire, près de Power Enting.
+Utilisateur: Générer le calendrier de réservation (fichier d'exportation) %1
+Supprimer le journal plus ancien début de
+Il ya 1 semaine
+Il ya 1 mois
+Ce processus ne peut pas être annulé!
+Utilisateur: supprimer les journaux de planification de réservation à partir de% 1
+S'il vous plaît, attendez
+Générateur
+Reserve maintenant
+Le stockage de réservation est plein. Veuillez supprimer l'historique de la réservation.
+Le stockage de réservation a plein. Veuillez supprimer l'historique de la réservation!
+Handicapé
+Nom de l'armoire
+Courant
+Nom de l'armoire (max. 10 caractères)
+Utilisateur: Réglez le nom de l'armoire sur %1
+Prochain
+Modèle de cabinet
+Êtes-vous sûr de continuer à mettre à jour?
+Chargez la mise à jour ...
+Utilisateur: Définissez le modèle d'armoire (%1)
+RIEN
+Peut
+La date d'aujourd'hui
+Code de l'article
+S'il vous plaît, attendez...
+Enregistrement des composants remplaçables - Ajouter
+S'il vous plaît, attendez
+Appuyez ici pour définir
+Ne montrez jamais la notification de rappel.
+Prochain
+Éclater de descendre
+Entrée (DIM)
+Entrée (secondaire)
+Résumé de la certification sur le terrain - Basique
+Prochain
+Prochain
+S'il vous plaît, attendez
+Prochain
+Éclater de descendre
+Copier...
+Utilisateur: Importer un fichier via USB (% 1 à% 2)
+Recommandé d'essuyer la surface avec un chiffon de microfibre sans peluche
+N'appliquez jamais directement une solution de nettoyage à l'écran
+Commencez au centre et essuyez doucement l'écran en mouvement circulaire
+Après le démarrage, l'écran deviendra vide puis retour à la normale après 15 secondes
+Code de l'article
+S'il vous plaît, attendez...
+S'il vous plaît, attendez
+Contactez-nous
+Nous aimerions recevoir de vos nouvelles!
+S'il vous plaît, attendez...
+S'il vous plaît, attendez
+Éclater de descendre
+Oops!
+Le journal total est 
+Utilisateur: Définissez le journal des données Activer à% 1
+Utilisateur: définissez la période de journal des données sur% 1
+Seulement si l'état des fans est sur
+Supprimer le plus ancien journal commence
+Il ya 1 semaine
+Il ya 1 mois
+S'il vous plaît, attendez
+Peut
+Prochain
+État de la ceinture
+Hauteur de sécurité
+Hauteur dangereuse
+De près
+Hauteur de veille
+État des fans
+Poseur d'utilisation des fans
+Filtre la vie
+Vie UV
+Cycle de cycle de la ceinture
+Étalonnage
+Échouer
+Vedette des fans
+IF1 des ventilateurs
+IFS des ventilateurs
+Module - Counter de particules
+Counter de particules (μg/m3)
+Counter à l'état de particules
+Éclater de descendre
+Éclater de descendre
+Handicapé
+Habilitant
+Invalidie
+Il ya 1 semaine
+Il ya 1 mois
+S'il vous plaît, attendez...
+S'il vous plaît, attendez..
+S'il vous plaît, attendez
+Oops!
+On dirait qu'il n'y a encore rien dans ce journal.
+Es-tu sur de vouloir continuer?
+Le port USB peut être trouvé sur le dessus de l'armoire, près de Power Enting.
+Police non disponible!
+Font a installé
+Le port USB peut être trouvé sur le dessus de l'armoire, près de Power Enting.
+Police non disponible!
+Font a installé
+Le port USB peut être trouvé sur le dessus de l'armoire, près de Power Enting.
+Police non disponible!
+Font a installé
+Épingle
+Entrer la broche
+Utilisateur: a entré plusieurs fois une broche incorrecte.
+Vous avez entré plusieurs fois une broche incorrecte!
+Broche incorrecte
+Utilisateur: Déplacez le ventilateur
+Utilisateur: Définissez le ventilateur sur
+Épingle
+Entrez la nouvelle épingle
+Utilisateur: la broche de ventilateur a été créée.
+Utilisateur: la broche de ventilateur a été modifiée.
+Utilisateur: la broche du ventilateur a été définie.
+La broche a été créé!
+La broche a été changée!
+La broche a été définie!
+Utilisateur: la broche du ventilateur a été réinitialisée.
+La broche a été réinitialisée!
+La broche ne correspond pas
+Entrez la broche de confirmation
+Une fois que
+Planificateur de fans
+Planificateur de fans
+Weekly - Mardi
+Weekly - Mercredi
+Weekly - Jeudi
+Weekly - Vendredi
+Weekly - Samedi
+Weekly - Dimanche
+Configuration du cycle de service nominal:% 1%
+Êtes-vous sûr de vouloir y retourner?
+S'il vous plaît, attendez
+Sélectionner la destination
+Mettre ici
+Utilisateur: Fichier d'exportation via USB (%1 à %2)
+Pour supprimer votre lecteur USB en toute sécurité:
+Double appuyez sur l'icône du lecteur USB à l'écran d'accueil:
+Supprimer le lecteur USB
+Fichier avec succès copié.
+entrée invalide
+Vérifier
+S'il vous plaît, attendez...
+S'il vous plaît, attendez
+Affichage de la vie filtre
+Filtre les paramètres de la vie
+Filtre la durée de vie calculée par
+Utilisation des fans
+RPM des vent
+heures qui reste
+Utilisateur: Définissez 'RPM' lors du filtre de la durée de vie de 0% (% 1)
+Utilisateur: Réglez les 'heures restantes' lors de la durée de vie de filtre 0% (%1)
+Fermer du capteur d'étalonnage?
+S'il vous plaît, attendez
+Étalonnage des capteurs à champ plein
+Vitesse de flux descendante nominale
+Cycle de service des fans
+Veuillez patienter que la valeur se stabilise
+Étalonnage du capteur complet
+Veuillez positionner la ceinture à une hauteur de veille!
+Veuillez attendre %1
+Veille des fans
+Ajustement du cycle de service des fans ...
+Les écrans suivants sont utilisés pour modifier le fonctionnement de l'armoire.
+Ils ne doivent être utilisés que par un certificateur qualifié dans le cadre du processus de certification.
+Ce menu ne doit être accessible que lorsque le ventilateur est éteint, &lt;br&gt; Sinon, le ventilateur sera automatiquement désactivé par le système.
+Prochain
+S'il vous plaît, attendez...
+LCD propre
+NIP du ventilateur
+Résumé de la certification sur le terrain
+Réinitialiser le compteur d'utilisation des fans
+Réinitialiser le cycle de cycle
+Mise à jour logicielle
+Modèle de cabinet
+Ceinture
+Alarme: moteur à ceinture verrouillée
+Alarme: ceinture collée
+Alarme: Sash dangereuse
+Se fanfier
+L'armoire est en sécurité
+La vie UV est parti
+Durée de vie typique jusqu'à 2000 heures ou 120000 minutes
+Rappel de maintenance préventive BSC!
+Rappel de maintenance préventive de BSC quotidien!
+Rappel de maintenance préventive BSC hebdomadaire!
+Rappel de maintenance préventive mensuelle BSC!
+Rappel de maintenance préventive trimestrielle BSC!
+Rappel de maintenance préventive annuelle BSC!
+Rappel de maintenance préventive BSC biennale!
+Rappel de maintenance préventive de Quinquennnial BSC!
+Rappel de la vie de filtre
+Utilisateur: Rappel de durée de vie du filtre de répétition
+Roupillon
+Rappel de vie UV
+La vie UV est inférieure à 10%.
+Utilisateur: Rappel de vie UV de répétition
+Alarme: moteur à ceinture verrouillée
+Arrêtez d'utiliser le moteur de la ceinture
+Remplacer le moteur de la ceinture
+Alarme: Erreur de la ceinture
+Alarme: Allumez le ventilateur
+Complètement ouvert
+Filtre la vie
+Échauffement
+Handicapé
+Vie UV
+Temps UV
+Veuillez vous connecter comme compte de service pour reconnaître ce rappel!
+Après avoir exploité cette armoire, fermez l'armoire en toute sécurité avant de débrancher l'alimentation!
+Utilisateur: désactiver le ventilateur
+Utilisateur: désactiver Vale
+Utilisateur: désactiver la lumière UV
+Le système détectait un problème de communication entre le plateau principal et le board-board.
+Appelez votre technicien de service sur le terrain autorisé!
+Alarme auditive
+Cette alarme audible ne peut pas être muette!
+Il n'y a pas d'alarme audible.
+Utilisateur: Définir le calendrier réservé notif. effondrement
+Utilisateur: Déplacez le ventilateur
+Utilisateur: définissez le ventilateur sur
+Utilisateur: définissez la lumière LED allumée
+Utilisateur: Réglez la lumière LED éteinte
+Utilisateur: régler la prise sur
+Utilisateur: Définissez la prise
+Utilisateur: Réglez le gaz sur
+Utilisateur: Déplacez le gaz
+Utilisateur: Mettez la lumière UV sur
+Utilisateur: Définissez la lumière UV off
+Aucune alarme audible.
+S'il vous plaît, attendez
+Équitable
+Une défaillance de puissance a été détectée pendant que l'État des fans précédente est allumé!
+Contamination potentielle de libération dans la pièce.
+Récupérer
+Une défaillance de puissance a été détectée pendant que la décontamination des UV précédente est en cours!
+Hauteur de veille
+Moyen
+Rapidité
+N/A
+Moyen
+Rapidité
+N/A
+Moyen
+Rapidité
+N/A
+Moyen
+Rapidité
+N/A
+Merci de nous avoir choisi!
+Faisons ensemble à ce monde un meilleur endroit!
+Langue courante
+Salut
+Prochain
+Cette action n'est nécessaire que si vous souhaitez désactiver l'unité.
+Il s'agit de s'assurer que toutes les tâches sont arrêtées correctement et ne provoqueront pas d'erreur de disque.
+Le système désactivera automatiquement toutes les fonctions (LED, lampe UV, souffleur, etc.), puis affiche l'écran noir.
+Une fois l'écran noir s'affiche pendant 5 secondes, éteignez l'alimentation et retirez le cordon.
+Si vous avez l'intention d'allumer l'unité, veuillez brancher le cordon et allumer l'alimentation.
+Oui, je suis prêt à éteindre l'unité.
+Cette action n'a besoin que si vous souhaitez retirer l'électricité de l'unité.
+Cela pour garantir que toutes les tâches seront arrêtées correctement et non causées par une erreur de disque.
+Le système désactivera automatiquement toutes les sorties, puis accédez à l'écran noir.
+Si vous avez l'intention d'allumer l'unité, veuillez le brancher et brancher l'alimentation.
+Oui, je suis prêt à éteindre l'unité
+S'il vous plaît, attendez...
+Après l'écran noir d'environ 5 secondes, vous pouvez réellement retirer l'électricité.
+Fermer
+Utilisateur: réglez l'intensité lumineuse à
+Exemple: John Doe
+Ton nom complet
+Connexion réussie! nom d'utilisateur:
+Connexion Échec: la communication de la base de données échouée.
+Vous êtes connecté avec succès!
+Utilisateur: Supprimer la dernière connexion de l'utilisateur (% 1)
+On dirait qu'il n'y a pas encore d'utilisateur connecté.
+On dirait qu'aucun utilisateur n'est encore inscrit.
+Vous serez automatiquement déconnecté s'il n'y a pas d'activité à l'écran pour un temps de déconnexion
+Régler
+Le réglage minimum est de 1 minute ou réglé sur 0 pour désactiver le temps de déconnexion.
+S'il vous plaît, attendez...
+S'il vous plaît, attendez
+Décontaminer en surface la zone de travail
+Vérification d'alarme de mise sous tension de BSC
+Effectuer par décontamination de surface sur le moule de vidange
+Vérifiez la prise de papier pour les matériaux retenus
+Nettoyer la lampe UV (où présente) de toute poussière et saleté
+Nettoyez la lampe UV (si elle est présente) de toute poussière et saleté
+Nettoyez la surface extérieure le BSC
+Nettoyez la fenêtre de la ceinture
+Vérifiez tous les appareils de service (où présents) pour un fonctionnement approprié
+Inspectez le BSC pour toute anomalie physique ou dysfonctionnement
+Proporte des taches tenaces sur des surfaces en acier inoxydable avec mek
+Vérifiez la fonctionnalité de l'armoire
+Changer la lampe UV (où présente)
+Fonctionnalité de lampe LED (S) Inspection annuelle
+Vérifiez la fenêtre de ceinture (pièces, écrous, vis, corde / ceinture, mouvement lisse)
+Remplacer le moteur de la ceinture (pour la fenêtre de ceinture motorisée)
+Alarmes visuelles et audibles activées lorsque le rabat est fermé ou que l'échappement est faible
+S'il vous plaît, attendez
+L'écart est hors des spécifications
+Vous devez refaire l'équilibrage des inflow si vous modifiez le cycle de service.
+Chargez les données précédentes
+Chargez des données précédentes?
+Régler
+Mesure d'afflux
+Mesure des entrées
+Ne réglez pas l'ouverture de l'amortisseur!
+Entré
+Ajustement du cycle de service des fans ...
+Rapidité
+Chargez les données précédentes
+Chargez des données précédentes?
+avec flux
+Régler
+Méthode secondaire d'entrée
+Ajustez la ceinture à une ouverture de 76 mm (3 ”)!
+Ajustement du cycle de service des fans ...
+Charge du projet
+Régler
+Modifier l'unité de mesure sans re-calibré peut rendre la valeur du flux d'air sur l'écran
+Utilisateur: Définissez l'unité de mesure sur la métrique
+Utilisateur: Définissez l'unité de mesure sur la métrique
+RPM des vent
+Vitesse de flux descendante
+Vitesses d'afflux
+Grill bloqué
+évaluer
+Ils ne sont pas modifiables.
+Minuterie actuelle
+Oubliez
+Veuillez redémarrer le système pour effectuer la configuration.
+Handicapé
+Conn filaire
+Régler
+Vous devrez peut-être redémarrer le système pour appliquer ces modifications.
+Recommence plus tard
+Prochain
+Utilisateur: Définissez le mode de fonctionnement pour démarrer rapidement
+Utilisateur: Définissez le mode de fonctionnement sur la maintenance
+Rappelle-moi quand la date d'échéance est
+entrée invalide
+S'il vous plaît, attendez...
+S'il vous plaît, attendez
+Les individus inhabituellement sensibles peuvent ressentir des symptômes respiratoires.
+Les personnes inhabituellement sensibles devraient envisager de réduire l'effort prolongé ou lourd.
+Malsain pour les groupes sensibles 101 à 150
+Augmentation de la probabilité des symptômes respiratoires chez les individus sensibles, l'aggravation des maladies cardiaques ou pulmonaires et la mortalité prématurée chez les personnes atteintes d'une maladie cardio-pulmonaire et des personnes âgées.
+Les personnes atteintes d'une maladie respiratoire ou cardiaque, les personnes âgées et les enfants devraient limiter l'effort prolongé.
+Malsain 151 à 200
+Une aggravation accrue des maladies cardiaques ou pulmonaires et de la mortalité prématurée chez les personnes atteintes d'une maladie cardiopulmonaire et des personnes âgées; Augmentation des effets respiratoires dans la population générale.
+Les personnes atteintes d'une maladie respiratoire ou cardiaque, les personnes âgées et les enfants devraient éviter un effort prolongé; Tout le monde devrait limiter l'effort prolongé.
+Très malsain 201 à 3000
+Aggravation significative des maladies cardiaques ou pulmonaires et de la mortalité prématurée chez les personnes atteintes d'une maladie cardiopulmonaire et des personnes âgées; Augmentation significative des effets respiratoires dans la population générale.
+Les personnes atteintes d'une maladie respiratoire ou cardiaque, les personnes âgées et les enfants doivent éviter toute activité de plein air; Tout le monde devrait éviter un effort prolongé.
+500 dangereux
+Aggravation grave des maladies cardiaques ou pulmonaires et de la mortalité prématurée chez les personnes atteintes d'une maladie cardiopulmonaire et des personnes âgées; Risque grave d'effets respiratoires dans la population générale.
+Tout le monde doit éviter tout effort en plein air; Les personnes atteintes d'une maladie respiratoire ou cardiaque, les personnes âgées et les enfants devraient rester à l'intérieur.
+Actions de précaution
+Tableau des niveaux de PM2,5 24 heures (μg / m3)
+Handicapé
+Utilisateur: définissez le temps de purge de poste sur %1
+Définition du chronomètre de purge de poste ...
+Une fois que l'utilisateur a éteint le ventilateur interne, il y aura une période de purge de poste avant d'être éteinte. Cela pour garantir que tous les contaminants sont purgés de la zone de travail.
+Confirmer la date
+Entretien préventif BSC quotidiennement
+Entretien préventif BSC hebdomadaire
+Entretien préventif BSC mensuellement
+Entretien préventif BSC trimestrielle
+Entretien préventif BSC chaque année
+Entretien préventive BSC tous les deux ans
+Entretien préventif BSC quinquennialement
+Maintenance préventive de la canopée mensuellement
+Sélectionnez la maintenance préventive pour afficher les listes de contrôle et rendez-vous ou soyez répété le rappel.
+Cote de puissance
+Demande de service
+Procédure de certification sur le terrain
+Concentration de PAO
+S'il vous plaît, attendez...
+S'il vous plaît, attendez
+S'il vous plaît, attendez...
+La nouvelle mise à jour logicielle est disponible sur SVN Server.
+Pour mettre à jour, veuillez vous connecter en usine, puis accédez à la mise à jour du logiciel!
+Pour mettre à jour, veuillez consulter la page de mise à jour logicielle!
+Le temporisateur de l'expérience est terminé!
+Pour mettre à jour, veuillez vous connecter en &quot;usine&quot;, puis accédez au menu de mise à jour du logiciel!
+Pour mettre à jour, veuillez consulter le menu de mise à jour du logiciel!
+Connectez-vous et appuyez sur cette notification pour reconnaître.
+Appuyez sur cette notification pour reconnaître.
+Se déconnecter! Nom d'utilisateur: 
+USB Drive &quot;%1&quot; a été détecté
+Le &quot;%1&quot; peut désormais être retiré de l'armoire en toute sécurité

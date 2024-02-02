@@ -1,0 +1,12 @@
+[
+    {
+        "SBC101": {
+            "release": false,
+            "latestVer": {"major": 1, "minor": 0, "patch": 0, "build": 2},
+            "latestVerUrl": "172.22.10.23:8080/Factory-Production-Line-1/Labculture®_Class_II_Type_A2_Biological_Safety_Cabinet_G4/prod/swu/BSC-LA2_VA2-SBC101-1.0.0.3_b19.swu",
+            "latestVerMd5Sum": "51565678091aafd61de9ae8ad9de04d3",
+            "historyVerUrl": "172.22.10.23:8080/Factory-Production-Line-1/Labculture®_Class_II_Type_A2_Biological_Safety_Cabinet_G4/prod/swu/history",
+            "swDesc":"LA2 G4 Standard"
+        }
+    }
+]

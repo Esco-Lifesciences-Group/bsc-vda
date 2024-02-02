@@ -1,0 +1,1138 @@
+Stan wentylatora
+Niestabilny
+ADC nominalne wykonane
+ADC minimalne wykonane
+Minimalna prędkość Inflow
+Błąd Inflow
+Nominalna prędkość Inflow
+Nominalna prędkość Downflow
+ADC minimalne
+ADC nominalne
+Niepowodzenie
+Nominalna wartość ADC jest niestabilna
+Cykl pracy wentylatora lub obroty wentylatora są nieprawidłowe!
+Użytkownik: Kalibracja czujnika przepływu
+Ponów
+Cofnij
+Na pewno wykonać kalibrację ADC
+Błędna wartość!
+ADC Nominalne (IFN)
+ADC Nominalne (IFN)
+ADC Minimalne (IFF)
+ADC Minimalne (IFF)
+Stała czujnika
+Temperatura kalibracji
+ADC temperatury kalibracji
+ADC temperatury kalibracji
+ADC Aktualne (IFA)
+ADC Minimalne (IFF)
+ADC Minimalne (IFF)
+ADC Nominalne (IFN)
+ADC Nominalne (IFN)
+ADC Minimalne fabryczne (IF1)
+ADC Minimalne fabryczne (IF1)
+ADC Nominalne fabryczne (IF2)
+ADC Nominalne fabryczne (IF2)
+Stała czujnika
+Temperatura kalibracji
+ADC temperatury kalibracji
+ADC temperatury kalibracji
+Minimalne ADC
+Temperatura kalibracji
+ADC Czujnika przepływu
+Poczekaj, aż wartości będą stabilne
+ADC Aktualne
+Alarm przepływu powietrza
+Minimalna prędkość Inflow
+Błąd
+Zamknij
+Cofnij
+Ustaw
+ADC nominalne
+Temperatura kalibracji
+ADC Czujnika przepływu
+Poczekaj, aż wartości będą stabilne
+Ustaw Inflow
+Ustaw Downflow
+Stabilizowanie ADC czujnika przepływu powietrza%1
+ADC rzeczywiste
+Nominalna prędkość Inflow
+Nominalna prędkość Downflow
+ADC minimalne
+Błąd
+Cykl pracy wentylatora jest nieprawidłowa!
+Obroty wentylatora są nieprawidłowe!
+Okno nie znajduje się w pozycji roboczej!
+Zapisz
+Cofnij
+Anulować?
+Ustaw
+Minimalna prędkość Inflow
+Wentylator powinnien zostać wyłączony!
+ADC Czujnika przepływu
+Poczekaj, aż wartości będą stabilne
+Naciśnij, aby wyłączyć
+ADC Aktualne
+Błąd
+Zamknij
+Cofnij
+Anulować ten proces?
+Ustaw
+Włącz lub wyłącz Downflow alarm
+Za niski Downflow
+Za wysoki Downflow
+Wyłącz
+Włącz
+Włączone
+Wyłączone
+Cofnij
+Nominalny Inflow (%1)
+Minimalny Inflow (%1)
+Alarm Inflow (%1)
+Nominalny Downflow (%1)
+Nominaln cykl pracy wentylatora (%)
+Cykl pracy wentylatora (%) w trybie Standby
+Nominalne obroty wentylatora
+Obroty wentylatora w trybie Standby
+Kontrola prędkości przepływu
+Wyłącz
+Włącz
+Po wyłączeniu kontroli prędkości przepływu powietrza, alarmy związane z przepływami nie będą zgłaszane!
+Po włączeniu kontroli prędkości przepływu powietrza, alarmy związane z przepływami będą zgłaszane!
+Użytkownik: Kontrola prędkości przepływu powietrza jest włączona
+Użytkownik: Kontrola prędkości przepływu powietrza jest wyłączona
+Cofnij
+Kontrola temperatury
+Wyłącz
+Włącz
+Po wyłączeniu kontroli temperatury, alarmy przeplywu będą wyłączone, jeśli temperatura jest poza zakresem pracy urządzenia.
+Po włączeniu kontroli temperatury, alarmy przeplywu będą włączone, jeśli temperatura jest poza zakresem pracy urządzenia.
+Użytkownik: Alarm temperatury jest włączony.
+Użytkownik: Alarm temperatury jest wyłączony.
+Cofnij
+Dziennik błędów
+Nie
+Godzina (24h)
+Wygląda na to, że dziennik jest pusty.
+Cofnij
+z
+Wpisy
+Wczytywanie …
+Opcje dziennika błędów
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Usuń wpisy zaczynając od
+Dzisiaj (usuń wszystko)
+Usnąć wpis?
+Użytkownik: Usuń wpisy, zaczynając od %1
+Magazyn plików
+Cofnij
+Wpis został usunięty!
+Użytkownik: Generuj dziennik błędów (eksportuj plik) %1.
+System uruchomi się ponownie po naciśnięciu „%1”.
+Cofnij
+Zatwierdź
+Szyba elektryczna
+Lampa UV
+Cofnij
+Nie
+Kod części
+Nazwa części
+Numer seryjny silnika
+Numer seryjny wentylatora
+Sprawdź
+Wymienne komponenty - Dodaj
+Kod części jest nieprawidłowy!
+Transfer plików przez Bluetooth
+Skanowanie …
+Bluetooth wyłączony
+Nie można znaleźć urządzeń.
+Cofnij
+Parowanie …
+Urządzenie pomyślnie sparowane.
+Parowanie nie powiodło się.
+Transfer pliku zakończony.
+Cofnij
+Nazwa rezerwacji
+Nazwa 
+Cofnij
+Zapisz
+Eksportuj
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Usuń wpisy zaczynając od
+Dzisiaj (usuń wszystko)
+Usnąć wpis?
+Użytkownik: Usuń wpisy harmonogramu rezerwacji od %1
+Magazyn plików
+Cofnij
+Proszę czekać …
+Wpis został usunięty!
+Anuluj
+Cofnij
+Dziennik rezerwacji jest pełny. Usuń historię rezerwacji.
+Ładowanie …
+Wyłącz
+Włącz
+Wyłączony
+Włączony
+Cofnij
+Nazwa komory laminarnej
+Naciśnij, aby zmienić
+Nazwa komory laminarnej (Max. 10 znaków)
+Użytkownik: Ustaw nazwę komory laminarnej na %1
+Cofnij
+Model komory laminarnej
+Akualny model komory laminarnej
+Zmień model komory laminarnej na
+Regulator obrotów wentylatora
+Użytkownik: Ustaw płytkę regulatora obrotów wentylatora (%1)
+System uruchomi się ponownie po naciśnięciu „%1”.
+Cofnij
+Aktualizacja SW
+Czy na pewno chcesz kontunować aktualizację?
+Ładowanie aktualizacji …
+Zastosuj
+Użytkownik: Ustaw model komory laminarnej (%1)
+Marzec
+Maj
+Cofnij
+Dzisiejsza data
+Nie
+Kod części
+Nazwa części
+Sprawdź
+Proszę czekać …
+Wymienne komponenty - Dodaj
+Kod części jest nieprawidłowy!
+Przypomnienie o certyfikacji
+Naciśnij, aby ustawić
+Cofnij
+Wyłącz
+Czy na pewno chcesz wyłączyć przypomnienie o terminie certyfikacji?
+Nigdy nie przypominaj
+Podsumowanie certyfikacji - Zaawansowane
+Cofnij
+Niektóre dane zostaną usunięte, w tym dane osoby certyfikującej
+Inflow (Seconndary)
+ADC 
+Osoba certyfikująca
+Podsumowanie certyfikacji
+Podstawowe podsumowanie certyfikacji
+Cofnij
+Niektóre dane zostaną usunięte, w tym dane osoby certyfikującej
+Osoba certyfikująca
+Podsumowanie certyfikacji
+Cofnij
+Niektóre dane zostaną usunięte, w tym dane osoby certyfikującej
+Osoba certyfikująca
+Wydrukuj
+Podsumowanie certyfikacji
+Raport certyfikacji
+Podsumowanie certyfikacji
+Cofnij
+Podsumowanie certyfikacji
+Cofnij
+Cofnij
+Kopiowanie …
+Naciśnij, aby zacząć
+Zalecane do wytarcia powierzchni za pomocą bezpyłowej szmatki z mikrofibry
+Nigdy nie stosuj środków czyszczących bezpośrednio na ekranie
+Nie używaj wilgotnej tkaniny do czyszczenia narożników i krawędzi ekranu
+Zacznij od środka i delikatnie wytrzyj ekran okrągłymi ruchami.
+Po rozpoczęciu ekran będzie pusty przez 15 sekund, po tym czasie wróci do normalnej pracy.
+Cofnij
+Wyłączanie …
+Nie
+Kod części
+Nazwa części
+Sprawdź
+Proszę czekać …
+Kod części jest nieprawidłowy!
+Będzie nam miło z Tobą porozmawiać. 
+lub potrzebujesz wsparcia technicznego, prosimy o kontakt z nami.
+Cofnij
+Nie
+Kod części
+Nazwa części
+Sprawdź
+Proszę czekać …
+Kod części jest nieprawidłowy!
+Nie
+Godzina (24h)
+Prędkość wentylatora:
+Cofnij
+Wpisy
+Ładowanie …
+Włącz
+Zapisuj co
+1 minutę
+1 godzinę
+Tylko jeśli wentylator jest uruchomiony
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Usuń wpisy zaczynając od
+Dzisiaj (usuń wszystko)
+Usnąć wpis?
+Magazyn plików
+Cofnij
+Upewnij się, że plastik (izolator) baterii modułu RTC jest zdjęty!
+Marzec
+Maj
+Naciśnij, aby zmienić
+Ten system ma funkcję protokołu czasu sieciowego, odwołuje się do time.google.com.
+System będzie preferował synchronizację czasu z serwerem na podstawie lokalnej strefy czasowej.
+Podaj rok
+Użytkownik: Ustaw datę
+Cofnij
+Pozycja szyby
+Pozycja robocza
+Szyba w niewłaściwej pozycji
+Całkowicie zamknięta
+Całkowicie otwarta
+Szyba w pozycji Standby
+Stan wentylatora
+Stan filtrów
+Stan lampy UV
+Licznik cyklów szyby
+ADC Temperatury
+Temperatura kalibracji
+ADC temperatury kalibracji
+ADC IFN (korekta)
+ADC IFF (korekta)
+Stan wentylatora
+Standby wentylatora
+Kontakt bezpotencjałowy Exhaust
+Kontakt bezpotencjałowy Alarm
+Błąd
+Moduł - hybrydowe wejście cyfrowe
+Moduł - hybrydowe wyjście cyfrowe
+Moduł - hybrydowe wejście analogowe
+Moduł - hybrydowe wyjście analogowe
+Moduł – Rozszerzenie I/O
+Zakres temperatury otoczenia
+Uruchomione
+Czas uruchomienia urządzenia
+Cofnij
+Anuluj
+Anuluj
+Średnia
+Maksymalne odchylenie
+Średnia
+Maksymalne odchylenie
+Wyłącz
+Włącz
+Włączone
+Wyłączone
+Cofnij
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Usuń wpisy zaczynając od
+Dzisiaj (usuń wszystko)
+Usnąć wpis?
+Użytkownik: Usuń wpisy zaczynając od %1
+Magazyn plików
+Cofnij
+Nie
+Godzina (24h)
+Cofnij
+Całkowita liczba wpisów to
+wpisy
+Stoper jest nadal aktywny, jeśli chcesz kontunować, zostanie zatrzymany
+Cofnij
+Timer eksperymentu działa
+Timer eksperymentu uruchomiony
+Timer eksperymentu zatrzymany
+Timer eksperymentu zakończony
+Włącz
+Wyłącz
+Cofnij
+Czy włożyłeś napęd USB?
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Błąd podczas generowania dokumentu.
+Zainstaluj czcionkę, aby kontynuować eksportowanie pdf, system uruchomi się ponownie po naciśnięciu instalacji
+Czy włożyłeś napęd USB?
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Zainstaluj czcionkę, aby kontynuować eksportowanie pdf, system uruchomi się ponownie po naciśnięciu instalacji
+Czy włożyłeś napęd USB?
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Zainstaluj czcionkę, aby kontynuować eksportowanie pdf, system uruchomi się ponownie po naciśnięciu instalacji
+Pin wentylatora
+Użytkownik: kilka razy wprowadzono nieprawidłowy PIN.
+Kilka razy wprowadzono nieprawidłowy PIN.
+Cofnij
+Użytkownik: Wyłącz wentylator
+Użytkownik: Włącz wentylator
+Włączanie wentylatora
+Wyłączanie wentylatora
+Pin wentylatora
+Użytkownik: PIN wentylatora został utworzony.
+Użytkownik: PIN wentylatora został zmieniony.
+Użytkownik: PIN wentylatora został ustawiony.
+PIN został utworzony!
+Użytkownik: PIN wentylatora został zresetowany.
+PIN nie pasuje!
+Anuluj
+Cofnij
+Harmonogram wentylatora
+Harmonogram włączony
+Godzina
+Powtarzanie
+Cotygodniowe - niedziela
+Cofnij
+Zapisz
+Użytkownik: Uruchomienie wentylatora w harmonogramie (%1) włączony
+Użytkownik: Uruchomienie wentylatora w harmonogramie wyłączone
+Użytkownik: Zatrzymanie wentylatora w harmonogramie (%1) włączone
+Użytkownik: Zatrzymanie wentylatora w harmonogramie wyłączone
+Prędkość wentylatora
+Nominalna konfiguracja prędkości pracy: %1 %
+Aby uzyskać nominalny Inflow (%1) i nominalny Downflow (%2)
+Obroty:
+Ta funkcja służy do ustawiania prędkości pracy wentylatora do celów testowania/certyfikacji,
+Jeśli chcesz zmienić i ustawić nominalną prędkość z tego menu, naciśnij &lt;b&gt;'%1'&lt;/b&gt;,
+Zaleca się powtórzenie kalibracji ADC, jeśli odczyt przepływu powietrza jest poza wymaganym zakresem.
+Cofnij
+Obecna prędkość wentylatora nie zostanie zapisana jako nominalna.
+Czy na pewno chcesz cofnąć?
+Ustawione jako nominalna prędkość
+Czy na pewno chcesz ustawić % 1 % jako nominalną prędkości wentylatora?
+Nominalny prędkość musi być większa niż minimalna. Jeśli chcesz nadal ustawić tę wartość jako nominalną, przejdź do pełnej kalibracji czujnika.
+Wyjść z kalibracji czujnika?
+Wyjść z kalibracji czujnika?
+Kalibracja czujnika przepływu
+Podstawowa kalibracja czujnika przepływu
+Zaawansowana kalibracja czujnika przepływu
+Cofnij
+Cofnij
+Wybierz poprawne miejsce docelowe!
+Dwukrotnie naciśnij ikonę napędu USB na ekranie głównym:
+Odłącz napęd USB
+Nie
+Kod części
+Nazwa części
+Sprawdź
+Wymienne komponenty – Dodaj wpis
+Kod części jest nieprawidłowy!
+Pokazuj zużycie filtra
+Wyłącz
+Włącz
+Po wyłączeniu kontroli zużycia filtrów, funkcja nie będzie dostępna
+Po włączeniu kontroli zużycia filtrów, funkcja będzie dostępna
+Użytkownik: Poziom zużycia filtrów będzie wyświetlany
+Użytkownik: Poziom zużycia filtrów nie będzie wyświetlany
+Cofnij
+Ustawienia zużycia filtrów
+Obroty wentylatora 
+Wartość, gdy żywotnośc filtrów wynosi 100%
+Użytkownik: Ustaw obroty, gdy żywotność filtra wynosi 100% (%1)
+Użytkownik: Ustaw „pozostało godzin”, gdy żywotność filtrów wynosi 100% (%1)
+Obroty
+pozostało godzin
+Wartość, gdy żywotnośc filtrów wynosi 0%
+Użytkownik: Ustaw obroty, gdy żywotność filtra wynosi 0% (%1)
+Użytkownik: Ustaw „pozostało godzin”, gdy żywotność filtrów wynosi 0% (%1)
+Wyświetlaj zużycie filtrów na ekranie głównym
+Użytkownik: Wyświetlaj zużycie filtrów na ekranie głównym
+Włącz
+Wyłącz
+Cofnij
+Ręczna kalibracja
+Cofnij
+Wyjść z kalibracji czujnika?
+Pełna kalibracja czujnika
+Nominalna prędkość Inflow
+Szybka kalibracja czujnika
+Nominalna prędkość Downflow
+Nominalna prędkość wentylatora
+ADC Czujnika przepływu
+Poczekaj, aż wartość będą stabilne
+Minimalna prędkość Inflow
+Pełna kalibracja czujnika
+Alarm Inflow
+Umieść szybę na wysokości roboczej!
+Naciśnij „%1”, aby kontynuować.
+Nominalne ADC została skalibrowane.
+Nominalna prędkość jest nieprawidłowa!
+Nominalna wartość ADC jest nieprawidłowa!
+Nominalna prędkość wentylatora lub obroty są nieprawidłowe!
+Nominalne ADC
+Minimalne ADC zostało skalibrowane
+Minimalna prędkość wentylatora lub obroty są nieprawidłowe!
+Minimalne ADC
+Aktualne ADC
+Standby
+Cofnij
+Użytkownik: Kalibracja czujnika przepływu
+Ręczna kalibracja
+To menu jest używane do modyfikacji ustawień urządzenia.
+To menu jest dostępne tylko dla autoryzowanego serwisu.
+Cofnij
+Dziennik alarmów
+Harmonogram wentylatora
+Harmonogram UV
+Wyłączenie
+Nazwa urządzenia
+Godzina
+Pin wentylatora
+Tryb pracy
+Kontrola temperatury
+Czas rozgrzewania
+Czas oczyszczania
+Prędkość wentylatora
+Jednostki pomiarowe
+Kalibracja czujnika przepływu
+Przypomnienie o certyfikacji
+Podsumowanie certyfikacji
+Ręczna kalibracja
+Stała czujnika
+Zresetuj licznik żywotności filtra
+Zresetuj licznik użytkowania wentylatora
+Zresetuj licznik żużycia UV
+Zresetuj licznik cyklu szyby
+Zresetuj kalibrację
+Lista komponentów wymiennych
+Konserwacja
+Limit temperatury otoczenia
+Model komory laminarnej
+Ekran główny
+WENTYLATOR WYŁĄCZONY
+NIE PRZESUWAJ SZYBY!
+ALARM: ZAKLINOWANA SZYBA
+ALARM: BŁĄD SZYBY
+ALARM: NIEWŁAŚCIWA POZYCJA SZYBY
+ALARM: WENTYLATOR W TRYBIE STANDBY
+ALARM: BŁĄD PRZEPŁYWU POWIETRZA
+ALARM: NISKI INFLOW
+ALARM: NISKI DOWNFLOW
+ALARM: WYSOKI DOWNFLOW
+ALARM: BŁĄD WYLOTU POWIETRZA
+ALARM: KOŁNIERZ WYLOTOWY
+ROZGRZEWANIE
+OCZYSZCZANIE
+UV WYŁĄCZONE
+CAŁKOWICIE ZAMKNIĘTA
+UV WŁĄCZONE
+KOMORA JEST BEZPIECZNA
+Za wysokie
+Szyba 
+Nieprawidłowa pozycja
+Całkowicie otwarta
+Pozycja robocza
+Całkowicie zamknięta
+Pozycja Standby
+Stan filtrów
+Monitor prędkości przepływu
+Nieskalibrowane
+Rozgrzewanie
+Za niski
+Stan lampy UV
+Pozostały czas pracy UV
+Obecny stan lampy UV
+Typowy czas pracy do 2000 godzin lub 120 000 minut
+System wykrył problem komunikacyjny między płytą główną a płytą modułu.
+Powiadom autoryzowany serwis!
+Zablokowane!
+Przypomnienie o konserwacji: 1 dzień
+Przypomnienie o konserwacji: 1 tydzień
+Przypomnienie o konserwacji: 1 miesiąc
+Przypomnienie o konserwacji: 3 miesiące
+Przypomnienie o konserwacji: 1 rok
+Przypomnienie o konserwacji: 2 lata
+Przypomnienie o konserwacji: 4 lata
+Przypomnienie o konserwacji: 1 dzień
+Przypomnienie o konserwacji
+Proszę wymienić filtry!
+Przypomnienie o zużyciu filtrów
+Stan filtrów poniżej 10%
+Wymień filtry, aby uzyskać lepszą wydajność!
+Wymień lampę UV!
+Przypomnienie o zużyciu lampy UV
+Stan lampy UV poniżej 10%
+Wymień lampę UV!
+Dziennik błędów jest pełny!
+Przypomnienie dziennika błędów
+Lista komponentów wymiennych jest pełna
+Przypomnienie lista komponentów wymiennych
+Silnik podnoszenia szyby został zablokowany. Przekroczona została dopuszczalna ilość cykli pracy.
+Silnik podnoszenia szyby jest bliski zużycia! Nie używaj szyby. Skontaktuj się z serwisem.
+Silnik podnoszenia szyby jest bliski zużycia! Należy wymienić silnik! Skontaktuj się z serwisem.
+Szyba znajduje się w niewałaściwej pozycji. Ustaw szybę w pozycji roboczej.
+Prędkość przepływu Inflow jest za niska! Ochrona użytkownika może nie być skuteczna. Sprawdz czy czujniki przepływu, otwory wentylacyjne i przedni grill nie są zasłonięte.
+Prędkość przepływu Downflow jest za niska! Ochrona użytkownika może nie być skuteczna. Sprawdz czy czujniki przepływu, otwory wentylacyjne i przedni grill nie są zasłonięte.
+Prędkość przepływu Inflow jest za wysoka! Ochrona użytkownika może nie być skuteczna. Sprawdz czy czujniki przepływu, otwory wentylacyjne i przedni grill nie są zasłonięte.
+Prędkość przepływu Downflow jest za wysoka! Ochrona użytkownika może nie być skuteczna. Sprawdz czy czujniki przepływu, otwory wentylacyjne i przedni grill nie są zasłonięte.
+Temperatura otoczenia jest poza zalecanym zakresem! Może to wpływać na dokładność pomiarów prędkości przepływu powietrza. Zalecana temperatura otoczenia jest pomiędzy
+Wentylator powinien być używany w trybie standby, gdy szyba jest ustawiona na wysokości standby. Naciśnij przycisk wentylatora, aby go uruchomić.
+Wyjmij napęd USB
+(Za niska)
+(Za wysoka)
+Po zakończonej pracy, wyłącz silnik przed odłączeniem komory od prądu!
+Oczyszczanie komory po pracy jest włączone!
+Użytkownik: Włącz gniazdka
+Użytkownik: Wyłącz gniazdka
+Alarm dźwiękowy
+Alarm dźwiękowy wyłączony.
+Tego alarmu dźwiękowego nie można wyciszyć!
+Bardzo zły
+Średni
+Bardzo dobry
+W czasie ostatniej pracy wentylatora została wykryta awaria zasilania!
+Potencjalne ryzyko zanieczyszczenia pomieszczenia
+Naprawione w
+W czasie ostatniej pracy lampy UV została wykryta awaria zasilania!
+Uważaj!
+Nominalny Inflow
+Prędkość wentylatora
+Średni
+Minimalny Inflow
+Nominalny Inflow
+Prędkość wentylatora
+Średni
+Minimalny Inflow
+Standby Inflow
+Nominalny Inflow
+Prędkość wentylatora
+Średni
+Minimalny Inflow
+Dziękujemy za wybranie ESCO!
+Dalej
+Dziękujemy za wybranie ESCO!
+Ustawienia
+Cofnij
+Wyłącz
+Użytkownik: Automatyczne przyciemnianie ekranu LCD
+aby automatycznie przyciemnić
+Ekran zostanie zablokowany po aktywowaniu automatyczego przyciemniania.
+Cofnij
+Wyłącz
+Ta czynność jest potrzebna tylko wtedy, gdy chcesz wyłączyć urządzenie
+Ma to na celu zapewnienie prawidłowego zatrzymania wszystkich funkcji i zabezpieczenie przed błędami
+System automatycznie wyłączy wszystkie funkcje (LED, lampa UV, wentylator itp.), a następnie wyświetli czarny ekran.
+Po wyświetleniu czarnego ekranu przez 5 sekund wyłącz zasilanie i odłącz przewód.
+Cofnij
+Cofnij
+Cofnij
+Wygląda na to, że to nie jest imię!
+Dalej
+Logowanie …
+Pomyślnie zalogowano! nazwa użytkownika:
+Logowanie nie powiodło się: nieudana komunikacja z bazą danych.
+Logowanie pomyślne!
+Wygląda na to, że nie ma zalogowanego użytkownika.
+Cofnij
+Wyłącz
+Naciśnij, aby zmienić
+Zostaniesz automatycznie zalogowany, jeśli na ekranie nie będzie aktywności
+Cofnij
+Ustaw
+Minimalne ustawienie to 1 minuta lub ustawienie na 0, które wyłącza czas automatycznego wylogowania.
+Kod części
+Nazwa części
+Sprawdź
+Wymienne komponenty – Dodaj wpis
+Kod części jest nieprawidłowy!
+Dekontaminacja powierzchni roboczej
+Czyszczenie i dekontaminacja ekranu LCD
+Weryfikacja alarmów przy uruchamianiu urządzenia
+Czyszczenie szyby
+Dokładnie wyczyść powierzchnię pod blatem roboczym
+Sprawdź zanieczyszczenie filtra wstępnego
+Wyczyść lampę UV
+Wyczyść zewnętrzne powierdzchnie urządzenia
+Sprawdź poprawność działania wszystkich zaworów serwisowych
+Sprawdź BSC pod kątem wszelkich nieprawidłowości lub awarii
+Wyczyść trudne do usunięcia plamy przy pomocy MEK
+Sprawdź wszystkie funkcje urządzenia
+Wymień lampę UV (jeśli jest zainstalowana)
+Coroczne sprawdzenie oświetlenia LED
+Sprawdź szybę (części, nakrętki, śruby, linki/pasy, przesuwanie)
+Wymień silnik szyby (przy elektrycznie podnoszonej szybie)
+Czujnik zbliżeniowy może wykryć obiekty w odległości 2-5 mm
+Diody LED i brzęczyk działają poprawnie
+Alarmy dźwiękowe i wizualne są włączone, gdy 
+Ręczna kalibracja
+Stała czujnika
+Alarm Inflow
+Minimalny Inflow
+Nominalny Inflow
+Nominalny Downflow
+Nominalna prędkość wentylatora
+Nominalna prędkość wentylatora
+Minimalna prędkość wentylatora
+Minimalny cykl pracy wentylatora
+Minimalne obroty wentylatora
+Wentylator w trybie standby
+Cykl pracy wentylatora w trybie standby
+Obroty wentylatora w trybie Standby
+Cofnij
+Zapisz
+Prędkość przepływu jest nieprawidłowa!
+Wartość cyklu pracy wentylatora jest nieprawidłowa!
+Użytkownik: Ręczne wprowadzenie danych
+Wyjście z ręcznego wprowadzania danych
+Pomiar Downflow
+Wymagana prędkość to
+Średnia
+Obroty:
+Czy na pewno chcesz zmienić cykl pracy wentylatora?
+Musisz ponownie wykonać balans przepływu, jeśli zmieniają cykl pracy.
+Cofnij
+Załadować poprzednie dane?
+Bieżące wartości i wartości robocze zostaną utracone.
+Ustaw
+Odchylenie jest poza wymaganym zakresem.
+Prędkość jest poza wymaganym zakresem.
+z termoanemometrem
+Pomiar Inflow
+Około
+Nie zmieniaj ustawień przepustnicy
+Średnia
+Obroty:
+Średnia objętość
+Cofnij
+Załadować poprzednie dane?
+Bieżące wartości i wartości robocze zostaną utracone.
+Prędkość przepływu jest poza dopuszczalnym zakresem!
+Z balometrem
+Pomiar przy użyciu termoanemometru
+Wymagana (przeliczona) prędkość jest
+Około
+Ustaw szybę na wysokości 76 mm (3”)!
+Najniższa
+Najwyższa
+Średnia
+Obroty:
+Przeliczona prędkość
+Cofnij
+Załadować poprzednie dane?
+Wartości bieżące i wartości robocze zostaną utracone.
+Ustaw
+Prędkość jest poza wymaganym zakresem.
+z Hot Wire
+Jednostki pomiarowe
+Cofnij
+Imperialny
+Zmień jednostki pomiarowe na
+Zmiana jednostek pomiarowych bez przeprowadzenia kalibracji może powodować niedokładności pomiaru prędkości przepływu powietrza
+Użytkownik: Ustaw imperialne jednostki pomiarowe
+Użytkownik: Ustaw metryczne jednostki pomiarowe
+Serwis
+Producent
+Prędkość Downflow
+Prędkość Inflow
+Zapisywanie
+Koniec
+Naciśnij, aby zmienić
+Czas wyciszenia alarmów, gdy szyba jest całkowicie otwarta
+Cofnij
+Ustaw
+Użytkownik: Ustaw czas wyciszenia przy całkowicie podniesionej szybie na %1
+Zapomnij
+Skanowanie …
+Włączne
+Wyłączone
+Cofnij
+Ustaw
+Włącz
+Wyłącz
+Uruchom powownie później
+Zapomnieć połączenie?
+Tryb pracy
+Użytkownik: Ustaw tryb pracy na normalny
+Normalny
+Cofnij
+Potwierdzam…
+Potwierdzenie
+dzień/dni lub mniej
+godzina/godziny lub mniej
+Zrestuj datę
+Czy na pewno chcesz zresetować datę potwierdzenia i datę następnej konserwacji?
+Użytkownik: Zresetuj %1
+Cofnij
+Użytkownik: Przypomnienie o drzemce %1
+Nie
+Nazwa części
+Sprawdź
+Wymienne komponenty – Dodaj wpis
+Kod części jest nieprawidłowy!
+Ostatni pomiar
+Nic
+Niezwykle wrażliwe osoby powinny rozważyć zmniejszenie długotrwałego lub ciężkiego wysiłku.
+Zwiększone prawdopodobieństwo objawów oddechowych u wrażliwych osób, pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo-oddechową lub starszych.
+Osoby z chorobami oddechowymi lub serca, osoby starsze i dzieci powinny unikać długotrwałego wysiłku.
+Pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo-oddechową lub osobami starszymi; Zwiększone skutki oddechowe wśród ogólnej populacji.
+Znaczące pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo-oddechową lub osobami starszymi; Znaczny wzrost problemów oddechowych wśród ogólnej populacji.
+Poważne pogorszenie choroby serca lub płuc oraz przedwczesna śmiertelność u osób z chorobą krążeniowo-oddechową lub osobami starszymi; Poważne ryzyko problemów oddechowych w populacji ogólnej.
+Cofnij
+Timer oczyszczania
+Użytkownik: Ustaw czas oczyszczania na %1
+Po wyłączeniu wentylatora, następuje okres oczyszczania. Ma to na celu upewnienie się, że wszystkie zanieczyszczenia zostały usunięte z przestrzeni roboczej.
+Cofnij
+Potwierdź datę
+Codzienna konserwacja BSC
+Przypomnienie o konserwacji: 1 tydzień
+Przypomnienie o konserwacji: 1 miesiąc
+Przypomnienie o konserwacji: 3 miesiące
+Przypomnienie o konserwacji: 1 rok
+Przypomnienie o konserwacji: 2 lata
+Przypomnienie o konserwacji: 4 lata
+Przypomnienie o konserwacji: 1 dzień
+Przypomnienie o konserwacji: 1 dzień
+Model komory laminarnej
+Fabryczna procedura certyfikacji
+Procedura certyfikacji
+Liczba dysz Laskina
+Penetracja cząstek Downflow
+Penetracja cząstek Inflow
+Model urządzenia
+Data
+Dziennik RP – Dodaj wpis
+Użytkownik: Zresetuj dziennik RP i przywróć domyślne wartości.
+Szybka kalibracja czujnika
+Nominalna prędkość Inflow
+Szybka kalibracja czujnika
+Nominalna prędkość Downflow
+Nominalna prędkość wentylatora
+ADC Czujnika przepływu
+Poczekaj, aż wartość będą stabilne
+Stabilizowanie wartości ADC czujnika przepływu powietrza %1
+Nominalna prędkość Inflow
+Błąd
+Obroty wentylatora są nieprawidłowy!
+Szyba nie jest w pozycji roboczej!
+Cofnij
+Użytkownik: Kalibracja czujnika
+Przewodnik po urządzeniu
+Ekran główny
+Intuicyjne Centrum Kontroli
+Bezkompromisowe bezpieczeństwo poprzez wyświetlanie najważniejszych paramaterów i błędów. Szybka kontrola wszystkich głównych funkcji: wentylatora, jasności, gniazdek, zaworów serwisowych/gazu, lampy UV i wyciszenia.
+Smart Touch
+Umożliwia użytkownikom przesuwanie stron za pomocą określonych gestów. Przesuń w górę, w dół, w prawo i w lewo, aby poznać funkcje.
+Zarządzanie komorą laminarną
+Ustaw ograniczony dostęp do urządzenia, tworząc nowego użytkownika i hasło. Możesz zapisać swoją nazwę użytkownika i hasło, aby ułatwić logowanie w przyszłości.
+Podłącz urządzenie do grupy roboczej
+Połącz z innymi urządzeniami
+Harmonogram wentylatora
+Oszczędzaj do 70% energii
+Błąd przepływu powietrza
+Dźwiękowe i wizualne alarmy przy błędach przepływu powietrza
+Szyba w niewłaściwej pozycji
+Dźwiękowe i wizualne alarmy przy niewłaściwej pozycji szyby
+Cofnij
+Pomiń
+Użytkownik: Ustaw Remote Modbus slave ID na %1
+IPv4 Remote Master Device
+Pozwól
+Zabroń
+Domyślnie system zezwala tylko na odczyt
+Cofnij
+Wymienne komponenty – Dodaj wpis
+Cofnij
+Wydrukuj
+RP – Dodaj wpis
+Naciśnij &lt;b&gt;%1&lt;/b&gt;, aby zapisać formularz wymiennych komponentów.
+Dodaj
+Użytkownik: Dodaj wpis w formularzu RP.
+Strony do eksportu (np. 1 lub 1-10, maks. 10 stron na eksport)
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Usuń starsze wpisy, zacznij od
+Dzisiaj (usuń wszystko)
+Usnąć wpis?
+Magazyn plików
+Cofnij
+Nie
+Godzina (24h)
+Model urządzenia
+Edytuj
+Usuń 
+Edytuj i dodaj wpis z tych danych?
+Czy na pewno chcesz usunąć ten wpis?
+Użytkownik: Usuń wpis w formularzu RP w wierszu %1 (zarejestrowano na %2 %3)
+Anuluj
+Wygląda na to, że nie ma żadnych wpisów.
+Cofnij
+Dodaj nowy wpis
+Cofnij
+Zresetuj licznik pracy wentylatora
+Aktualny czas pracy wentylatora
+Zliczeń na minutę
+Naciśnij, aby ustawić
+Zresetuj czas pracy wentylatora (minuty)
+Użytkownik: Zresetuj czas pracy wentylatora do „%1”
+Cofnij
+Zresetuj kalibrację czujnika
+Resetując kalibrację czujnika starisz wszystkie ustawienia kalibracyjne i powrócisz do ustawień zapisanych w pełnej kalibracji.
+Naciśnij „%1”, aby zresetować.
+Cofnij
+Zresetujesz kalibrację czujnika i powrócisz do pełnej kalibracji.
+Użytkownik: Zresetuj dane kalibracji czujnika
+Kalibracja czujnika przepływu została zresetowana!
+Resetuj zużycie filtrów
+Pozostały czas pracu
+Typowe czas pracy filtrów: do 10 000 godzin lub 600 000 minut
+Zliczeń na minutę
+Żywotność filtra od 0 do 100 % odpowiada obrotom wentylatora od %1 do %2
+Naciśnij, aby ustawić
+Zresetuj czas pracy filtrów (0 – 100%)
+Zresetuj czas pracy filtrów do %1%
+Cofnij
+Zresetuj czas pracy UV
+Zresetuj kalibrację
+Cofnij
+Usuń wszystkie elementy dziennika błędów
+Zresetuj licznik czasu pracy UV
+Zresetuj kalibrację
+Wyłącz harmonogram wentylatorów
+Wyłącz harmonogram lampy UV
+Cofnij
+Zresetuj licznik cyklu szyby
+Obecny ilość cykli szyby
+Licznik cykli szyby rośnie o 0,5 za każdym razem, gdy szyba zostaje podniesiona do wysokości roboczej
+Naciśnij, aby ustawić
+Zresetuj cykl szyby (przyrost o 0,5)
+Dane wejściowe nieprawidłowe!
+Licznik cyklu szyby (przyrost o 0,5)
+Cofnij
+Zresetuj czas pracy UV
+Pozostały czas pracy
+Typowy czas pracy do 2000 godzin lub 120 000 minut
+Naciśnij, aby ustawić
+Zresetuj czas pracy UV (minuty)
+Użytkownik: Zresetuj czas pracy UV do %1
+Cofnij
+Nie
+Godzina (24h)
+Zużycie karty SD
+Cofnij
+z
+Wpisy
+Włącz
+Zapisuj co
+Gniazdo USB znajduje się na górze komory, obok gniazda zasilającego
+Usuń wpisy zaczynając od
+Dzisiaj (usuń wszystko)
+Usnąć wpis?
+Magazyn plików
+Cofnij
+Cofnij
+Nazwa części
+Kod części
+Sprawdź
+Przenieś w górę
+Przenieś w dół
+Anuluj
+Cofnij
+Test Watchdoga
+Nie
+Kod części
+Nazwa części
+Sprawdź
+Wymienne komponenty – Dodaj wpis
+Kod części jest nieprawidłowy!
+Cofnij
+Ustawiony punkt alarmu ciśnienia
+Cofnij
+Ustaw
+Wyjdź z ustawień alarmu ciśnienia?
+Cofnij
+Połącz
+Wyślij
+Błąd! Ponieważ
+Zamknij
+Błąd komunikacji z serwerem!
+Połącz
+Łączenie…
+Błąd weryfikacji silnika!
+Wyślij
+Błąd! Ponieważ
+Zamknij
+Błąd komunikacji z serwerem!
+Korekcja stałej czujnika
+Domyślna wartość stałej czujnika to &lt;b&gt;%1&lt;/b&gt;,
+Stała czujnika przepływu powietrza może się zmieniać w zależności od temperatury otoczenia.
+Dostosuj stałą czujnika &lt;i&gt;%1&lt;/i&gt; Jeśli temperatura otoczenia jest wyższa niż temperatura kalibracji.
+Wyłącz
+Włącz
+Cofnij
+Ustaw
+Cofnij
+Ustaw
+Kod części
+Nazwa części
+Stała
+Sprawdź
+Wymienne komponenty – Dodaj wpis
+Kod części
+Naciśnij, aby zmienić
+Użytkownik: Ustaw numer seryjny urządzenia (%1)
+Cofnij
+Ustawienia transportu
+Tryb transportu wpłynie:
+Wyczyść cały dziennik danych, dziennik błędów i dziennik zdarzeń
+Zresetuj czas pracy wentylatora, czas pracy filtrów, czas pracy UV i ilość cykli szyby
+Ustaw tryb transportu
+Po włączeniu trybu transportu, urządzenie zostanie wyłączone i może zostać uruchomione tylko po ponownym podłączeniu do prądu.
+Użytkownik: Ustaw tryb transportu
+Cofnij
+Diagnostyka
+Szybki przewodnik
+Cofnij
+Logowanie pomyślne!
+Oprogramowanie zainstalowane na nieznanym urządzeniu!
+Cofnij
+Cofnij
+Naciśnij, aby wyświetlić historię wersji
+Nowa wersja oprogramowania jest dostępna na serwerze SVN
+Naciśnij &lt;b&gt;Aktualizacja SVN&lt;/b&gt;, aby zaktualizować!
+Cofnij
+Czy na pewno chcesz kontunować aktualizację?
+Ścieżka do pliku aktualizacyjnego nie istnieje!
+Minutnik
+Minutnik jest nadal aktywny. Jeśli będziesz kontunować, odliczanie zostanie przerwane.
+Cofnij
+Odliczanie minutnika rozpoczęte
+Odliczanie minutnika zatrzymane
+Odliczanie minutnika zakończone
+Włącz
+Sprawdź aktualizację co
+1 minutę
+1 godzinę
+Cofnij
+Cofnij
+Skonfiguruj aktulany system jako zarejestrowany system?
+Limit temperatury otoczenia
+Naciśnij, aby ustawić
+Cofnij
+Użytkownik: Ustaw limit temperatury otoczenia (niski: %1 %3, wysoki: %2 %3)
+Zapisz
+Zmień 
+Zapisz
+Wyczyść 
+Zmień 
+Zapisz
+Wyczyść 
+Cofnij
+Ustaw
+Godzina
+Upewnij się, osłona baterii modułu RTC została zdjęta!
+Aktualna godzina
+Naciśnij, aby zmienić
+Ten system ma funkcję NTP, odniesienie Time.google.com.
+W pierwszej kolejności czas będzie synchronizowany z serwerem NTP zgodnie z ustawieniem strefy czasowej
+Cofnij
+Ustaw
+Cofnij
+Użytkownik: Ustaw strefę czasową (%1)
+Kod części
+Nazwa części
+Sprawdź
+Kod części jest nieprawidłowy!
+Czas 
+Powtarzaj
+Cotygodniowe - poniedziałek
+Cotygodniowe - wtorek
+Cotygodniowo - środa
+Cotygodniowe - czwartek
+Cotygodniowe - piątek
+Cotygodniowe - sobota
+Cotygodniowe - niedziela
+Cofnij
+Zapisz
+Użytkownik: Włączenie lampy w kalendarzu jest aktywne (%1)
+Użytkownik: Włączenie lampy w kalendarzu jest nieaktywne
+Użytkownik: Wyłączenie lampy w kalendarzu jest aktywne (%1)
+Użytkownik: Wyłączenie lampy w kalendarzu jest nieaktywne
+Naciśnij, aby zmienić
+Timer UV ogranicza czas włączenia lampy UV
+Po upływie czasu lampa UV wyłączy się automatycznie.
+Cofnij
+Ustaw
+Rozpoczynanie…
+Nie wyłączaj urządzenia
+Cofnij
+Błąd
+Aktualizowanie…
+Pełna nazwa
+Błędna!
+minimalna/maksymalna długość: %1/ %2!
+Minimalna długość to
+Potwierdzam, wszystkie wpisane dane.
+Cofnij
+Nieprawidłowa wartość!
+pełna nazwa
+Błąd komunikacji z bazą danych.
+Wygląda na to, że nie ma jeszcze zarejestrowanych użytkowników.
+Cofnij
+Odśwież
+Wykorzystano limit użytkowników
+Maksymalnie może być
+Użytkownik: Usuń konto użytkownika o nazwie = '%1'
+Usuń 
+Pełna nazwa
+Błąd!
+minimalna/maksymalna długość: %1/ %2!
+Potwierdzam, wszystkie wpisane dane.
+Cofnij
+Załóż
+Nieprawidłowa wartość!
+Błąd komunikacji z bazą danych.
+sekunda
+Anuluj
+Alarm dźwiękowy nie może zostać wyciszony, gdy alarm okna jest aktywny.
+„Vivarium Mute” umożliwia ograniczenie alarmu audio i wyciszenie alarmu w niewłaściwej pozycji szyby.
+Cofnij
+Czas rozgrzewania
+Użytkownik: Ustaw Czas rozgrzewania na %1
+Gdy użytkownik włącza wewnętrzny wentylator, następuje okres rozgrzewania. Ma to na celu upewnienie się, że czujniki, wentylator i układ sterowania pracują stabilnie.
+Cofnij
+Wyłącz
+Kalibracja czujnika przepływu
+Zamknij
+Zamknij
+To menu jest używane do modyfikacji ustawień urządzenia.
+To menu jest dostępne tylko dla autoryzowanego serwisu.
+Cofnij
+Kalibracja czujnika przepływu
+&lt;h2&gt;Uwaga!&lt;/h2&gt; &lt;br&gt;To menu jest używane do modyfikacji ustawień urządzenia. &lt;br&gt;To menu jest dostępne tylko dla autoryzowanego serwisu.
+Cofnij
+Pomiń
+Zablokuj kalibrację czujnika
+Wymagana jest pełna kalibracja czujnika
+&lt;h2&gt;Uwaga!&lt;/h2&gt; &lt;br&gt;To menu jest używane do modyfikacji ustawień urządzenia. &lt;br&gt;To menu jest dostępne tylko dla autoryzowanego serwisu.
+Cofnij
+Kalibracja czujnika przepływu
+Cofnij
+Błędna wartość!
+Błędny cykl pracy!
+Błędna prędkość!
+Minimalny Inflow
+Nominalny Inflow
+Nominalny Downflow
+Ustaw okno na wysokości roboczej!
+Pomiar Inflow
+Pomiar Inflow nominal
+Pomiar Inflow minimum
+Metoda zapasowa
+Pomiar Downflow
+Szybka kalibracja czujnika
+Cofnij
+Jeden z etapów kalibracji nie został ukończony.
+Użytkownik: Rozpocznij pełną kalibrację czujnika.
+Ustaw okno na wysokości roboczej!
+Błędna wartość!
+Błędny cykl pracy!
+Błędna prędkość!
+Minimalny Inflow
+Nominalny Inflow
+Nominalny Downflow
+Pomiar Inflow nominal
+Pomiar Inflow minimum
+Pomiar Inflow Standby
+Pomiar Downflow
+Użytkownik: Pomiar Inflow nominal (%1)
+Użytkownik: Pomiar Inflow minimum (%1)
+Użytkownik: Pomiar Inflow Standby (%1)
+Użytkownik: Pomiar Downflow nominal (%1)
+Cofnij
+Przesuń w górę, aby odblokować
+Aby zaktualizować, zaloguj się jako „Producent”, a następnie przejdź do menu aktualizacji oprogramowania!
+Zaloguj się i naciśnij to powiadomienie, aby potwierdzić.
+Naciśnij to powiadomienie, aby potwierdzić
+„%1” można bezpiecznie odłączyć od urządzenia
