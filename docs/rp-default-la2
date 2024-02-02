@@ -1,0 +1,2344 @@
+{
+        "LA2": {
+                "3ft": {
+                        "230v": {
+                                "sbcSet":[
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080017",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080219",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081412",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081409",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080254",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080119",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "1081588",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "1081699",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        },
+                        "115v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080008",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080219",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081412",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081409",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080256",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080115",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        }
+                },
+                "4ft": {
+                        "230v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080017",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080219",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081412",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081409",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080254",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080119",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "1081588",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "1081699",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        },
+                        "115v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080008",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080219",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081412",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081409",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080256",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080115",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        }
+                },
+                "5ft": {
+                        "230v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080017",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080223",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081414",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081423",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080254",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080115",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "1081588",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "1081699",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        },
+                        "115v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080008",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080223",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081414",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081423",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080256",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080116",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        }
+                },
+                "6ft": {
+                        "230v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080017",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080223",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081415",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP 1",
+                                                "id": "1081410",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP 2",
+                                                "id": "1081408",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080254",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080115",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "1081588",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "1081699",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        },
+                        "115v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080008",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080223",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081415",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP 1",
+                                                "id": "1081410",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP 2",
+                                                "id": "1081408",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080256",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080116",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        }
+                },
+                "8ft": {
+                        "230v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080017",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080223",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081415",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081410",
+                                                "qty": "2"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080254",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080115",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "1081588",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "1081699",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        },
+                        "115v": {
+                                "sbcSet": [
+                                        {
+                                                "desc": "ESCO SBC WIFI B",
+                                                "id": "1081678",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "MICRO SDHC 8GB",
+                                                "id": "1081593",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CTP/DISPLAY INTERFACE VER02",
+                                                "id": "1081679",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "CAPACITIVE TOUCH LCD 7.0\"",
+                                                "id": "1081458",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB PDB 12V",
+                                                "id": "1081321",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID ANALOG 2 AI 2 AO",
+                                                "id": "1081367",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SUB HYBRID DIGITAL 5 LNE 3 COM 6 DI",
+                                                "id": "1081368",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "RBM COM DSI BOARD",
+                                                "id": "1081439",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB OTG 2.0 MICRO-A FEMALE",
+                                                "id": "1081369",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "USB CM-2E EXTENSION CABLE (2 Meter)",
+                                                "id": "1081434",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "BUZZER,400MM LEAD",
+                                                "id": "1080038",
+                                                "qty": "1"
+                                        }
+                                ],
+                                "sensors": [
+                                        {
+                                                "desc": "EXHAUST SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DOWNFLOW SENSOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "uvLed": [
+                                        {
+                                                "desc": "UV BALLAST",
+                                                "id": "1080008",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "UV LAMP",
+                                                "id": "1080223",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "LED DRIVER",
+                                                "id": "1081415",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "LED LAMP",
+                                                "id": "1081410",
+                                                "qty": "2"
+                                        }
+                                ],
+                                "psu": [
+                                        {
+                                                "desc": "SMPS 12V",
+                                                "id": "1080945",
+                                                "qty": "1"
+                                        },
+                                        {
+                                                "desc": "SMPS 48V",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "DC/DC CONVERTER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "mcbEmi": [
+                                        {
+                                                "desc": "MAIN EMI FILTER",
+                                                "id": "1080256",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "MAIN CIRCUIT BREAKER",
+                                                "id": "1080116",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "BLOWER EMI FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "AUX CIRCUIT BREAKER",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "contactSw": [
+                                        {
+                                                "desc": "MAGNETIC SWITCH",
+                                                "id": "1080996",
+                                                "qty": "5"
+                                        },
+                                        {
+                                                "desc": "MAGNET",
+                                                "id": "1080226",
+                                                "qty": "2"
+                                        },
+                                        {
+                                                "desc": "SOLENOID",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "KEY SWITCH",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "bMotor": [
+                                        {
+                                                "desc": "MAIN BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MOTOR BLOWER EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "capInd": [
+                                        {
+                                                "desc": "MAIN BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "INDUCTOR",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST BLOWER CAPACITOR",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "custom": [
+                                        {
+                                                "desc": "MOTORIZED SASH",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "MAGNEHELIC",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ],
+                                "filter": [
+                                        {
+                                                "desc": "MAIN",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SECOND EXHAUST",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "PRE-FILTER",
+                                                "id": "",
+                                                "qty": ""
+                                        },
+                                        {
+                                                "desc": "SUPPLY",
+                                                "id": "",
+                                                "qty": ""
+                                        }
+                                ]
+                        }
+                }
+        }
+}
