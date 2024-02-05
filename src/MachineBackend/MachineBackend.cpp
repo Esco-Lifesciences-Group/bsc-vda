@@ -37,7 +37,7 @@
 #include "Implementations/DeviceAnalogCom/DeviceAnalogCom.h"
 #include "Implementations/SashWindow/SashWindow.h"
 #include "Implementations/DigitalOut/DeviceDigitalOut.h"
-#include "Implementations/MotorizeOnRelay/MotorizeOnRelay.h"
+#include "Implementations/HydraulicOnRelay/HydraulicOnRelay.h"
 #include "Implementations/AirflowVelocity/AirflowVelocity.h"
 #include "Implementations/Temperature/Temperature.h"
 #include "Implementations/PressureDiff/PressureDiff.h"
@@ -1117,22 +1117,23 @@ void MachineBackend::setup()
 
     /// Sash Window Motorize
     {
-        bool installed = m_settings->value(SKEY_SASH_MOTOR_INSTALLED, MachineEnums::DIG_STATE_ZERO).toInt();
+        bool installed = m_settings->value(SKEY_SASH_MOTOR_INSTALLED, MachineEnums::DIG_STATE_ONE).toInt();
         //        installed = true;
-        pData->setSashWindowMotorizeInstalled(installed);
+        pData->setHydraulicMotorizedInstalled(installed);
 
-        m_pSasWindowMotorize.reset(new MotorizeOnRelay);
-        m_pSasWindowMotorize->setSubModule(m_boardRelay1.data());
-        m_pSasWindowMotorize->setChannelUp(4);
-        m_pSasWindowMotorize->setChannelDown(3);
+        m_pHydraulicMotorize.reset(new HydraulicOnRelay);
+        m_pHydraulicMotorize->setSubModule(m_boardRelay1.data());
+        m_pHydraulicMotorize->setChannelDown(6);
+        m_pHydraulicMotorize->setChannelUp(7);
+        m_pHydraulicMotorize->setChannelEnable(4);
 
 #ifdef QT_DEBUG
         /// allow up channel up and down channel active in one time
         /// this only for testing/debug
-        m_pSasWindowMotorize->setProtectFromDualActive(true);
+        m_pHydraulicMotorize->setProtectFromDualActive(true);
 #endif
 
-        connect(m_pSasWindowMotorize.data(), &MotorizeOnRelay::stateChanged,
+        connect(m_pHydraulicMotorize.data(), &HydraulicOnRelay::stateChanged,
                 pData, [&](int newVal){
                     pData->setSashWindowMotorizeState(static_cast<short>(newVal));
 
@@ -1140,11 +1141,11 @@ void MachineBackend::setup()
                     _setModbusRegHoldingValue(modbusRegisterAddress.SashMotorizeState.addr, static_cast<ushort>(newVal));
                 });
 
-        connect(m_pSasWindowMotorize.data(), &MotorizeOnRelay::interlockUpChanged,
+        connect(m_pHydraulicMotorize.data(), &HydraulicOnRelay::interlockUpChanged,
                 pData, [&](short newVal){
                     pData->setSashWindowMotorizeUpInterlocked(newVal);
                 });
-        connect(m_pSasWindowMotorize.data(), &MotorizeOnRelay::interlockDownChanged,
+        connect(m_pHydraulicMotorize.data(), &HydraulicOnRelay::interlockDownChanged,
                 pData, [&](short newVal){
                     pData->setSashWindowMotorizeDownInterlocked(newVal);
                 });
@@ -1182,7 +1183,7 @@ void MachineBackend::setup()
                          this, &MachineBackend::_onSashStateChanged);
 
         int timerMs = 250;
-        if(pData->getSashWindowMotorizeInstalled())
+        if(pData->getHydraulicMotorizedInstalled())
             timerMs = 50;
         //// Create Independent Timer Event For Sash Motorize
         m_timerEventForSashWindowRoutine.reset(new QTimer);
@@ -1370,29 +1371,29 @@ void MachineBackend::setup()
         }
     }
 
-    /// Exhaust Contact
-    {
-        m_pExhaustContact.reset(new DeviceDigitalOut);
-        m_pExhaustContact->setSubModule(m_boardRelay1.data());
-        m_pExhaustContact->setChannelIO(6);
+    //    /// Exhaust Contact
+    //    {
+    //        m_pExhaustContact.reset(new DeviceDigitalOut);
+    //        m_pExhaustContact->setSubModule(m_boardRelay1.data());
+    //        m_pExhaustContact->setChannelIO(6);
 
-        connect(m_pExhaustContact.data(), &DeviceDigitalOut::stateChanged,
-                this, [&](int newVal){
-                    setExhaustContactState(static_cast<short>(newVal));
-                });
-    }
+    //        connect(m_pExhaustContact.data(), &DeviceDigitalOut::stateChanged,
+    //                this, [&](int newVal){
+    //                    setExhaustContactState(static_cast<short>(newVal));
+    //                });
+    //    }
 
-    /// Alarm Contact
-    {
-        m_pAlarmContact.reset(new DeviceDigitalOut);
-        m_pAlarmContact->setSubModule(m_boardRelay1.data());
-        m_pAlarmContact->setChannelIO(7);
+    //    /// Alarm Contact
+    //    {
+    //        m_pAlarmContact.reset(new DeviceDigitalOut);
+    //        m_pAlarmContact->setSubModule(m_boardRelay1.data());
+    //        m_pAlarmContact->setChannelIO(7);
 
-        connect(m_pAlarmContact.data(), &DeviceDigitalOut::stateChanged,
-                this, [&](int newVal){
-                    setAlarmContactState(static_cast<short>(newVal));
-                });
-    }
+    //        connect(m_pAlarmContact.data(), &DeviceDigitalOut::stateChanged,
+    //                this, [&](int newVal){
+    //                    setAlarmContactState(static_cast<short>(newVal));
+    //                });
+    //    }
 
     /// Particle Counter
     {
@@ -2634,7 +2635,7 @@ void MachineBackend::setup()
 
     /// JUST TIMER for triggering action by time
     {
-        if(pData->getSashWindowMotorizeInstalled()){
+        if(pData->getHydraulicMotorizedInstalled()){
             m_timerEventEvery50MSecond.reset(new QTimer);
             m_timerEventEvery50MSecond->setInterval(std::chrono::milliseconds(50));
 
@@ -2727,11 +2728,11 @@ void MachineBackend::setup()
                 pData->setPowerOutageRecoverTime(poweroutageRecoverTime);
 
                 if(pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(pData->getSashWindowMotorizeDownInterlocked()){
-                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 switch (pData->getSashWindowState()) {
@@ -3083,14 +3084,14 @@ void MachineBackend::loop()
 
     /// ACTUATOR
     /// put any actuator routine task in here
-    m_pSasWindowMotorize->routineTask();
+    m_pHydraulicMotorize->routineTask();
     m_pLight->routineTask();
     m_pLightIntensity->routineTask();
     if(pData->getSocketInstalled()) m_pSocket->routineTask();
     if(pData->getGasInstalled()) m_pGas->routineTask();
     if(pData->getUvInstalled()) m_pUV->routineTask();
-    m_pExhaustContact->routineTask();
-    m_pAlarmContact->routineTask();
+//    m_pExhaustContact->routineTask();
+//    m_pAlarmContact->routineTask();
     //    m_pExhaustPressure->routineTask();
 
     if(m_stop){
@@ -3256,7 +3257,7 @@ const QString MachineBackend::_tr(const QString &source)
 void MachineBackend::_onTriggeredEventSashWindowRoutine()
 {
     //qDebug() << metaObject()->className() << __FUNCTION__ << thread();
-    //m_pSasWindowMotorize->routineTask();
+    //m_pHydraulicMotorize->routineTask();
     m_pSashWindow->routineTask();
 
     short sashPrev = pData->getSashWindowPrevState();
@@ -3315,14 +3316,14 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
         switch(sashState){
         case MachineEnums::SASH_STATE_ERROR_SENSOR_SSV:
             ////MOTORIZE SASH
-            if(pData->getSashWindowMotorizeInstalled()){
+            if(pData->getHydraulicMotorizedInstalled()){
 
                 if(pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(pData->getSashWindowMotorizeDownInterlocked()){
-                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(m_pSashWindow->isSashStateChanged() && sashChangedValid){
@@ -3331,8 +3332,8 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                             pData->setSashCycleCountValid(false);
                         }
                         qDebug() << "Sash Motor Off in Sash Error";
-                        m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                        m_pSasWindowMotorize->routineTask();
+                        m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                        m_pHydraulicMotorize->routineTask();
                         if(m_sashMovedDown)m_sashMovedDown = false;
                     }//
                 }//
@@ -3344,16 +3345,16 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
             break;
         case MachineEnums::SASH_STATE_FULLY_CLOSE_SSV:
             ////MOTORIZE SASH
-            if(pData->getSashWindowMotorizeInstalled()){
+            if(pData->getHydraulicMotorizedInstalled()){
 
                 if(pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if((pData->getSashWindowPrevState() == MachineEnums::SASH_STATE_FULLY_CLOSE_SSV)
                     && (pData->getSashWindowMotorizeState() == MachineEnums::MOTOR_SASH_STATE_DOWN)){
                     if(!pData->getSashWindowMotorizeDownInterlocked()){
-                        m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ONE);
+                        m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ONE);
                     }
                 }
 
@@ -3376,8 +3377,8 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                             QObject::connect(eventTimerForDelayMotorizedOffAtFullyClosed, &QTimer::timeout,
                                              eventTimerForDelayMotorizedOffAtFullyClosed, [=](){
                                                  qDebug() << "Sash Motor Off in Sash Fully Closed With Delay";
-                                                 m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                                                 m_pSasWindowMotorize->routineTask();
+                                                 m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                                                 m_pHydraulicMotorize->routineTask();
                                                  if(m_sashMovedDown)m_sashMovedDown = false;
                                                  m_delaySashMotorFullyClosedExecuted = true;
                                                  setBuzzerState(MachineEnums::DIG_STATE_ZERO);
@@ -3387,14 +3388,14 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                         }
                     }else{
                         qDebug() << "Sash Motor Off in Sash Fully Closed";
-                        m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                        m_pSasWindowMotorize->routineTask();
+                        m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                        m_pHydraulicMotorize->routineTask();
                         if(m_sashMovedDown)m_sashMovedDown = false;
                     }
                 }
                 if(m_delaySashMotorFullyClosedExecuted){
                     if(!pData->getSashWindowMotorizeDownInterlocked()){
-                        m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ONE);
+                        m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ONE);
                     }
                     if (eventTimerForDelayMotorizedOffAtFullyClosed != nullptr) {
                         eventTimerForDelayMotorizedOffAtFullyClosed->stop();
@@ -3410,14 +3411,14 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
             break;
         case MachineEnums::SASH_STATE_UNSAFE_SSV:
             ////MOTORIZE SASH
-            if(pData->getSashWindowMotorizeInstalled()){
+            if(pData->getHydraulicMotorizedInstalled()){
 
                 if(pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(pData->getSashWindowMotorizeDownInterlocked()){
-                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 }
             }
             //        /// CLEAR FLAG OF SASH STATE FLAG
@@ -3427,13 +3428,13 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
             break;
         case MachineEnums::SASH_STATE_STANDBY_SSV:
             ////MOTORIZE SASH
-            if(pData->getSashWindowMotorizeInstalled()){
+            if(pData->getHydraulicMotorizedInstalled()){
                 if(pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(pData->getSashWindowMotorizeDownInterlocked()){
-                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(m_pSashWindow->isSashStateChanged() && sashChangedValid && !m_eventLoopSashMotorActive){
@@ -3445,8 +3446,8 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                         if(pData->getSashWindowPrevState() != MachineEnums::SASH_STATE_STANDBY_SSV){
                             /// Turned off mototrize in every defined magnetic switch
                             if(pData->getSashWindowMotorizeState() == MachineEnums::MOTOR_SASH_STATE_DOWN){
-                                m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                                m_pSasWindowMotorize->routineTask();
+                                m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                                m_pHydraulicMotorize->routineTask();
                                 if(m_sashMovedDown)m_sashMovedDown = false;
                                 qDebug() << "Sash Motor Off in Sash Standby 1";
                                 m_eventLoopCounter = 0;
@@ -3459,8 +3460,8 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                                                          m_eventLoopCounter++;
                                                          qDebug() << "waitLoop" << sashWindowState << m_eventLoopCounter;
                                                          if ((sashWindowState == MachineEnums::SASH_STATE_STANDBY_SSV) || (m_eventLoopCounter >= 20)){
-                                                             m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                                                             m_pSasWindowMotorize->routineTask();
+                                                             m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                                                             m_pHydraulicMotorize->routineTask();
                                                              qDebug() << "Sash Motor Off in Sash Standby WaitLoop";
                                                              if(pData->getFanPrimaryState() == MachineEnums::FAN_STATE_ON){
                                                                  ///Ensure the Buzzer Alarm Off Once in Standby Mode and fan ON
@@ -3475,16 +3476,16 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                                                          else {
                                                              m_eventLoopSashMotorActive = true;
                                                              m_pSashWindow->setSafeSwitcher(SashWindow::SWITCHER_UP);
-                                                             m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_UP);
-                                                             m_pSasWindowMotorize->routineTask();
+                                                             m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_UP);
+                                                             m_pHydraulicMotorize->routineTask();
                                                              qDebug() << "Sash Motor Up in WaitLoop Standby";
                                                          }
                                                      });
                                     waitLoop.exec();
                                 });
                             }else{
-                                m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                                m_pSasWindowMotorize->routineTask();
+                                m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                                m_pHydraulicMotorize->routineTask();
                                 if(m_sashMovedDown)m_sashMovedDown = false;
                                 qDebug() << "Sash Motor Off in Sash Standby";
                             }//
@@ -3539,14 +3540,14 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
             }//
 
             ////MOTORIZE SASH
-            if(pData->getSashWindowMotorizeInstalled()){
+            if(pData->getHydraulicMotorizedInstalled()){
 
                 if(pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(pData->getSashWindowMotorizeDownInterlocked()){
-                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(m_pSashWindow->isSashStateChanged() && sashChangedValid){
@@ -3567,14 +3568,14 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                             /// Turned off mototrize in every defined magnetic switch
 
                             if(pData->getSashWindowMotorizeState() == MachineEnums::MOTOR_SASH_STATE_DOWN){
-                                m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                                m_pSasWindowMotorize->routineTask();
+                                m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                                m_pHydraulicMotorize->routineTask();
                                 if(m_sashMovedDown)m_sashMovedDown = false;
                                 qDebug() << "Sash Motor Off in Sash Safe 1";
 
                             }else{
-                                m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                                m_pSasWindowMotorize->routineTask();
+                                m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                                m_pHydraulicMotorize->routineTask();
                                 if(m_sashMovedDown)m_sashMovedDown = false;
                                 qDebug() << "Sash Motor Off in Sash Safe";
                             }
@@ -3647,14 +3648,14 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
             break;
         case MachineEnums::SASH_STATE_FULLY_OPEN_SSV:
             ////MOTORIZE SASH
-            if(pData->getSashWindowMotorizeInstalled()){
+            if(pData->getHydraulicMotorizedInstalled()){
 
                 if(!pData->getSashWindowMotorizeUpInterlocked()){
-                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ONE);
+                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ONE);
                 }
 
                 if(pData->getSashWindowMotorizeDownInterlocked()){
-                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 }
 
                 if(m_pSashWindow->isSashStateChanged() && sashChangedValid){
@@ -3663,8 +3664,8 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
                             pData->setSashCycleCountValid(true);
                         }
                         qDebug() << "Sash Motor Off in Sash Fully Open";
-                        m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                        m_pSasWindowMotorize->routineTask();
+                        m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                        m_pHydraulicMotorize->routineTask();
                         if(m_sashMovedDown)m_sashMovedDown = false;
                     }
                 }
@@ -3678,21 +3679,21 @@ void MachineBackend::_onTriggeredEventSashWindowRoutine()
         break;
     case MachineEnums::MODE_OPERATION_MAINTENANCE:
         ////MOTORIZE SASH
-        if(pData->getSashWindowMotorizeInstalled()){
+        if(pData->getHydraulicMotorizedInstalled()){
 
             if(pData->getSashWindowMotorizeUpInterlocked()){
-                m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
             }
 
             if(pData->getSashWindowMotorizeDownInterlocked()){
-                m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
             }
 
             if(m_pSashWindow->isSashStateChanged() && sashChangedValid){
                 if(pData->getSashWindowMotorizeState()){
                     qDebug() << "Sash Motor Off in Mode Maintenance";
-                    m_pSasWindowMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
-                    m_pSasWindowMotorize->routineTask();
+                    m_pHydraulicMotorize->setState(MachineEnums::MOTOR_SASH_STATE_OFF);
+                    m_pHydraulicMotorize->routineTask();
                     if(m_sashMovedDown)m_sashMovedDown = false;
                 }
             }
@@ -5178,7 +5179,7 @@ void MachineBackend::setExhaustContactState(short exhaustContactState)
     //    qDebug() << metaObject()->className() << __FUNCTION__ << thread();
     //    qDebug() << exhaustContactState;
 
-    m_pExhaustContact->setState(exhaustContactState);
+//    m_pExhaustContact->setState(exhaustContactState);
     pData->setExhaustContactState(exhaustContactState);
 }
 
@@ -5187,7 +5188,7 @@ void MachineBackend::setAlarmContactState(short alarmContactState)
     //    qDebug() << metaObject()->className() << __FUNCTION__ << thread();
     //    qDebug() << alarmContactState;
 
-    m_pAlarmContact->setState(alarmContactState);
+//    m_pAlarmContact->setState(alarmContactState);
     pData->setAlarmContactState(alarmContactState);
 }
 
@@ -5211,16 +5212,16 @@ void MachineBackend::setSashMotorizeState(short value)
         /// Record Previous State of the Sash Window
         pData->setSashWindowPrevState(pData->getSashWindowState());
 
-        m_pSasWindowMotorize->setState(value);
-        m_pSasWindowMotorize->routineTask();
+        m_pHydraulicMotorize->setState(value);
+        m_pHydraulicMotorize->routineTask();
         if(!isAlarmNormal(pData->getSashCycleMotorLockedAlarm())){
             pData->setSashCycleMotorLockedAlarm(MachineEnums::ALARM_NORMAL_STATE);
             _insertAlarmLog(ALARM_LOG_CODE::ALC_SASH_MOTOR_OK, _tr(ALARM_LOG_TEXT_SASH_MOTOR_OK));
         }
     }//
     else{
-        m_pSasWindowMotorize->setInterlockDown(1);
-        m_pSasWindowMotorize->setInterlockUp(1);
+        m_pHydraulicMotorize->setInterlockDown(1);
+        m_pHydraulicMotorize->setInterlockUp(1);
         if(!isAlarmActive(pData->getSashCycleMotorLockedAlarm())){
             pData->setSashCycleMotorLockedAlarm(MachineEnums::ALARM_ACTIVE_STATE);
             _insertAlarmLog(ALARM_LOG_CODE::ALC_SASH_MOTOR_LOCKED, _tr(ALARM_LOG_TEXT_SASH_MOTOR_LOCKED));
@@ -8834,8 +8835,8 @@ void MachineBackend::setSashCycleMeter(int sashCycleMeter)
 
     int prevSashCycle = pData->getSashCycleMeter()/10;
     if(prevSashCycle >= 16000 && sashCycleMeter < 16000){
-        m_pSasWindowMotorize->setInterlockDown(0);
-        m_pSasWindowMotorize->setInterlockUp(0);
+        m_pHydraulicMotorize->setInterlockDown(0);
+        m_pHydraulicMotorize->setInterlockUp(0);
         if(!isAlarmNormal(pData->getSashCycleMotorLockedAlarm())){
             pData->setSashCycleMotorLockedAlarm(MachineEnums::ALARM_NORMAL_STATE);
             _insertAlarmLog(ALARM_LOG_CODE::ALC_SASH_MOTOR_OK, _tr(ALARM_LOG_TEXT_SASH_MOTOR_OK));
@@ -10771,14 +10772,14 @@ void MachineBackend::_machineState()
             case MachineEnums::SASH_STATE_UNSAFE_SSV:
             {
                 //            ////MOTORIZE SASH
-                //            if(pData->getSashWindowMotorizeInstalled()){
+                //            if(pData->getHydraulicMotorizedInstalled()){
 
                 //                if(pData->getSashWindowMotorizeUpInterlocked()){
-                //                    m_pSasWindowMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
+                //                    m_pHydraulicMotorize->setInterlockUp(MachineEnums::DIG_STATE_ZERO);
                 //                }
 
                 //                if(pData->getSashWindowMotorizeDownInterlocked()){
-                //                    m_pSasWindowMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
+                //                    m_pHydraulicMotorize->setInterlockDown(MachineEnums::DIG_STATE_ZERO);
                 //                }
                 //            }
 
@@ -11938,19 +11939,19 @@ void MachineBackend::onDummyStateNewConnection()
         }
 
         if(message == QLatin1String("#sashmotor#dummy#1")){
-            m_pSasWindowMotorize->setDummyStateEnable(1);
+            m_pHydraulicMotorize->setDummyStateEnable(1);
         }
         else if(message == QLatin1String("#sashmotor#dummy#0")){
-            m_pSasWindowMotorize->setDummyStateEnable(0);
+            m_pHydraulicMotorize->setDummyStateEnable(0);
         }
         else if(message == QLatin1String("#sashmotor#state#0")){
-            m_pSasWindowMotorize->setDummyState(MachineEnums::MOTOR_SASH_STATE_OFF);
+            m_pHydraulicMotorize->setDummyState(MachineEnums::MOTOR_SASH_STATE_OFF);
         }
         else if(message == QLatin1String("#sashmotor#state#1")){
-            m_pSasWindowMotorize->setDummyState(MachineEnums::MOTOR_SASH_STATE_UP);
+            m_pHydraulicMotorize->setDummyState(MachineEnums::MOTOR_SASH_STATE_UP);
         }
         else if(message == QLatin1String("#sashmotor#state#2")){
-            m_pSasWindowMotorize->setDummyState(MachineEnums::MOTOR_SASH_STATE_DOWN);
+            m_pHydraulicMotorize->setDummyState(MachineEnums::MOTOR_SASH_STATE_DOWN);
         }
 
         if(message == QLatin1String("#temp#dummy#1")){

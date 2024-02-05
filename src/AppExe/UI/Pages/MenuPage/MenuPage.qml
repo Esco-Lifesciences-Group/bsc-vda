@@ -326,7 +326,7 @@ ViewApp {
 
             property bool userSignedStatus: false
 
-            property bool sashWindowMotorizeInstalled: false
+            property bool hydraulicMotorizedInstalled: false
             property bool uvInstalled: false
             property bool socketInstalled: false
             property bool seasInstalled: false
@@ -345,7 +345,7 @@ ViewApp {
             //                //console.debug("myWorker.onEstablishedChanged.connect")
             //                myWorker.sendMessage({"action": "init",
             //                                         "userlevel": UserSessionService.roleLevel,
-            //                                         "sashWindowMotorizeInstalled": props.sashWindowMotorizeInstalled
+            //                                         "hydraulicMotorizedInstalled": props.hydraulicMotorizedInstalled
             //                                     })
             //            })
             MachineAPI.setPropogateComposeEventGesture(true)
@@ -362,7 +362,7 @@ ViewApp {
                 //                    ////console.debug("StackView.Active");
                 /// only re-fillup if this screen on state visible
                 props.userSignedStatus = Qt.binding(function(){ return UserSessionService.loggedIn })
-                props.sashWindowMotorizeInstalled = Qt.binding(function(){ return MachineData.sashWindowMotorizeInstalled })
+                props.hydraulicMotorizedInstalled = Qt.binding(function(){ return MachineData.hydraulicMotorizedInstalled })
                 props.uvInstalled = Qt.binding(function(){ return MachineData.uvInstalled })
                 props.socketInstalled = Qt.binding(function(){ return MachineData.socketInstalled })
                 props.seasInstalled = Qt.binding(function(){ return MachineData.seasInstalled })
@@ -370,7 +370,7 @@ ViewApp {
 
                 props.filterLifeDisplayEn = Qt.binding(function(){return MachineData.filterLifeDisplayEnabled})
 
-                //console.log("props.sashWindowMotorizeInstalled: " + props.sashWindowMotorizeInstalled)
+                //console.log("props.hydraulicMotorizedInstalled: " + props.hydraulicMotorizedInstalled)
 
                 if (!props.menuHasCreated) {
                     props.menuHasCreated = true
@@ -378,7 +378,7 @@ ViewApp {
                                              "userlevel": UserSessionService.roleLevel,
                                              "uvInstalled": props.uvInstalled,
                                              "socketInstalled": props.socketInstalled,
-                                             "sashWindowMotorizeInstalled": props.sashWindowMotorizeInstalled,
+                                             "hydraulicMotorizedInstalled": props.hydraulicMotorizedInstalled,
                                              "seasInstalled": props.seasInstalled,
                                              "particleCounterInstalled": props.particleCounterInstalled,
                                              "filterLifeDisplayEn": props.filterLifeDisplayEn,

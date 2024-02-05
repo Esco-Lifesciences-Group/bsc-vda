@@ -268,7 +268,7 @@ ViewApp {
                                           installed: MachineData.seasFlapInstalled})
                 currentAuxOption.push({label: qsTr("Motorized Sash"),
                                           id: "mosash",
-                                          installed: MachineData.sashWindowMotorizeInstalled})
+                                          installed: MachineData.hydraulicMotorizedInstalled})
                 currentAuxOption.push({label: qsTr("UV Lamp"),
                                           id: "uv",
                                           installed: MachineData.uvInstalled})

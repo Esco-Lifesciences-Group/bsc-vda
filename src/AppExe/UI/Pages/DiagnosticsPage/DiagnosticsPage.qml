@@ -274,7 +274,7 @@ ViewApp {
                                     })
                                 }
 
-                                enabled: props.sashWindowMotorizeInstalled
+                                enabled: props.hydraulicMotorizedInstalled
                             }//
 
                             CusComPage.RowItemApp {
@@ -846,44 +846,44 @@ ViewApp {
                                 }
                             }//
 
-                            CusComPage.RowItemApp {
-                                width: view.width
-                                height: 50
-                                viewContentY: view.contentY
-                                viewSpan: view.span
+                            //                            CusComPage.RowItemApp {
+                            //                                width: view.width
+                            //                                height: 50
+                            //                                viewContentY: view.contentY
+                            //                                viewSpan: view.span
 
-                                label: qsTr("Exhaust Free Relay Contact")
+                            //                                label: qsTr("Exhaust Free Relay Contact")
 
-                                property bool connected: false
-                                value: connected ? qsTr("ON") : qsTr("OFF")
+                            //                                property bool connected: false
+                            //                                value: connected ? qsTr("ON") : qsTr("OFF")
 
-                                onLoaded: {
-                                    connected = Qt.binding(function() { return MachineData.exhaustContactState })
-                                }
+                            //                                onLoaded: {
+                            //                                    connected = Qt.binding(function() { return MachineData.exhaustContactState })
+                            //                                }
 
-                                onUnloaded: {
-                                    connected = false
-                                }
-                            }//
-                            CusComPage.RowItemApp {
-                                width: view.width
-                                height: 50
-                                viewContentY: view.contentY
-                                viewSpan: view.span
+                            //                                onUnloaded: {
+                            //                                    connected = false
+                            //                                }
+                            //                            }//
+                            //                            CusComPage.RowItemApp {
+                            //                                width: view.width
+                            //                                height: 50
+                            //                                viewContentY: view.contentY
+                            //                                viewSpan: view.span
 
-                                label: qsTr("Alarm Free Relay Contact")
+                            //                                label: qsTr("Alarm Free Relay Contact")
 
-                                property bool connected: false
-                                value: connected ? qsTr("ON") : qsTr("OFF")
+                            //                                property bool connected: false
+                            //                                value: connected ? qsTr("ON") : qsTr("OFF")
 
-                                onLoaded: {
-                                    connected = Qt.binding(function() { return MachineData.alarmContactState })
-                                }
+                            //                                onLoaded: {
+                            //                                    connected = Qt.binding(function() { return MachineData.alarmContactState })
+                            //                                }
 
-                                onUnloaded: {
-                                    connected = false
-                                }
-                            }//
+                            //                                onUnloaded: {
+                            //                                    connected = false
+                            //                                }
+                            //                            }//
 
                             CusComPage.RowItemApp {
                                 width: view.width
@@ -1408,7 +1408,7 @@ ViewApp {
             property bool particleCounterSensorInstalled: false
             property bool seasInstalled: false
             property bool uvInstalled: false
-            property bool sashWindowMotorizeInstalled: false
+            property bool hydraulicMotorizedInstalled: false
         }//
 
         /// called Once but after onResume
@@ -1425,7 +1425,7 @@ ViewApp {
                 props.particleCounterSensorInstalled = Qt.binding(function(){return MachineData.particleCounterSensorInstalled})
                 props.seasInstalled = Qt.binding(function(){return MachineData.seasInstalled})
                 props.uvInstalled = Qt.binding(function(){return MachineData.uvInstalled})
-                props.sashWindowMotorizeInstalled = Qt.binding(function(){return MachineData.sashWindowMotorizeInstalled})
+                props.hydraulicMotorizedInstalled = Qt.binding(function(){return MachineData.hydraulicMotorizedInstalled})
 
             }
 

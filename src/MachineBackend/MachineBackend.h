@@ -45,7 +45,7 @@ class BlowerRbmDsi;
 class DeviceAnalogCom;
 class SashWindow;
 class DeviceDigitalOut;
-class MotorizeOnRelay;
+class HydraulicOnRelay;
 class AirflowVelocity;
 class Temperature;
 class ClassManager;
@@ -511,9 +511,9 @@ private:
     QScopedPointer<DeviceDigitalOut>    m_pSocket;
     QScopedPointer<DeviceDigitalOut>    m_pGas;
     QScopedPointer<DeviceDigitalOut>    m_pUV;
-    QScopedPointer<MotorizeOnRelay>     m_pSasWindowMotorize;
-    QScopedPointer<DeviceDigitalOut>    m_pExhaustContact;
-    QScopedPointer<DeviceDigitalOut>    m_pAlarmContact;
+    QScopedPointer<HydraulicOnRelay>    m_pHydraulicMotorize;
+//    QScopedPointer<DeviceDigitalOut>    m_pExhaustContact;
+//    QScopedPointer<DeviceDigitalOut>    m_pAlarmContact;
     ///
     QScopedPointer<Temperature>     m_pTemperature;
     QScopedPointer<AirflowVelocity> m_pAirflowInflow;

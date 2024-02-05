@@ -1111,8 +1111,8 @@ ViewApp {
 
                                             background.sourceComponent: Item{}
 
-                                            stateInterlock: props.sashMotorizeUpInterlocked
-                                            stateIO: props.sashMotorizeState == MachineAPI.MOTOR_SASH_STATE_UP
+                                            stateInterlock: props.hydraulicMotorizedUpInterlocked
+                                            stateIO: props.hydraulicMotorizedState == MachineAPI.MOTOR_SASH_STATE_UP
                                             pressedAndHoldInterval: 250
 
                                             Timer{
@@ -1128,7 +1128,7 @@ ViewApp {
                                                 }
                                                 onTriggered: {
                                                     //console.debug("Up Button Pressed:", sashMotorUpButton.buttonPressed)
-                                                    if(!sashMotorUpButton.buttonPressed && props.sashMotorizeState == MachineAPI.MOTOR_SASH_STATE_UP){
+                                                    if(!sashMotorUpButton.buttonPressed && props.hydraulicMotorizedState == MachineAPI.MOTOR_SASH_STATE_UP){
                                                         MachineAPI.setSashWindowMotorizeState(MachineAPI.MOTOR_SASH_STATE_OFF)
                                                         MachineAPI.insertEventLog(qsTr("User: Set sash motorize stop"))
                                                         //console.debug("Up Button release, motor off!")
@@ -1149,7 +1149,7 @@ ViewApp {
                                                 timerForTurnOffMotorUp.running = false
                                                 timerForTurnOffMotorUp.running = true
 
-                                                if(props.sashMotorizeState) {
+                                                if(props.hydraulicMotorizedState) {
                                                     MachineAPI.setSashWindowMotorizeState(MachineAPI.MOTOR_SASH_STATE_OFF)
                                                     MachineAPI.insertEventLog(qsTr("User: Set sash motorize stop"))
                                                     return
@@ -1187,8 +1187,8 @@ ViewApp {
 
                                             background.sourceComponent: Item{}
 
-                                            stateInterlock: props.sashMotorizeDownInterlocked
-                                            stateIO: props.sashMotorizeState == MachineAPI.MOTOR_SASH_STATE_DOWN
+                                            stateInterlock: props.hydraulicMotorizedDownInterlocked
+                                            stateIO: props.hydraulicMotorizedState == MachineAPI.MOTOR_SASH_STATE_DOWN
                                             pressedAndHoldInterval: 250
 
                                             Timer{
@@ -1204,7 +1204,7 @@ ViewApp {
                                                 }
                                                 onTriggered: {
                                                     //console.debug("Down Button Pressed:", sashMotorDownButton.buttonPressed)
-                                                    if(!sashMotorDownButton.buttonPressed && props.sashMotorizeState == MachineAPI.MOTOR_SASH_STATE_DOWN){
+                                                    if(!sashMotorDownButton.buttonPressed && props.hydraulicMotorizedState == MachineAPI.MOTOR_SASH_STATE_DOWN){
                                                         MachineAPI.setSashWindowMotorizeState(MachineAPI.MOTOR_SASH_STATE_OFF)
                                                         MachineAPI.insertEventLog(qsTr("User: Set sash motorize stop"))
                                                         //console.debug("Down Button release, motor off!")
@@ -1225,7 +1225,7 @@ ViewApp {
                                                 timerForTurnOffMotorDown.running = false
                                                 timerForTurnOffMotorDown.running = true
 
-                                                if(props.sashMotorizeState) {
+                                                if(props.hydraulicMotorizedState) {
                                                     MachineAPI.setSashWindowMotorizeState(MachineAPI.MOTOR_SASH_STATE_OFF)
                                                     MachineAPI.insertEventLog(qsTr("User: Set sash motorize stop"))
                                                     return
@@ -1257,7 +1257,7 @@ ViewApp {
 
                                 visible: active
                                 active: {
-                                    if (props.sashMotorizeInstalled) {
+                                    if (props.hydraulicMotorizedInstalled) {
                                         return true
                                     }
                                     return false
@@ -3568,10 +3568,10 @@ ViewApp {
             property bool uvInterlocked: false
             property int  uvState: 0
 
-            property bool sashMotorizeInstalled: false
-            property bool sashMotorizeUpInterlocked: false
-            property bool sashMotorizeDownInterlocked: false
-            property int  sashMotorizeState: 0
+            property bool hydraulicMotorizedInstalled: false
+            property bool hydraulicMotorizedUpInterlocked: false
+            property bool hydraulicMotorizedDownInterlocked: false
+            property int  hydraulicMotorizedState: 0
 
             property bool    seasFlapInstalled: false
             //            property string  seasPressureStr: "---"
@@ -3827,15 +3827,15 @@ ViewApp {
 
                 props.sensorCalibrated = MachineData.airflowCalibrationStatus
 
-                props.sashMotorizeInstalled = Qt.binding(function(){return MachineData.sashWindowMotorizeInstalled})
-                props.sashMotorizeDownInterlocked = Qt.binding(function(){return MachineData.sashWindowMotorizeDownInterlocked || props.sashCycleLockedAlarm})
-                props.sashMotorizeUpInterlocked = Qt.binding(function(){return MachineData.sashWindowMotorizeUpInterlocked || props.sashCycleLockedAlarm})
-                props.sashMotorizeState = Qt.binding(function(){return MachineData.sashWindowMotorizeState})
-                if(props.sashMotorizeInstalled){
+                props.hydraulicMotorizedInstalled = Qt.binding(function(){return MachineData.hydraulicMotorizedInstalled})
+                props.hydraulicMotorizedDownInterlocked = Qt.binding(function(){return MachineData.sashWindowMotorizeDownInterlocked || props.sashCycleLockedAlarm})
+                props.hydraulicMotorizedUpInterlocked = Qt.binding(function(){return MachineData.sashWindowMotorizeUpInterlocked || props.sashCycleLockedAlarm})
+                props.hydraulicMotorizedState = Qt.binding(function(){return MachineData.sashWindowMotorizeState})
+                if(props.hydraulicMotorizedInstalled){
                     props.sashCycle = Qt.binding(function(){ return MachineData.sashCycleMeter/10})
                     props.sashCycleLockedAlarm = Qt.binding(function(){return MachineData.sashCycleMotorLockedAlarm === MachineAPI.ALARM_ACTIVE_STATE})
-                    props.sashCycleStopCaution = Qt.binding(function(){return ((MachineData.sashCycleMeter/10) > 15500) && props.sashMotorizeState})
-                    props.sashCycleReplaceCaution = Qt.binding(function(){return ((MachineData.sashCycleMeter/10) > 15000) && props.sashMotorizeState})
+                    props.sashCycleStopCaution = Qt.binding(function(){return ((MachineData.sashCycleMeter/10) > 15500) && props.hydraulicMotorizedState})
+                    props.sashCycleReplaceCaution = Qt.binding(function(){return ((MachineData.sashCycleMeter/10) > 15000) && props.hydraulicMotorizedState})
                 }//
 
                 ///PARTICLE COUNTER

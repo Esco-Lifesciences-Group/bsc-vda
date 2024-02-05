@@ -38,6 +38,7 @@ SOURCES +=  \
     Implementations/DigitalOut/DeviceDigitalOut.cpp \
     Implementations/EventLog/EventLog.cpp \
     Implementations/EventLog/EventLogSql.cpp \
+    Implementations/HydraulicOnRelay/HydraulicOnRelay.cpp \
     Implementations/LampDimm/LampDimm.cpp \
     Implementations/Modbus/QModbusTcpConnObserverImp.cpp \
     Implementations/MotorizeOnRelay/MotorizeOnRelay.cpp \
@@ -76,6 +77,7 @@ HEADERS +=  \
     Implementations/EventLog/EventLog.h \
     Implementations/EventLog/EventLogSql.h \
     Implementations/EventLog/EventLogText.h \
+    Implementations/HydraulicOnRelay/HydraulicOnRelay.h \
     Implementations/LampDimm/LampDimm.h \
     Implementations/Modbus/QModbusTcpAddressEnum.h \
     Implementations/Modbus/QModbusTcpConnObserverImp.h \

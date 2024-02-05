@@ -427,9 +427,9 @@
                     }
                 }
 
-                if (msg["sashWindowMotorizeInstalled"] !== undefined){
-                    //                console.log(msg["sashWindowMotorizeInstalled"])
-                    if (msg["sashWindowMotorizeInstalled"] === true){
+                if (msg["hydraulicMotorizedInstalled"] !== undefined){
+                    //                console.log(msg["hydraulicMotorizedInstalled"])
+                    if (msg["hydraulicMotorizedInstalled"] === true){
                         resetMenu.push({mtype         :   "menu",
                                            mtitle     :   qsTr("Reset Sash Cycle Meter"),
                                            micon      :   "qrc:/UI/Pictures/menu/Reset-Sash-Cycle-Odometer.png",
@@ -439,7 +439,7 @@
                 }
 
                 if (msg["fieldCalibrated"] !== undefined){
-                    //                console.log(msg["sashWindowMotorizeInstalled"])
+                    //                console.log(msg["hydraulicMotorizedInstalled"])
                     if (msg["fieldCalibrated"] === true){
                         resetMenu.push({mtype         :   "menu",
                                            mtitle     :   qsTr("Reset Field Calibration"),

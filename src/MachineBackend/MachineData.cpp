@@ -3944,13 +3944,13 @@ void MachineData::setSashWindowMotorizeDownInterlocked(bool sashWindowMotorizeDo
     emit sashWindowMotorizeDownInterlockedChanged(m_sashWindowMotorizeDownInterlocked);
 }
 
-void MachineData::setSashWindowMotorizeInstalled(bool sashWindowMotorizeInstalled)
+void MachineData::setHydraulicMotorizedInstalled(bool hydraulicMotorizedInstalled)
 {
-    if (m_sashWindowMotorizeInstalled == sashWindowMotorizeInstalled)
+    if (m_hydraulicMotorizedInstalled == hydraulicMotorizedInstalled)
         return;
 
-    m_sashWindowMotorizeInstalled = sashWindowMotorizeInstalled;
-    emit sashWindowMotorizeInstalledChanged(m_sashWindowMotorizeInstalled);
+    m_hydraulicMotorizedInstalled = hydraulicMotorizedInstalled;
+    emit hydraulicMotorizedInstalledChanged(m_hydraulicMotorizedInstalled);
 }
 
 void MachineData::setOperationMode(short operationMode)
@@ -3987,9 +3987,9 @@ bool MachineData::getSashWindowMotorizeDownInterlocked() const
     return m_sashWindowMotorizeDownInterlocked;
 }
 
-bool MachineData::getSashWindowMotorizeInstalled() const
+bool MachineData::getHydraulicMotorizedInstalled() const
 {
-    return m_sashWindowMotorizeInstalled;
+    return m_hydraulicMotorizedInstalled;
 }
 
 void MachineData::setTempAmbientStatus(short tempAmbientStatus)

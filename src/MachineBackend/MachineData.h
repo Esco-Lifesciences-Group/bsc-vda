@@ -357,10 +357,10 @@ class MachineData : public QObject
                        //               WRITE setSashWindowMotorizeDownInterlocked
                        NOTIFY sashWindowMotorizeDownInterlockedChanged)
     ///
-    Q_PROPERTY(bool sashWindowMotorizeInstalled
-                   READ getSashWindowMotorizeInstalled
-                       //               WRITE setSashWindowMotorizeInstalled
-                       NOTIFY sashWindowMotorizeInstalledChanged)
+    Q_PROPERTY(bool hydraulicMotorizedInstalled
+                   READ getHydraulicMotorizedInstalled
+                       //               WRITE setHydraulicMotorizedInstalled
+                       NOTIFY hydraulicMotorizedInstalledChanged)
 
     ///EXHAUST_FREE_RELAY_CONTACT
     Q_PROPERTY(short exhaustContactState
@@ -1131,8 +1131,8 @@ public:
     bool getSashWindowMotorizeDownInterlocked() const;
     void setSashWindowMotorizeDownInterlocked(bool sashWindowMotorizeDownInterlocked);
     ////
-    bool getSashWindowMotorizeInstalled() const;
-    void setSashWindowMotorizeInstalled(bool sashWindowMotorizeInstalled);
+    bool getHydraulicMotorizedInstalled() const;
+    void setHydraulicMotorizedInstalled(bool hydraulicMotorizedInstalled);
 
     ///FREE-RELAY-CONTACT
     short getExhaustContactState() const;
@@ -2255,7 +2255,7 @@ signals:
 
     void sashWindowMotorizeUpInterlockedChanged(bool sashWindowMotorizeUpInterlocked);
     void sashWindowMotorizeDownInterlockedChanged(bool sashWindowMotorizeDownInterlocked);
-    void sashWindowMotorizeInstalledChanged(bool sashWindowMotorizeInstalled);
+    void hydraulicMotorizedInstalledChanged(bool hydraulicMotorizedInstalled);
 
     void warmingUpActiveChanged(bool warmingUpRunning);
     void warmingUpExecutedChanged(bool warmingUpExecuted);
@@ -2748,7 +2748,7 @@ private:
 
     bool m_sashWindowMotorizeUpInterlocked = false;
     bool m_sashWindowMotorizeDownInterlocked = false;
-    bool m_sashWindowMotorizeInstalled = false;
+    bool m_hydraulicMotorizedInstalled = false;
 
     ///WARMING UP
     bool m_warmingUpActive = false;
