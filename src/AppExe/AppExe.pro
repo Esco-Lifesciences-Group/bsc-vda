@@ -24,7 +24,7 @@ NAME = SBC113
 VERSION = 1.0.0
 
 BUILDTYPE = rc ##UNUSED, use only number to indicate build version
-BUILD = 1
+BUILD = 0
 
 FULL_VERSION = $$VERSION
 greaterThan(BUILD, 0){
